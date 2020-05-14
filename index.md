@@ -1,8 +1,7 @@
 
 {% include dash.html %}
 
-{% include test.html 
-width="200px" height="400px" %}
+{% include test.html height="400px" %}
 
 ## Welcome to GitHub Pages
 
