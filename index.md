@@ -1,4 +1,7 @@
 
+<!---```{% include dash.html %}```-->
+
+{% include test.html %}
 
 ## Welcome to GitHub Pages
 
