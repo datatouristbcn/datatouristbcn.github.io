@@ -1,8 +1,6 @@
 
 {% include dash.html %}
 
-{% <iframe src=”https://sodata2.herokuapp.com/” width=700 height=600></iframe> %}
-
 {% include test.html "
 width="200px" height="400px" %}
 
