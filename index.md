@@ -1,7 +1,7 @@
 
 <iframe src=”https://sodata2.herokuapp.com/” width=700 height=600></iframe>
 
-<iframe src="test.html" width="100%" height="400" id="igraph" scrolling="no" seamless="seamless" frameBorder="0"> </iframe>
+{% include test.html %}
 
 ## Welcome to GitHub Pages
 
