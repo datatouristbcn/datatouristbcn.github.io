@@ -1,0 +1,553 @@
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+  
+  <head>
+    
+      <meta charset="utf-8">
+      <title>Bokeh Plot</title>
+      
+      
+        
+          
+        <style>
+            table.panel-df {
+                    margin-left: auto;
+                    margin-right: auto;
+                    border: none;
+                    border-collapse: collapse;
+                    border-spacing: 0;
+                    color: black;
+                    font-size: 12px;
+                    table-layout: fixed;
+                    width: 100%;
+                }
+
+                .panel-df tr, th, td {
+                    text-align: right;
+                    vertical-align: middle;
+                    padding: 0.5em 0.5em !important;
+                    line-height: normal;
+                    white-space: normal;
+                    max-width: none;
+                    border: none;
+                }
+
+                .panel-df tbody {
+                    display: table-row-group;
+                    vertical-align: middle;
+                    border-color: inherit;
+                }
+
+                .panel-df tbody tr:nth-child(odd) {
+                    background: #f5f5f5;
+                }
+
+                .panel-df thead {
+                    border-bottom: 1px solid black;
+                    vertical-align: bottom;
+                }
+
+                .panel-df tr:hover {
+                    background: lightblue !important;
+                    cursor: pointer;
+                }
+
+        </style>
+        <style>
+            .json-formatter-row {
+                  font-family: monospace;
+                }
+                .json-formatter-row,
+                .json-formatter-row a,
+                .json-formatter-row a:hover {
+                  color: black;
+                  text-decoration: none;
+                }
+                .json-formatter-row .json-formatter-row {
+                  margin-left: 1rem;
+                }
+                .json-formatter-row .json-formatter-children.json-formatter-empty {
+                  opacity: 0.5;
+                  margin-left: 1rem;
+                }
+                .json-formatter-row .json-formatter-children.json-formatter-empty:after {
+                  display: none;
+                }
+                .json-formatter-row .json-formatter-children.json-formatter-empty.json-formatter-object:after {
+                  content: "No properties";
+                }
+                .json-formatter-row .json-formatter-children.json-formatter-empty.json-formatter-array:after {
+                  content: "[]";
+                }
+                .json-formatter-row .json-formatter-string,
+                .json-formatter-row .json-formatter-stringifiable {
+                  color: green;
+                  white-space: pre;
+                  word-wrap: break-word;
+                }
+                .json-formatter-row .json-formatter-number {
+                  color: blue;
+                }
+                .json-formatter-row .json-formatter-boolean {
+                  color: red;
+                }
+                .json-formatter-row .json-formatter-null {
+                  color: #855A00;
+                }
+                .json-formatter-row .json-formatter-undefined {
+                  color: #ca0b69;
+                }
+                .json-formatter-row .json-formatter-function {
+                  color: #FF20ED;
+                }
+                .json-formatter-row .json-formatter-date {
+                  background-color: rgba(0, 0, 0, 0.05);
+                }
+                .json-formatter-row .json-formatter-url {
+                  text-decoration: underline;
+                  color: blue;
+                  cursor: pointer;
+                }
+                .json-formatter-row .json-formatter-bracket {
+                  color: blue;
+                }
+                .json-formatter-row .json-formatter-key {
+                  color: #00008B;
+                  padding-right: 0.2rem;
+                }
+                .json-formatter-row .json-formatter-toggler-link {
+                  cursor: pointer;
+                }
+                .json-formatter-row .json-formatter-toggler {
+                  line-height: 1.2rem;
+                  font-size: 0.7rem;
+                  vertical-align: middle;
+                  opacity: 0.6;
+                  cursor: pointer;
+                  padding-right: 0.2rem;
+                }
+                .json-formatter-row .json-formatter-toggler:after {
+                  display: inline-block;
+                  transition: transform 100ms ease-in;
+                  content: "\25BA";
+                }
+                .json-formatter-row > a > .json-formatter-preview-text {
+                  opacity: 0;
+                  transition: opacity 0.15s ease-in;
+                  font-style: italic;
+                }
+                .json-formatter-row:hover > a > .json-formatter-preview-text {
+                  opacity: 0.6;
+                }
+                .json-formatter-row.json-formatter-open > .json-formatter-toggler-link .json-formatter-toggler:after {
+                  transform: rotate(90deg);
+                }
+                .json-formatter-row.json-formatter-open > .json-formatter-children:after {
+                  display: inline-block;
+                }
+                .json-formatter-row.json-formatter-open > a > .json-formatter-preview-text {
+                  display: none;
+                }
+                .json-formatter-row.json-formatter-open.json-formatter-empty:after {
+                  display: block;
+                }
+                .json-formatter-dark.json-formatter-row {
+                  font-family: monospace;
+                }
+                .json-formatter-dark.json-formatter-row,
+                .json-formatter-dark.json-formatter-row a,
+                .json-formatter-dark.json-formatter-row a:hover {
+                  color: white;
+                  text-decoration: none;
+                }
+                .json-formatter-dark.json-formatter-row .json-formatter-row {
+                  margin-left: 1rem;
+                }
+                .json-formatter-dark.json-formatter-row .json-formatter-children.json-formatter-empty {
+                  opacity: 0.5;
+                  margin-left: 1rem;
+                }
+                .json-formatter-dark.json-formatter-row .json-formatter-children.json-formatter-empty:after {
+                  display: none;
+                }
+                .json-formatter-dark.json-formatter-row .json-formatter-children.json-formatter-empty.json-formatter-object:after {
+                  content: "No properties";
+                }
+                .json-formatter-dark.json-formatter-row .json-formatter-children.json-formatter-empty.json-formatter-array:after {
+                  content: "[]";
+                }
+                .json-formatter-dark.json-formatter-row .json-formatter-string,
+                .json-formatter-dark.json-formatter-row .json-formatter-stringifiable {
+                  color: #31F031;
+                  white-space: pre;
+                  word-wrap: break-word;
+                }
+                .json-formatter-dark.json-formatter-row .json-formatter-number {
+                  color: #66C2FF;
+                }
+                .json-formatter-dark.json-formatter-row .json-formatter-boolean {
+                  color: #EC4242;
+                }
+                .json-formatter-dark.json-formatter-row .json-formatter-null {
+                  color: #EEC97D;
+                }
+                .json-formatter-dark.json-formatter-row .json-formatter-undefined {
+                  color: #ef8fbe;
+                }
+                .json-formatter-dark.json-formatter-row .json-formatter-function {
+                  color: #FD48CB;
+                }
+                .json-formatter-dark.json-formatter-row .json-formatter-date {
+                  background-color: rgba(255, 255, 255, 0.05);
+                }
+                .json-formatter-dark.json-formatter-row .json-formatter-url {
+                  text-decoration: underline;
+                  color: #027BFF;
+                  cursor: pointer;
+                }
+                .json-formatter-dark.json-formatter-row .json-formatter-bracket {
+                  color: #9494FF;
+                }
+                .json-formatter-dark.json-formatter-row .json-formatter-key {
+                  color: #23A0DB;
+                  padding-right: 0.2rem;
+                }
+                .json-formatter-dark.json-formatter-row .json-formatter-toggler-link {
+                  cursor: pointer;
+                }
+                .json-formatter-dark.json-formatter-row .json-formatter-toggler {
+                  line-height: 1.2rem;
+                  font-size: 0.7rem;
+                  vertical-align: middle;
+                  opacity: 0.6;
+                  cursor: pointer;
+                  padding-right: 0.2rem;
+                }
+                .json-formatter-dark.json-formatter-row .json-formatter-toggler:after {
+                  display: inline-block;
+                  transition: transform 100ms ease-in;
+                  content: "\25BA";
+                }
+                .json-formatter-dark.json-formatter-row > a > .json-formatter-preview-text {
+                  opacity: 0;
+                  transition: opacity 0.15s ease-in;
+                  font-style: italic;
+                }
+                .json-formatter-dark.json-formatter-row:hover > a > .json-formatter-preview-text {
+                  opacity: 0.6;
+                }
+                .json-formatter-dark.json-formatter-row.json-formatter-open > .json-formatter-toggler-link .json-formatter-toggler:after {
+                  transform: rotate(90deg);
+                }
+                .json-formatter-dark.json-formatter-row.json-formatter-open > .json-formatter-children:after {
+                  display: inline-block;
+                }
+                .json-formatter-dark.json-formatter-row.json-formatter-open > a > .json-formatter-preview-text {
+                  display: none;
+                }
+                .json-formatter-dark.json-formatter-row.json-formatter-open.json-formatter-empty:after {
+                  display: block;
+                }
+
+        </style>
+        <style>
+            .codehilite .hll { background-color: #ffffcc }
+                .codehilite  { background: #f8f8f8; }
+                .codehilite .c { color: #408080; font-style: italic } /* Comment */
+                .codehilite .err { border: 1px solid #FF0000 } /* Error */
+                .codehilite .k { color: #008000; font-weight: bold } /* Keyword */
+                .codehilite .o { color: #666666 } /* Operator */
+                .codehilite .ch { color: #408080; font-style: italic } /* Comment.Hashbang */
+                .codehilite .cm { color: #408080; font-style: italic } /* Comment.Multiline */
+                .codehilite .cp { color: #BC7A00 } /* Comment.Preproc */
+                .codehilite .cpf { color: #408080; font-style: italic } /* Comment.PreprocFile */
+                .codehilite .c1 { color: #408080; font-style: italic } /* Comment.Single */
+                .codehilite .cs { color: #408080; font-style: italic } /* Comment.Special */
+                .codehilite .gd { color: #A00000 } /* Generic.Deleted */
+                .codehilite .ge { font-style: italic } /* Generic.Emph */
+                .codehilite .gr { color: #FF0000 } /* Generic.Error */
+                .codehilite .gh { color: #000080; font-weight: bold } /* Generic.Heading */
+                .codehilite .gi { color: #00A000 } /* Generic.Inserted */
+                .codehilite .go { color: #888888 } /* Generic.Output */
+                .codehilite .gp { color: #000080; font-weight: bold } /* Generic.Prompt */
+                .codehilite .gs { font-weight: bold } /* Generic.Strong */
+                .codehilite .gu { color: #800080; font-weight: bold } /* Generic.Subheading */
+                .codehilite .gt { color: #0044DD } /* Generic.Traceback */
+                .codehilite .kc { color: #008000; font-weight: bold } /* Keyword.Constant */
+                .codehilite .kd { color: #008000; font-weight: bold } /* Keyword.Declaration */
+                .codehilite .kn { color: #008000; font-weight: bold } /* Keyword.Namespace */
+                .codehilite .kp { color: #008000 } /* Keyword.Pseudo */
+                .codehilite .kr { color: #008000; font-weight: bold } /* Keyword.Reserved */
+                .codehilite .kt { color: #B00040 } /* Keyword.Type */
+                .codehilite .m { color: #666666 } /* Literal.Number */
+                .codehilite .s { color: #BA2121 } /* Literal.String */
+                .codehilite .na { color: #7D9029 } /* Name.Attribute */
+                .codehilite .nb { color: #008000 } /* Name.Builtin */
+                .codehilite .nc { color: #0000FF; font-weight: bold } /* Name.Class */
+                .codehilite .no { color: #880000 } /* Name.Constant */
+                .codehilite .nd { color: #AA22FF } /* Name.Decorator */
+                .codehilite .ni { color: #999999; font-weight: bold } /* Name.Entity */
+                .codehilite .ne { color: #D2413A; font-weight: bold } /* Name.Exception */
+                .codehilite .nf { color: #0000FF } /* Name.Function */
+                .codehilite .nl { color: #A0A000 } /* Name.Label */
+                .codehilite .nn { color: #0000FF; font-weight: bold } /* Name.Namespace */
+                .codehilite .nt { color: #008000; font-weight: bold } /* Name.Tag */
+                .codehilite .nv { color: #19177C } /* Name.Variable */
+                .codehilite .ow { color: #AA22FF; font-weight: bold } /* Operator.Word */
+                .codehilite .w { color: #bbbbbb } /* Text.Whitespace */
+                .codehilite .mb { color: #666666 } /* Literal.Number.Bin */
+                .codehilite .mf { color: #666666 } /* Literal.Number.Float */
+                .codehilite .mh { color: #666666 } /* Literal.Number.Hex */
+                .codehilite .mi { color: #666666 } /* Literal.Number.Integer */
+                .codehilite .mo { color: #666666 } /* Literal.Number.Oct */
+                .codehilite .sa { color: #BA2121 } /* Literal.String.Affix */
+                .codehilite .sb { color: #BA2121 } /* Literal.String.Backtick */
+                .codehilite .sc { color: #BA2121 } /* Literal.String.Char */
+                .codehilite .dl { color: #BA2121 } /* Literal.String.Delimiter */
+                .codehilite .sd { color: #BA2121; font-style: italic } /* Literal.String.Doc */
+                .codehilite .s2 { color: #BA2121 } /* Literal.String.Double */
+                .codehilite .se { color: #BB6622; font-weight: bold } /* Literal.String.Escape */
+                .codehilite .sh { color: #BA2121 } /* Literal.String.Heredoc */
+                .codehilite .si { color: #BB6688; font-weight: bold } /* Literal.String.Interpol */
+                .codehilite .sx { color: #008000 } /* Literal.String.Other */
+                .codehilite .sr { color: #BB6688 } /* Literal.String.Regex */
+                .codehilite .s1 { color: #BA2121 } /* Literal.String.Single */
+                .codehilite .ss { color: #19177C } /* Literal.String.Symbol */
+                .codehilite .bp { color: #008000 } /* Name.Builtin.Pseudo */
+                .codehilite .fm { color: #0000FF } /* Name.Function.Magic */
+                .codehilite .vc { color: #19177C } /* Name.Variable.Class */
+                .codehilite .vg { color: #19177C } /* Name.Variable.Global */
+                .codehilite .vi { color: #19177C } /* Name.Variable.Instance */
+                .codehilite .vm { color: #19177C } /* Name.Variable.Magic */
+                .codehilite .il { color: #666666 } /* Literal.Number.Integer.Long */
+
+                .markdown h1 { margin-block-start: 0.34em }
+                .markdown h2 { margin-block-start: 0.42em }
+                .markdown h3 { margin-block-start: 0.5em }
+                .markdown h4 { margin-block-start: 0.67em }
+                .markdown h5 { margin-block-start: 0.84em }
+                .markdown h6 { margin-block-start: 1.17em }
+                .markdown ul { padding-inline-start: 2em }
+                .markdown ol { padding-inline-start: 2em }
+                .markdown strong { font-weight: 600 }
+                .markdown a { color: -webkit-link }
+                .markdown a { color: -moz-hyperlinkText }
+
+        </style>
+        <style>
+            .widget-box {
+                	min-height: 20px;
+                	background-color: #f5f5f5;
+                	border: 1px solid #e3e3e3 !important;
+                	border-radius: 4px;
+                	-webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.05);
+                	box-shadow: inset 0 1px 1px rgba(0,0,0,.05);
+                	overflow-x: hidden;
+                	overflow-y: hidden;
+                }
+
+                .scrollable {
+                  overflow: scroll;
+                }
+
+                progress {
+                	appearance: none;
+                	-moz-appearance: none;
+                	-webkit-appearance: none;
+
+                	border: none;
+                	height: 20px;
+                	background-color: whiteSmoke;
+                	border-radius: 3px;
+                	box-shadow: 0 2px 3px rgba(0,0,0,.5) inset;
+                	color: royalblue;
+                	position: relative;
+                	margin: 0 0 1.5em;
+                }
+
+                progress[value]::-webkit-progress-bar {
+                	background-color: whiteSmoke;
+                	border-radius: 3px;
+                	box-shadow: 0 2px 3px rgba(0,0,0,.5) inset;
+                }
+
+                progress[value]::-webkit-progress-value {
+                	position: relative;
+
+                	background-size: 35px 20px, 100% 100%, 100% 100%;
+                	border-radius:3px;
+                }
+
+                progress.active:not([value])::before {
+                	background-position: 10%;
+                	animation-name: stripes;
+                	animation-duration: 3s;
+                	animation-timing-function: linear;
+                	animation-iteration-count: infinite;
+                }
+
+                progress[value]::-moz-progress-bar {
+                	background-size: 35px 20px, 100% 100%, 100% 100%;
+                	border-radius:3px;
+                }
+
+                progress:not([value])::-moz-progress-bar {
+                	border-radius:3px;
+                	background:
+                	linear-gradient(-45deg, transparent 33%, rgba(0, 0, 0, 0.2) 33%, rgba(0, 0, 0, 0.2) 66%, transparent 66%) left/2.5em 1.5em;
+
+                }
+
+                progress.active:not([value])::-moz-progress-bar {
+                	background-position: 10%;
+                	animation-name: stripes;
+                	animation-duration: 3s;
+                	animation-timing-function: linear;
+                	animation-iteration-count: infinite;
+                }
+
+                progress.active:not([value])::-webkit-progress-bar {
+                	background-position: 10%;
+                	animation-name: stripes;
+                	animation-duration: 3s;
+                	animation-timing-function: linear;
+                	animation-iteration-count: infinite;
+                }
+
+                progress.primary[value]::-webkit-progress-value { background-color: #007bff; }
+                progress.primary:not([value])::before { background-color: #007bff; }
+                progress.primary:not([value])::-webkit-progress-bar { background-color: #007bff; }
+                progress.primary::-moz-progress-bar { background-color: #007bff; }
+
+                progress.secondary[value]::-webkit-progress-value { background-color: #6c757d; }
+                progress.secondary:not([value])::before { background-color: #6c757d; }
+                progress.secondary:not([value])::-webkit-progress-bar { background-color: #6c757d; }
+                progress.secondary::-moz-progress-bar { background-color: #6c757d; }
+
+                progress.success[value]::-webkit-progress-value { background-color: #28a745; }
+                progress.success:not([value])::before { background-color: #28a745; }
+                progress.success:not([value])::-webkit-progress-bar { background-color: #28a745; }
+                progress.success::-moz-progress-bar { background-color: #28a745; }
+
+                progress.danger[value]::-webkit-progress-value { background-color: #dc3545; }
+                progress.danger:not([value])::before { background-color: #dc3545; }
+                progress.danger:not([value])::-webkit-progress-bar { background-color: #dc3545; }
+                progress.danger::-moz-progress-bar { background-color: #dc3545; }
+
+                progress.warning[value]::-webkit-progress-value { background-color: #ffc107; }
+                progress.warning:not([value])::before { background-color: #ffc107; }
+                progress.warning:not([value])::-webkit-progress-bar { background-color: #ffc107; }
+                progress.warning::-moz-progress-bar { background-color: #ffc107; }
+
+                progress.info[value]::-webkit-progress-value { background-color: #17a2b8; }
+                progress.info:not([value])::before { background-color: #17a2b8; }
+                progress.info:not([value])::-webkit-progress-bar { background-color: #17a2b8; }
+                progress.info::-moz-progress-bar { background-color: #17a2b8; }
+
+                progress.light[value]::-webkit-progress-value { background-color: #f8f9fa; }
+                progress.light:not([value])::before { background-color: #f8f9fa; }
+                progress.light:not([value])::-webkit-progress-bar { background-color: #f8f9fa; }
+                progress.light::-moz-progress-bar { background-color: #f8f9fa; }
+
+                progress.dark[value]::-webkit-progress-value { background-color: #343a40; }
+                progress.dark:not([value])::-webkit-progress-bar { background-color: #343a40; }
+                progress.dark:not([value])::before { background-color: #343a40; }
+                progress.dark::-moz-progress-bar { background-color: #343a40; }
+
+                progress:not([value])::-webkit-progress-bar {
+                	border-radius: 3px;
+                	background:
+                	linear-gradient(-45deg, transparent 33%, rgba(0, 0, 0, 0.2) 33%, rgba(0, 0, 0, 0.2) 66%, transparent 66%) left/2.5em 1.5em;
+                }
+                progress:not([value])::before {
+                	content:" ";
+                	position:absolute;
+                	height: 20px;
+                	top:0;
+                	left:0;
+                	right:0;
+                	bottom:0;
+                	border-radius: 3px;
+                	background:
+                	linear-gradient(-45deg, transparent 33%, rgba(0, 0, 0, 0.2) 33%, rgba(0, 0, 0, 0.2) 66%, transparent 66%) left/2.5em 1.5em;
+                }
+
+                @keyframes stripes {
+                  from {background-position: 0%}
+                  to {background-position: 100%}
+                }
+        </style>
+        
+        
+          
+        <script type="text/javascript" src="https://cdn.bokeh.org/bokeh/release/bokeh-2.0.2.min.js" integrity="sha384-ufR9RFnRs6lniiaFvtJziE0YeidtAgBRH6ux2oUItHw5WTvE1zuk9uzhUU/FJXDp" crossorigin="anonymous"></script>
+        <script type="text/javascript">
+            Bokeh.set_log_level("info");
+        </script>
+        
+      
+      
+    
+  </head>
+  
+  
+  <body>
+    
+      
+        
+          
+          
+            
+              <div class="bk-root" id="26d6be52-4234-49a2-a427-af789be82371" data-root-id="7066"></div>
+            
+          
+        
+      
+      
+        <script type="application/json" id="7823">
+          {"67527701-2107-465a-8347-9867168bb8fb":{"roots":{"references":[{"attributes":{"tabs":[{"id":"7063"},{"id":"7064"},{"id":"7065"}]},"id":"7066","type":"Tabs"},{"attributes":{"callback":null,"tooltips":[["District","@District"],["Neightborhood","@Neighborhood"],["Births","@Births"],["Deaths","@Deaths"]]},"id":"3526","type":"HoverTool"},{"attributes":{},"id":"3248","type":"DataRange1d"},{"attributes":{"axis_label":"Births per 1,000","formatter":{"id":"3349"},"ticker":{"id":"3259"}},"id":"3258","type":"LinearAxis"},{"attributes":{"fill_alpha":0.5,"fill_color":"lightgrey","level":"overlay","line_alpha":1.0,"line_color":"black","line_dash":[4,4],"line_width":2,"xs_units":"screen","ys_units":"screen"},"id":"3301","type":"PolyAnnotation"},{"attributes":{"active_drag":"auto","active_inspect":"auto","active_multi":null,"active_scroll":"auto","active_tap":"auto","tools":[{"id":"3262"},{"id":"3263"},{"id":"3264"},{"id":"3265"},{"id":"3266"},{"id":"3443"},{"id":"3526"},{"id":"3788"},{"id":"3942"},{"id":"6841"}]},"id":"3270","type":"Toolbar"},{"attributes":{"fill_color":{"value":"deepskyblue"},"line_color":{"value":"deepskyblue"},"size":{"units":"screen","value":5},"x":{"field":"Deaths_rate"},"y":{"field":"Births_rate"}},"id":"3345","type":"Circle"},{"attributes":{"active_drag":"auto","active_inspect":"auto","active_multi":null,"active_scroll":"auto","active_tap":"auto","tools":[{"id":"3295"},{"id":"3296"},{"id":"3297"},{"id":"3298"},{"id":"3299"},{"id":"3445"},{"id":"3528"},{"id":"3826"},{"id":"3980"},{"id":"6915"}]},"id":"3303","type":"Toolbar"},{"attributes":{"overlay":{"id":"3302"}},"id":"3297","type":"PolySelectTool"},{"attributes":{"items":[{"id":"3390"},{"id":"3407"}]},"id":"3389","type":"Legend"},{"attributes":{"callback":null,"tooltips":[["District","@District"],["Neightborhood","@Neighborhood"],["Births","@Births"],["Deaths","@Deaths"]]},"id":"3528","type":"HoverTool"},{"attributes":{"fill_alpha":{"value":0.3},"fill_color":{"value":"lightgray"},"line_alpha":{"value":0.3},"line_color":{"value":"lightgray"},"size":{"units":"screen","value":5},"x":{"field":"Deaths_rate"},"y":{"field":"Births_rate"}},"id":"3410","type":"Circle"},{"attributes":{},"id":"3299","type":"ResetTool"},{"attributes":{"fill_alpha":0.5,"fill_color":"lightgrey","level":"overlay","line_alpha":1.0,"line_color":"black","line_dash":[4,4],"line_width":2,"xs_units":"screen","ys_units":"screen"},"id":"3302","type":"PolyAnnotation"},{"attributes":{"child":{"id":"3243"},"title":"2015"},"id":"7063","type":"Panel"},{"attributes":{"axis":{"id":"3254"},"ticker":null},"id":"3257","type":"Grid"},{"attributes":{"fill_color":{"value":"red"},"line_color":{"value":"red"},"size":{"units":"screen","value":5},"x":{"field":"Deaths_rate"},"y":{"field":"Births_rate"}},"id":"3394","type":"Circle"},{"attributes":{"callback":null},"id":"3298","type":"TapTool"},{"attributes":{"fill_color":{"value":"firebrick"},"line_color":{"value":"firebrick"},"size":{"units":"screen","value":5},"x":{"field":"Deaths_rate"},"y":{"field":"Births_rate"}},"id":"3425","type":"Circle"},{"attributes":{"items":[{"id":"3423"},{"id":"3440"}]},"id":"3422","type":"Legend"},{"attributes":{"overlay":{"id":"3333"}},"id":"3328","type":"BoxSelectTool"},{"attributes":{"fill_color":{"value":"firebrick"},"line_color":{"value":"firebrick"},"size":{"units":"screen","value":5},"x":{"field":"Deaths_rate"},"y":{"field":"Births_rate"}},"id":"3392","type":"Circle"},{"attributes":{"fill_alpha":{"value":0.3},"fill_color":{"value":"lightgray"},"line_alpha":{"value":0.3},"line_color":{"value":"lightgray"},"size":{"units":"screen","value":5},"x":{"field":"Deaths_rate"},"y":{"field":"Births_rate"}},"id":"3344","type":"Circle"},{"attributes":{},"id":"3417","type":"BasicTickFormatter"},{"attributes":{"text":"Births rate vs Deaths rate - 2017"},"id":"3310","type":"Title"},{"attributes":{"callback":null,"tooltips":[["District","@District"],["Neightborhood","@Neighborhood"],["Births","@Births"],["Deaths","@Deaths"]]},"id":"4018","type":"HoverTool"},{"attributes":{"fill_alpha":{"value":0.3},"fill_color":{"value":"lightgray"},"line_alpha":{"value":0.3},"line_color":{"value":"lightgray"},"size":{"units":"screen","value":5},"x":{"field":"Deaths_rate"},"y":{"field":"Births_rate"}},"id":"3360","type":"Circle"},{"attributes":{"bottom_units":"screen","fill_alpha":0.5,"fill_color":"lightgrey","left_units":"screen","level":"overlay","line_alpha":1.0,"line_color":"black","line_dash":[4,4],"line_width":2,"render_mode":"css","right_units":"screen","top_units":"screen"},"id":"3267","type":"BoxAnnotation"},{"attributes":{"fill_color":{"value":"royalblue"},"line_color":{"value":"royalblue"},"size":{"units":"screen","value":5},"x":{"field":"Deaths_rate"},"y":{"field":"Births_rate"}},"id":"3376","type":"Circle"},{"attributes":{"fill_alpha":{"value":0.3},"fill_color":{"value":"lightgray"},"line_alpha":{"value":0.3},"line_color":{"value":"lightgray"},"size":{"units":"screen","value":5},"x":{"field":"Deaths_rate"},"y":{"field":"Births_rate"}},"id":"3393","type":"Circle"},{"attributes":{"data_source":{"id":"3237"},"glyph":{"id":"3343"},"hover_glyph":null,"muted_glyph":null,"nonselection_glyph":{"id":"3344"},"selection_glyph":{"id":"3345"},"view":{"id":"3347"}},"id":"3346","type":"GlyphRenderer"},{"attributes":{},"id":"3349","type":"BasicTickFormatter"},{"attributes":{},"id":"3384","type":"BasicTickFormatter"},{"attributes":{"fill_alpha":{"value":0.3},"fill_color":{"value":"lightgray"},"line_alpha":{"value":0.3},"line_color":{"value":"lightgray"},"size":{"units":"screen","value":5},"x":{"field":"Deaths_rate"},"y":{"field":"Births_rate"}},"id":"3377","type":"Circle"},{"attributes":{"fill_alpha":0.5,"fill_color":"lightgrey","level":"overlay","line_alpha":1.0,"line_color":"black","line_dash":[4,4],"line_width":2,"xs_units":"screen","ys_units":"screen"},"id":"3268","type":"PolyAnnotation"},{"attributes":{},"id":"3351","type":"BasicTickFormatter"},{"attributes":{"fill_color":{"value":"deepskyblue"},"line_color":{"value":"deepskyblue"},"size":{"units":"screen","value":5},"x":{"field":"Deaths_rate"},"y":{"field":"Births_rate"}},"id":"3378","type":"Circle"},{"attributes":{"overlay":{"id":"3300"}},"id":"3295","type":"BoxSelectTool"},{"attributes":{"callback":null,"tooltips":[["District","@District"],["Neightborhood","@Neighborhood"],["Births","@Births"],["Deaths","@Deaths"]]},"id":"3530","type":"HoverTool"},{"attributes":{},"id":"3246","type":"DataRange1d"},{"attributes":{"overlay":{"id":"3301"}},"id":"3296","type":"LassoSelectTool"},{"attributes":{"overlay":{"id":"3334"}},"id":"3329","type":"LassoSelectTool"},{"attributes":{"callback":null,"tooltips":[["District","@District"],["Neightborhood","@Neighborhood"],["Births","@Births"],["Deaths","@Deaths"]]},"id":"6989","type":"HoverTool"},{"attributes":{},"id":"3415","type":"BasicTickFormatter"},{"attributes":{"items":[{"id":"3357"},{"id":"3374"}]},"id":"3356","type":"Legend"},{"attributes":{},"id":"3520","type":"Selection"},{"attributes":{"label":{"value":"Birth rate &lt; Death rate"},"renderers":[{"id":"3362"}]},"id":"3374","type":"LegendItem"},{"attributes":{"fill_color":{"value":"royalblue"},"line_color":{"value":"royalblue"},"size":{"units":"screen","value":5},"x":{"field":"Deaths_rate"},"y":{"field":"Births_rate"}},"id":"3409","type":"Circle"},{"attributes":{"label":{"value":"Birth rate &gt; Death rate"},"renderers":[{"id":"3412"}]},"id":"3423","type":"LegendItem"},{"attributes":{"label":{"value":"Birth rate &gt; Death rate"},"renderers":[{"id":"3346"}]},"id":"3357","type":"LegendItem"},{"attributes":{"source":{"id":"3237"}},"id":"3347","type":"CDSView"},{"attributes":{},"id":"3514","type":"UnionRenderers"},{"attributes":{"source":{"id":"3240"}},"id":"3396","type":"CDSView"},{"attributes":{"fill_alpha":0.5,"fill_color":"lightgrey","level":"overlay","line_alpha":1.0,"line_color":"black","line_dash":[4,4],"line_width":2,"xs_units":"screen","ys_units":"screen"},"id":"3269","type":"PolyAnnotation"},{"attributes":{"bottom_units":"screen","fill_alpha":0.5,"fill_color":"lightgrey","left_units":"screen","level":"overlay","line_alpha":1.0,"line_color":"black","line_dash":[4,4],"line_width":2,"render_mode":"css","right_units":"screen","top_units":"screen"},"id":"3300","type":"BoxAnnotation"},{"attributes":{},"id":"3507","type":"UnionRenderers"},{"attributes":{},"id":"3513","type":"Selection"},{"attributes":{"data_source":{"id":"3240"},"glyph":{"id":"3392"},"hover_glyph":null,"muted_glyph":null,"nonselection_glyph":{"id":"3393"},"selection_glyph":{"id":"3394"},"view":{"id":"3396"}},"id":"3395","type":"GlyphRenderer"},{"attributes":{"fill_color":{"value":"firebrick"},"line_color":{"value":"firebrick"},"size":{"units":"screen","value":5},"x":{"field":"Deaths_rate"},"y":{"field":"Births_rate"}},"id":"3359","type":"Circle"},{"attributes":{},"id":"3521","type":"UnionRenderers"},{"attributes":{},"id":"3506","type":"Selection"},{"attributes":{"data_source":{"id":"3239"},"glyph":{"id":"3376"},"hover_glyph":null,"muted_glyph":null,"nonselection_glyph":{"id":"3377"},"selection_glyph":{"id":"3378"},"view":{"id":"3380"}},"id":"3379","type":"GlyphRenderer"},{"attributes":{"label":{"value":"Birth rate &gt; Death rate"},"renderers":[{"id":"3379"}]},"id":"3390","type":"LegendItem"},{"attributes":{"callback":null,"tooltips":[["District","@District"],["Neightborhood","@Neighborhood"],["Births","@Births"],["Deaths","@Deaths"]]},"id":"6915","type":"HoverTool"},{"attributes":{"fill_alpha":0.5,"fill_color":"lightgrey","level":"overlay","line_alpha":1.0,"line_color":"black","line_dash":[4,4],"line_width":2,"xs_units":"screen","ys_units":"screen"},"id":"3334","type":"PolyAnnotation"},{"attributes":{"callback":null},"id":"3331","type":"TapTool"},{"attributes":{"callback":null,"tooltips":[["District","@District"],["Neightborhood","@Neighborhood"],["Births","@Births"],["Deaths","@Deaths"]]},"id":"3864","type":"HoverTool"},{"attributes":{},"id":"3288","type":"BasicTicker"},{"attributes":{"axis_label":"Births per 1,000","formatter":{"id":"3382"},"ticker":{"id":"3292"}},"id":"3291","type":"LinearAxis"},{"attributes":{"callback":null,"tooltips":[["District","@District"],["Neightborhood","@Neighborhood"],["Births","@Births"],["Deaths","@Deaths"]]},"id":"3788","type":"HoverTool"},{"attributes":{"callback":null,"tooltips":[["District","@District"],["Neightborhood","@Neighborhood"],["Births","@Births"],["Deaths","@Deaths"]]},"id":"3980","type":"HoverTool"},{"attributes":{"overlay":{"id":"3269"}},"id":"3264","type":"PolySelectTool"},{"attributes":{"data":{"Births":[109,101,302,231,340,344,460,390,132,293,51,104,477,79,190,43,55,190,259,318,59,89,32,64,374,13,49,221,16,98,200,174,87,251,66,181,459,122,232,198,307,207,229,142,335,204,330,156,72,236,405,199,232,37,135],"Births_rate":{"__ndarray__":"vw8uhRIlG0ATqcTAxfAaQCf2KnXigB9A+3b+S07cHECJrut07BQgQD0klTBePB9ACUwgxUCgH0BN5jH2sUQeQDgBe9SYwCBAmxBVGfMRIUBeOIge34UbQPOduagOjR9AR8yJj6fUIkDIkxxqOJEhQAvJ5MfMchxAYsJJpyvbIECSiou8jAwgQJ5Pylivmh1AhgMyFPlqIECifEK7v3AhQEQTkvrgJhlAFFmHS7SjHkCWSCGWSCEWQJtOA2v2MhVAwjcz4/dBIEBRDp8jvOUWQH8Bc5eNlhxArkfhehSuIUBCMXJx2FInQCmLhdSxux9AUaLSQNBCH0B2AKw44H8mQGLIkp0f2RZAkNAxbegFI0CybyCI5y0iQKMrhM/OWyBA2T/2vcANIEAvW9+xDEkhQOFm+ghX6B9ACQIY1ptKHkBk0oXWNhYgQKuTDdpXnx5AYKKuxCftH0C3bdu2bdshQD+0ZQt/SiBArMTszVsCIUAarN9FD2ggQFf++2Bq1iBAmFHtloywG0CV3R3epd0eQPvoNkhF/iBAumWZGkPiHkC1IYQ5SYkiQDv3r+UPsR9AfqB99x0zIEA=","dtype":"float64","shape":[55]},"Deaths":[130,169,358,333,444,498,569,536,157,343,57,136,483,104,300,122,98,324,268,320,83,126,58,115,452,34,69,280,19,127,276,200,177,279,79,207,513,150,252,289,342,230,338,151,418,227,368,168,144,273,431,253,247,47,146],"Deaths_rate":{"__ndarray__":"qJiVNfEvIECuwtlvEoomQFsP5BAurCJA4KhYW1bNJEB8dOLLNwAlQMQ1y5IRnCZAOB1EQluPI0DfduyOvswkQN9zLc7U7CNA7R1Lv6z7I0CW1S4xzMIeQKkOjR8noSRAwgC3rEoRI0BcA/UwZCAnQEx2BTKUdSZAupZuXoXpN0BFa0xLsJgsQKftNXzTPSlAUh8UsAX9IEBmmhJC1IwhQJ5B7bgKsSFAz0QP+UiwJUDIKQ7IKQ4kQJ/4JGTJCyNAro797vilI0Cl11l9WPEtQICL9drbICRAZmZmZmZmJkB+mrcGYbIrQJ8k2ZLSjyRA9RiH+fCRJUD1HUoGjNwpQKIJvW/4PSdAUZqpISolJUCyhfAilcIlQLlu7RRftSJAiXRP1EDxIUDFKF5+okAlQDimmexAVCFAqAbsO0wbJkDRjW+rt+shQApSec4wAyFAfIeQnrePJ0A41KTAKv0iQDUnE43IUyRAODoLjErtIkAuMdTws0siQNTWcWj8ISJAmFHtloywK0DbdeCYO9ohQCmGphmMFSJAUErVCdehI0D+BNvjF7wjQFKu9grkICRAXnqzwQeFIUA=","dtype":"float64","shape":[55]},"District":["Ciutat Vella","Ciutat Vella","Eixample","Eixample","Eixample","Eixample","Eixample","Eixample","Gr\u00e0cia","Gr\u00e0cia","Gr\u00e0cia","Gr\u00e0cia","Gr\u00e0cia","Horta-Guinard\u00f3","Horta-Guinard\u00f3","Horta-Guinard\u00f3","Horta-Guinard\u00f3","Horta-Guinard\u00f3","Horta-Guinard\u00f3","Horta-Guinard\u00f3","Horta-Guinard\u00f3","Horta-Guinard\u00f3","Horta-Guinard\u00f3","Les Corts","Les Corts","Nou Barris","Nou Barris","Nou Barris","Nou Barris","Nou Barris","Nou Barris","Nou Barris","Nou Barris","Nou Barris","Nou Barris","Sant Andreu","Sant Andreu","Sant Andreu","Sant Andreu","Sant Mart\u00ed","Sant Mart\u00ed","Sant Mart\u00ed","Sant Mart\u00ed","Sants-Montju\u00efc","Sants-Montju\u00efc","Sants-Montju\u00efc","Sants-Montju\u00efc","Sants-Montju\u00efc","Sants-Montju\u00efc","Sants-Montju\u00efc","Sarri\u00e0-Sant Gervasi","Sarri\u00e0-Sant Gervasi","Sarri\u00e0-Sant Gervasi","Sarri\u00e0-Sant Gervasi","Sarri\u00e0-Sant Gervasi"],"Neighborhood":["el Barri G\u00f2tic","la Barceloneta","Sant Antoni","el Fort Pienc","l'Antiga Esquerra de l'Eixample","la Dreta de l'Eixample","la Nova Esquerra de l'Eixample","la Sagrada Fam\u00edlia","Vallcarca i els Penitents","el Camp d'en Grassot i Gr\u00e0cia Nova","el Coll","la Salut","la Vila de Gr\u00e0cia","Can Bar\u00f3","Horta","Montbau","Sant Gen\u00eds dels Agudells","el Baix Guinard\u00f3","el Carmel","el Guinard\u00f3","la Font d'en Fargues","la Teixonera","la Vall d'Hebron","Pedralbes","les Corts","Can Peguera","Canyelles","Porta","Vallbona","Verdun","Vilapicina i la Torre Llobeta","el Tur\u00f3 de la Peira","la Guineueta","la Prosperitat","la Trinitat Nova","Navas","Sant Andreu","el Congr\u00e9s i els Indians","la Sagrera","Sant Mart\u00ed de Proven\u00e7als","el Camp de l'Arpa del Clot","el Clot","la Verneda i la Pau","Hostafrancs","Sants","Sants - Badal","el Poble Sec","la Bordeta","la Font de la Guatlla","la Marina de Port","Sant Gervasi - Galvany","Sant Gervasi - la Bonanova","Sarri\u00e0","Vallvidrera, el Tibidabo i les Planes","les Tres Torres"],"Population":{"__ndarray__":"HVpkO98PMEDLoUW28/0tQFyPwvUoLENANV66SQwCQEAxCKwcWiRFQC2yne+nBkZA16NwPQoXTUCiRbbz/cRJQPhT46WbhC9AJzEIrBwqQUDZzvdT46UdQB+F61G4XipA2/l+arxUSUCwcmiR7fwhQNejcD0KtzpAnMQgsHJoFEDRItv5fmobQHnpJjEIrDlAkxgEVg6NP0Cyne+nxjtCQGq8dJMYxCJAsHJoke08J0CJQWDl0CIXQPT91HjpJihA/tR46SYBR0BeukkMAisCQAaBlUOLbBtAAAAAAAAAOUDByqFFtvP1P9v5fmq8tChAnu+nxkuXOUDJdr6fGu8uQIPAyqFFdi5A3SQGgZVjOkAlBoGVQwsdQBsv3SQGITZAgZVDi2yXTEAIrBxaZDssQC/dJAaBFT1ATDeJQWAlOkAv3SQGgRVDQESLbOf7CTtAN4lBYOWwPEACK4cW2c4vQMdLN4lBkERA6SYxCKz8N0B3vp8aLx1EQEjhehSuhzJAWmQ730/NJEAv3SQGgZU+QGiR7Xw/1UdAoBov3STGOUDVeOkmMQg5QK5H4XoUrhJAmG4Sg8CqMEA=","dtype":"float64","shape":[55]},"Positive_rate":{"__ndarray__":"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==","dtype":"int32","shape":[55]},"Year":[2017,2017,2017,2017,2017,2017,2017,2017,2017,2017,2017,2017,2017,2017,2017,2017,2017,2017,2017,2017,2017,2017,2017,2017,2017,2017,2017,2017,2017,2017,2017,2017,2017,2017,2017,2017,2017,2017,2017,2017,2017,2017,2017,2017,2017,2017,2017,2017,2017,2017,2017,2017,2017,2017,2017],"index":[145,147,148,149,150,151,152,153,154,155,156,157,158,159,160,161,162,163,164,165,167,168,169,170,172,173,174,176,178,179,180,181,182,183,184,187,188,190,191,195,197,198,201,203,204,205,206,207,208,209,211,212,213,214,216]},"selected":{"id":"3520"},"selection_policy":{"id":"3521"}},"id":"3242","type":"ColumnDataSource"},{"attributes":{"callback":null,"tooltips":[["District","@District"],["Neightborhood","@Neighborhood"],["Births","@Births"],["Deaths","@Deaths"]]},"id":"3942","type":"HoverTool"},{"attributes":{"overlay":{"id":"3268"}},"id":"3263","type":"LassoSelectTool"},{"attributes":{},"id":"3316","type":"LinearScale"},{"attributes":{"text":"Births rate vs Deaths rate - 2015"},"id":"3244","type":"Title"},{"attributes":{},"id":"3285","type":"LinearScale"},{"attributes":{},"id":"3318","type":"LinearScale"},{"attributes":{},"id":"3403","type":"UnionRenderers"},{"attributes":{"label":{"value":"Birth rate &lt; Death rate"},"renderers":[{"id":"3395"}]},"id":"3407","type":"LegendItem"},{"attributes":{},"id":"3314","type":"DataRange1d"},{"attributes":{},"id":"3402","type":"Selection"},{"attributes":{},"id":"3369","type":"Selection"},{"attributes":{},"id":"3435","type":"Selection"},{"attributes":{"axis":{"id":"3320"},"ticker":null},"id":"3323","type":"Grid"},{"attributes":{"axis":{"id":"3258"},"dimension":1,"ticker":null},"id":"3261","type":"Grid"},{"attributes":{"axis_label":"Death per 1,000","formatter":{"id":"3417"},"ticker":{"id":"3321"}},"id":"3320","type":"LinearAxis"},{"attributes":{"axis":{"id":"3287"},"ticker":null},"id":"3290","type":"Grid"},{"attributes":{"callback":null,"tooltips":[["District","@District"],["Neightborhood","@Neighborhood"],["Births","@Births"],["Deaths","@Deaths"]]},"id":"3826","type":"HoverTool"},{"attributes":{"data":{"Births":[431,9,52,107,34,117,159,30,482,110,96,180,185,210,163,323,94,284,139],"Births_rate":{"__ndarray__":"90RGngFJIkAHiJAp7JowQH9ofmsOBSNAT46Nk2PjJEAsC09aku8oQEUcOmkfJCNAuND5neumJECqZNi/jiwoQEBfJ2KgDyFA4nY5MziGIUD0+3zTXhYjQNT/UEqP7SpA1GPK/S1aIkAueuLZQTAfQDl+598wKiZALAYi9OVRI0BTcA5PoCgkQK5MeJEmfiNAlUDXKLzZIEA=","dtype":"float64","shape":[19]},"Deaths":[331,2,45,68,21,107,114,25,479,105,67,73,184,207,110,293,27,242,133],"Deaths_rate":{"__ndarray__":"1RCGGNoVHEDU8QARMoUNQDMpfD+bdSBAqbkyaq6MGkDNDcurls0eQOGCFg1PgSFAEYeWiz6dHUCO/t6fISUkQBI7fi1x9CBAe/ET60y6IEBbyjMHj6QaQBCzQWFx1xVAdkP/uchAIkBDuiRIMr4eQObt08xq6h1A9YkB44aGIUC8oXLoOikHQNmFb64rnCBA37wK1ocfIEA=","dtype":"float64","shape":[19]},"District":["Ciutat Vella","Horta-Guinard\u00f3","Horta-Guinard\u00f3","Nou Barris","Nou Barris","Nou Barris","Nou Barris","Sant Andreu","Sant Andreu","Sant Andreu","Sant Andreu","Sant Mart\u00ed","Sant Mart\u00ed","Sant Mart\u00ed","Sant Mart\u00ed","Sant Mart\u00ed","Sant Mart\u00ed","Sarri\u00e0-Sant Gervasi","Sarri\u00e0-Sant Gervasi"],"Neighborhood":["el Raval","la Clota","la Vall d'Hebron","Ciutat Meridiana","Torre Bar\u00f3","Verdun","les Roquetes","Bar\u00f3 de Viver","Sant Andreu","el Bon Pastor","la Trinitat Vella","Diagonal Mar i el Front Mar\u00edtim del Poblenou","Proven\u00e7als del Poblenou","el Clot","el Parc i la Llacuna del Poblenou","el Poblenou","la Vila Ol\u00edmpica del Poblenou","el Putxet i el Farr\u00f3","les Tres Torres"],"Population":{"__ndarray__":"GQRWDi2SR0Dy0k1iEFjhP6wcWmQ73xVAPQrXo3B9JEA3iUFg5dAFQDMzMzMzcyhAsp3vp8bLLkBCYOXQItsDQKrx0k1iQExAz/dT46UbKUCR7Xw/NR4kQLByaJHtvCpA8KfGSzcpNEACK4cW2e46QNEi2/l+ai1ADi2yne+3QED0/dR46aYiQN0kBoGVIz1Ac2iR7Xx/MEA=","dtype":"float64","shape":[19]},"Positive_rate":{"__ndarray__":"AQAAAAEAAAABAAAAAQAAAAEAAAABAAAAAQAAAAEAAAABAAAAAQAAAAEAAAABAAAAAQAAAAEAAAABAAAAAQAAAAEAAAABAAAAAQAAAA==","dtype":"int32","shape":[19]},"Year":[2015,2015,2015,2015,2015,2015,2015,2015,2015,2015,2015,2015,2015,2015,2015,2015,2015,2015,2015],"index":[2,22,25,31,33,35,41,42,44,45,48,49,50,54,55,56,58,70,71]},"selected":{"id":"3369"},"selection_policy":{"id":"3370"}},"id":"3237","type":"ColumnDataSource"},{"attributes":{"fill_color":{"value":"red"},"line_color":{"value":"red"},"size":{"units":"screen","value":5},"x":{"field":"Deaths_rate"},"y":{"field":"Births_rate"}},"id":"3361","type":"Circle"},{"attributes":{},"id":"3436","type":"UnionRenderers"},{"attributes":{"below":[{"id":"3287"}],"center":[{"id":"3290"},{"id":"3294"},{"id":"3389"}],"left":[{"id":"3291"}],"plot_height":400,"plot_width":800,"renderers":[{"id":"3379"},{"id":"3395"}],"title":{"id":"3277"},"toolbar":{"id":"3303"},"toolbar_location":"below","x_range":{"id":"3279"},"x_scale":{"id":"3283"},"y_range":{"id":"3281"},"y_scale":{"id":"3285"}},"id":"3276","subtype":"Figure","type":"Plot"},{"attributes":{"child":{"id":"3309"},"title":"2017"},"id":"7065","type":"Panel"},{"attributes":{"data":{"Births":[453,76,281,105,30,159,27,486,102,256,108,188,170,137,351,89,153,380,16,415,282,150],"Births_rate":{"__ndarray__":"d9CGFU05I0ApWssPyJAkQKf+Xpd87CFA61ELZAzqJEC49ExfZ38lQLjQ+Z3rpiRAjKbDDCmKJUA0/Bo74yUhQHRCrC1iNCBAzLvBSL7HIUD06XEz9oclQBoCSmPkECxALUWAAimxIEAkN6ZdUnciQCgjrgnN5iRAWJEU/mkRI0CpP4EKNEIjQGJDwZphoiJAAEcVpxr/K0CUVbN1TqAhQDYvnR5fNCNASr/jqSw2IkA=","dtype":"float64","shape":[22]},"Deaths":[297,66,279,64,13,117,25,474,102,246,62,76,136,123,273,35,135,376,16,413,238,143],"Deaths_rate":{"__ndarray__":"r3MnyRg1GUAIVbcNDNwhQPrmGhPUyyFAukFeB9d+GUDTjyDbnaESQFwR8jDAZB5AEOY5O7TxI0A8cTDOfrkgQHRCrC1iNCBAdirq2fAVIUBakfRzjLgYQN+Jjc0PsRZAFdVmag61GkCJTVvePJQgQJGpFeu7QSBA2Jka+qD+DUCzvybrLf4gQHkPr64qcCJAAEcVpxr/K0Chtjd4j4ohQF17QTNHNSBAReslOJtcIUA=","dtype":"float64","shape":[22]},"District":["Ciutat Vella","Gr\u00e0cia","Horta-Guinard\u00f3","Nou Barris","Nou Barris","Nou Barris","Sant Andreu","Sant Andreu","Sant Andreu","Sant Andreu","Sant Andreu","Sant Mart\u00ed","Sant Mart\u00ed","Sant Mart\u00ed","Sant Mart\u00ed","Sant Mart\u00ed","Sants-Montju\u00efc","Sants-Montju\u00efc","Sants-Montju\u00efc","Sarri\u00e0-Sant Gervasi","Sarri\u00e0-Sant Gervasi","Sarri\u00e0-Sant Gervasi"],"Neighborhood":["el Raval","el Coll","el Carmel","Ciutat Meridiana","Torre Bar\u00f3","les Roquetes","Bar\u00f3 de Viver","Sant Andreu","el Bon Pastor","la Sagrera","la Trinitat Vella","Diagonal Mar i el Front Mar\u00edtim del Poblenou","Proven\u00e7als del Poblenou","el Parc i la Llacuna del Poblenou","el Poblenou","la Vila Ol\u00edmpica del Poblenou","Hostafrancs","Sants","la Marina del Prat Vermell","Sant Gervasi - Galvany","el Putxet i el Farr\u00f3","les Tres Torres"],"Population":{"__ndarray__":"jZduEoOQR0Cq8dJNYpAdQHsUrkfhWj9AokW28/0UJECHFtnO91MGQLKd76fGyy5AdZMYBFYOBECBlUOLbFdMQCGwcmiRLSlAsp3vp8bLPECq8dJNYhAkQCUGgZVDyypAWDm0yHZeNECTGARWDq0tQF66SQwCy0BA7FG4HoWrIkC6SQwCK8cvQBSuR+F6ZERAfT81XrpJ8j8IrBxaZItHQJHtfD81Xj1ADAIrhxZ5MEA=","dtype":"float64","shape":[22]},"Positive_rate":{"__ndarray__":"AQAAAAEAAAABAAAAAQAAAAEAAAABAAAAAQAAAAEAAAABAAAAAQAAAAEAAAABAAAAAQAAAAEAAAABAAAAAQAAAAEAAAABAAAAAQAAAAEAAAABAAAAAQAAAA==","dtype":"int32","shape":[22]},"Year":[2016,2016,2016,2016,2016,2016,2016,2016,2016,2016,2016,2016,2016,2016,2016,2016,2016,2016,2016,2016,2016,2016],"index":[74,84,92,103,105,113,114,116,117,119,120,121,122,127,128,130,131,132,137,138,142,143]},"selected":{"id":"3402"},"selection_policy":{"id":"3403"}},"id":"3239","type":"ColumnDataSource"},{"attributes":{},"id":"3283","type":"LinearScale"},{"attributes":{},"id":"3266","type":"ResetTool"},{"attributes":{},"id":"3321","type":"BasicTicker"},{"attributes":{"callback":null,"tooltips":[["District","@District"],["Neightborhood","@Neighborhood"],["Births","@Births"],["Deaths","@Deaths"]]},"id":"3443","type":"HoverTool"},{"attributes":{"callback":null,"tooltips":[["District","@District"],["Neightborhood","@Neighborhood"],["Births","@Births"],["Deaths","@Deaths"]]},"id":"3447","type":"HoverTool"},{"attributes":{"source":{"id":"3238"}},"id":"3363","type":"CDSView"},{"attributes":{"axis_label":"Death per 1,000","formatter":{"id":"3384"},"ticker":{"id":"3288"}},"id":"3287","type":"LinearAxis"},{"attributes":{"fill_color":{"value":"deepskyblue"},"line_color":{"value":"deepskyblue"},"size":{"units":"screen","value":5},"x":{"field":"Deaths_rate"},"y":{"field":"Births_rate"}},"id":"3411","type":"Circle"},{"attributes":{"data_source":{"id":"3238"},"glyph":{"id":"3359"},"hover_glyph":null,"muted_glyph":null,"nonselection_glyph":{"id":"3360"},"selection_glyph":{"id":"3361"},"view":{"id":"3363"}},"id":"3362","type":"GlyphRenderer"},{"attributes":{"data":{"Births":[180,502,13,206,102,28,171,24,126,120,161,186,218,153,317,63,12,265],"Births_rate":{"__ndarray__":"dKT8qVGwH0BhBb2qwRYlQA3BOtq8TzVA6V/fiDU0IUDIBq1Ds7kjQJybm5ubmyNAR4mkWujvJUDIdxRfs+ciQG/se0ROECRAJuYPbHYKKEA4zwiHR6AnQM3ilkNpKCJAOFH8qvjyIkCc5TPeKDgkQHC1etbKuyJABFLRMyjnGkDxaB0sQuMkQKvG2woB/CFA","dtype":"float64","shape":[18]},"Deaths":[168,346,3,198,75,19,115,22,125,57,74,185,181,103,287,40,11,238],"Deaths_rate":{"__ndarray__":"OVV0a3+THUD170pOHBIdQL1PcckQrBNA5zbU/yuJIEAmN8KfBwIdQC9TnC5TnBpAwX96Wo+BHUDNbX1sZFQhQFkdRpmK5yNApBoPTb3WFkAyjV+16LcVQBbnZXNrDyJAM1MKYEh3H0DnSgZaNTkbQFI/f47u9SBAJ3mpUcwUEUCH9RpTpyUjQIySo7fqJiBA","dtype":"float64","shape":[18]},"District":["Ciutat Vella","Ciutat Vella","Horta-Guinard\u00f3","Les Corts","Nou Barris","Nou Barris","Nou Barris","Sant Andreu","Sant Andreu","Sant Andreu","Sant Mart\u00ed","Sant Mart\u00ed","Sant Mart\u00ed","Sant Mart\u00ed","Sant Mart\u00ed","Sant Mart\u00ed","Sants-Montju\u00efc","Sarri\u00e0-Sant Gervasi"],"Neighborhood":["Sant Pere, Santa Caterina i la Ribera","el Raval","la Clota","la Maternitat i Sant Ramon","Ciutat Meridiana","Torre Bar\u00f3","les Roquetes","Bar\u00f3 de Viver","el Bon Pastor","la Trinitat Vella","Diagonal Mar i el Front Mar\u00edtim del Poblenou","Proven\u00e7als del Poblenou","el Bes\u00f2s i el Maresme","el Parc i la Llacuna del Poblenou","el Poblenou","la Vila Ol\u00edmpica del Poblenou","la Marina del Prat Vermell","el Putxet i el Farr\u00f3"],"Population":{"__ndarray__":"f2q8dJO4NkDn+6nx0s1HQIXrUbgeheM/ppvEILDyN0DJdr6fGq8kQAwCK4cW2QZArkfhehQuL0AdWmQ7308EQB+F61G4HilAnu+nxkv3I0A1XrpJDEIrQOkmMQisfDRA/Knx0k0CN0D4U+Olm0QuQJZDi2zn60BAlkOLbOe7IkD8qfHSTWLyP7gehetReD1A","dtype":"float64","shape":[18]},"Positive_rate":{"__ndarray__":"AQAAAAEAAAABAAAAAQAAAAEAAAABAAAAAQAAAAEAAAABAAAAAQAAAAEAAAABAAAAAQAAAAEAAAABAAAAAQAAAAEAAAABAAAA","dtype":"int32","shape":[18]},"Year":[2017,2017,2017,2017,2017,2017,2017,2017,2017,2017,2017,2017,2017,2017,2017,2017,2017,2017],"index":[144,146,166,171,175,177,185,186,189,192,193,194,196,199,200,202,210,215]},"selected":{"id":"3435"},"selection_policy":{"id":"3436"}},"id":"3241","type":"ColumnDataSource"},{"attributes":{"fill_alpha":{"value":0.3},"fill_color":{"value":"lightgray"},"line_alpha":{"value":0.3},"line_color":{"value":"lightgray"},"size":{"units":"screen","value":5},"x":{"field":"Deaths_rate"},"y":{"field":"Births_rate"}},"id":"3426","type":"Circle"},{"attributes":{"below":[{"id":"3320"}],"center":[{"id":"3323"},{"id":"3327"},{"id":"3422"}],"left":[{"id":"3324"}],"plot_height":400,"plot_width":800,"renderers":[{"id":"3412"},{"id":"3428"}],"title":{"id":"3310"},"toolbar":{"id":"3336"},"toolbar_location":"below","x_range":{"id":"3312"},"x_scale":{"id":"3316"},"y_range":{"id":"3314"},"y_scale":{"id":"3318"}},"id":"3309","subtype":"Figure","type":"Plot"},{"attributes":{"child":{"id":"3276"},"title":"2016"},"id":"7064","type":"Panel"},{"attributes":{"below":[{"id":"3254"}],"center":[{"id":"3257"},{"id":"3261"},{"id":"3356"}],"left":[{"id":"3258"}],"plot_height":400,"plot_width":800,"renderers":[{"id":"3346"},{"id":"3362"}],"title":{"id":"3244"},"toolbar":{"id":"3270"},"toolbar_location":"below","x_range":{"id":"3246"},"x_scale":{"id":"3250"},"y_range":{"id":"3248"},"y_scale":{"id":"3252"}},"id":"3243","subtype":"Figure","type":"Plot"},{"attributes":{},"id":"3281","type":"DataRange1d"},{"attributes":{"data_source":{"id":"3242"},"glyph":{"id":"3425"},"hover_glyph":null,"muted_glyph":null,"nonselection_glyph":{"id":"3426"},"selection_glyph":{"id":"3427"},"view":{"id":"3429"}},"id":"3428","type":"GlyphRenderer"},{"attributes":{},"id":"3279","type":"DataRange1d"},{"attributes":{"data_source":{"id":"3241"},"glyph":{"id":"3409"},"hover_glyph":null,"muted_glyph":null,"nonselection_glyph":{"id":"3410"},"selection_glyph":{"id":"3411"},"view":{"id":"3413"}},"id":"3412","type":"GlyphRenderer"},{"attributes":{"axis":{"id":"3324"},"dimension":1,"ticker":null},"id":"3327","type":"Grid"},{"attributes":{},"id":"3325","type":"BasicTicker"},{"attributes":{},"id":"3332","type":"ResetTool"},{"attributes":{"axis_label":"Births per 1,000","formatter":{"id":"3415"},"ticker":{"id":"3325"}},"id":"3324","type":"LinearAxis"},{"attributes":{"callback":null,"tooltips":[["District","@District"],["Neightborhood","@Neighborhood"],["Births","@Births"],["Deaths","@Deaths"]]},"id":"3445","type":"HoverTool"},{"attributes":{"data":{"Births":[172,98,92,275,255,324,364,450,400,142,319,104,483,73,223,37,47,217,324,2,74,95,41,84,184,363,13,46,217,14,114,180,127,118,205,68,176,118,186,181,306,190,236,164,142,84,235,203,238,38],"Births_rate":{"__ndarray__":"N4Ln+v3XHkAelCV6DRsZQEGtsrzAfxhAZdHAEdHOHEBFLls+uhwgQNARsPn79h5ApgcGoS+uIEA0ex7BVjkfQL9EuZn7LB9AqxFUADQ3IkCyw7/y7aIiQA6iOItPth9ARVKwj9EYI0DBvNYgGkkgQHb8CmHfzSBAaqGmsx5KHUBC5wF2lPQbQHrN1fgA/SBAY834UqjuIUC2BfWeunELQJ6N+s5GfR9AS46UMDTZIEBAdC/jv9ccQHcNWBhkUxxApEKYV7TcHkCqRGihqJwfQKM7EZR7BxdApfYWmfyTGkCZtXnRV7MhQJc8GHDGtSRAEh5YKdmYIkA8QQ/k9zkcQMsdQS87iCBArK74uXBgH0CPhbR0UVYfQAOjKyOTvSJAf0aJn1HiH0Ag8ZOF6M0gQDET9da4mhxA1rCQ9GvUH0DWBFK+sQ8gQHj9HGVAQRxA4pdZC0J6IEB7QuDp2HAbQHmS4gDMrh5AIdrFLblOIED5I/J8su8eQIXkAl5vox9AbXcRHL8xI0D5r6ZtWGggQA==","dtype":"float64","shape":[50]},"Deaths":[194,113,188,357,333,432,488,537,513,151,363,139,486,90,314,96,79,374,353,6,85,99,66,114,203,445,21,61,242,25,118,276,175,144,262,104,200,179,274,204,384,202,310,201,178,105,253,285,261,53],"Deaths_rate":{"__ndarray__":"gQBK6PhkIUC/zGQCyfIcQAaxwWcYCClAERqSLO2yIkCUY8iraAolQIu2yvunpCRAmX2JZN1cJkDwab/eW6EiQB8LiSPO/SNAQbwxHcJeI0AjLg8d/TQlQIedRJ43MSVAtn0lFi83I0Cdt/ok/RMkQM6rnGFYqSdAN5JCNqX/MkDpPMCOkn4nQCwa5J+ERy1A65M2uYyJI0BIxDf3S5UkQBCTK4jJFSJAzCW7/M+OIUCkEqOXBDcnQLYtFzWWOCNASdGf30QGIUAPCzBPYGAjQFImv228mSJAn9WtyVafIUAoMYQdY70jQD5/zFG6fTJALQS+ReU/I0BZB2G36KMlQJJrsovQxyZAYM7LaCYlI0CjLif9dAYkQAWuM593qSxAgrl2YK4dIkC+05iwxn0pQNBDtyqeESVAgI/doe3vIUBsYNrzxSckQOmWyKYWCh5A4mUYnu6kJUDEDyBX3NAgQLETO7ETOyNAqlA3eWdiJEDoVkX6J6cgQByaJmKQNSZAWYiYuJoMJUBVKwpjYOImQA==","dtype":"float64","shape":[50]},"District":["Ciutat Vella","Ciutat Vella","Ciutat Vella","Eixample","Eixample","Eixample","Eixample","Eixample","Eixample","Gr\u00e0cia","Gr\u00e0cia","Gr\u00e0cia","Gr\u00e0cia","Horta-Guinard\u00f3","Horta-Guinard\u00f3","Horta-Guinard\u00f3","Horta-Guinard\u00f3","Horta-Guinard\u00f3","Horta-Guinard\u00f3","Horta-Guinard\u00f3","Horta-Guinard\u00f3","Horta-Guinard\u00f3","Horta-Guinard\u00f3","Les Corts","Les Corts","Les Corts","Nou Barris","Nou Barris","Nou Barris","Nou Barris","Nou Barris","Nou Barris","Nou Barris","Nou Barris","Nou Barris","Nou Barris","Sant Andreu","Sant Andreu","Sant Mart\u00ed","Sant Mart\u00ed","Sant Mart\u00ed","Sant Mart\u00ed","Sant Mart\u00ed","Sants-Montju\u00efc","Sants-Montju\u00efc","Sants-Montju\u00efc","Sants-Montju\u00efc","Sarri\u00e0-Sant Gervasi","Sarri\u00e0-Sant Gervasi","Sarri\u00e0-Sant Gervasi"],"Neighborhood":["Sant Pere, Santa Caterina i la Ribera","el Barri G\u00f2tic","la Barceloneta","Sant Antoni","el Fort Pienc","l'Antiga Esquerra de l'Eixample","la Dreta de l'Eixample","la Nova Esquerra de l'Eixample","la Sagrada Fam\u00edlia","Vallcarca i els Penitents","el Camp d'en Grassot i Gr\u00e0cia Nova","la Salut","la Vila de Gr\u00e0cia","Can Bar\u00f3","Horta","Montbau","Sant Gen\u00eds dels Agudells","el Baix Guinard\u00f3","el Guinard\u00f3","la Clota","la Font d'en Fargues","la Teixonera","la Vall d'Hebron","Pedralbes","la Maternitat i Sant Ramon","les Corts","Can Peguera","Canyelles","Porta","Vallbona","Verdun","Vilapicina i la Torre Llobeta","el Tur\u00f3 de la Peira","la Guineueta","la Prosperitat","la Trinitat Nova","Navas","el Congr\u00e9s i els Indians","Sant Mart\u00ed de Proven\u00e7als","el Bes\u00f2s i el Maresme","el Camp de l'Arpa del Clot","el Clot","la Verneda i la Pau","Sants - Badal","la Bordeta","la Font de la Guatlla","la Marina de Port","Sant Gervasi - la Bonanova","Sarri\u00e0","Vallvidrera, el Tibidabo i les Planes"],"Population":{"__ndarray__":"dZMYBFZONkDufD81XjovQJhuEoPACi5AZDvfT40XQ0C6SQwCK6c/QFpkO99P7URA30+Nl27SRUBt5/up8dJMQPCnxks3qUlAO99PjZcuL0DLoUW28x1BQCPb+X5qPCpAmG4Sg8BKSUCuR+F6FO4hQNEi2/l+ijpAg8DKoUU2FEBmZmZmZuYaQHnpJjEIjDlAxSCwcmgRQkAOLbKd76fiP83MzMzMzCJA5/up8dKNJkBYObTIdr4WQNNNYhBYuSdADAIrhxbZN0Ce76fGS/dGQKrx0k1iEAJA/tR46SaxG0C+nxov3YQ4QG8Sg8DKofU/hetRuB6FKEA1XrpJDII5QO58PzVeui5AvHSTGAQWLkCYbhKDwCo6QLpJDAIrBx1AFK5H4XoUNkBKDAIrhxYsQMP1KFyPAjpA5dAi2/m+NkBaZDvfTw1DQNnO91Pj5TpAhetRuB6lPEAOLbKd7+c3QFCNl24SgzJAtMh2vp+aJEDD9Shcj2I+QArXo3A9qjlABoGVQ4vMOEC6SQwCK4cSQA==","dtype":"float64","shape":[50]},"Positive_rate":{"__ndarray__":"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=","dtype":"int32","shape":[50]},"Year":[2016,2016,2016,2016,2016,2016,2016,2016,2016,2016,2016,2016,2016,2016,2016,2016,2016,2016,2016,2016,2016,2016,2016,2016,2016,2016,2016,2016,2016,2016,2016,2016,2016,2016,2016,2016,2016,2016,2016,2016,2016,2016,2016,2016,2016,2016,2016,2016,2016,2016],"index":[72,73,75,76,77,78,79,80,81,82,83,85,86,87,88,89,90,91,93,94,95,96,97,98,99,100,101,102,104,106,107,108,109,110,111,112,115,118,123,124,125,126,129,133,134,135,136,139,140,141]},"selected":{"id":"3513"},"selection_policy":{"id":"3514"}},"id":"3240","type":"ColumnDataSource"},{"attributes":{"fill_color":{"value":"red"},"line_color":{"value":"red"},"size":{"units":"screen","value":5},"x":{"field":"Deaths_rate"},"y":{"field":"Births_rate"}},"id":"3427","type":"Circle"},{"attributes":{"callback":null},"id":"3265","type":"TapTool"},{"attributes":{"data":{"Births":[166,100,99,333,239,336,395,447,393,136,276,58,84,490,51,195,30,47,193,246,322,77,85,77,198,386,17,51,194,12,201,135,108,223,70,178,119,226,207,191,322,225,106,345,183,168,63,244,13,411,210,225,44],"Births_rate":{"__ndarray__":"7+e2a0+RHUD0BZo5R9UZQNE1E0UDWBpAwtpMBtiCIUDCFlQxzk4eQCGEEEIIISBARWgFyjcjIkBOaPmMtQEfQO5NRQ/Ywx5Am7Fh+rSOIUCrWTSMSEYgQKRJhs2kkR9Ahx/p2Q9nGUCjH/b2S3AjQEu2qITCIRdAnnD3Rn14HUBv+5aQ/ccXQJRg5vHZ1RtADNvFO59QHkBuHQlrI0gfQOlxOo2dACJAh7OF8eteIEBTY8gjTO0dQA7RY2mqSxpAr5fgmXSgIEAtZCELWcggQD7e4z3e4x1AiBY8oABXHUCSHbOUsAEgQCD96Ec/+iFAMtazuxGXH0B02kQZhYshQDU+EWV1nBxA/XTgMu8qIUDPXwJXKRgjQPlvZB31NCBAs8oDkKzyIEB6BFHGWksfQDsjf0R24B9AOMY4fLy6IECPh0RqTN4gQGzVlWZCUR9AiPeC2P7sGkCAtyyTb/UgQLG8Yq9yex5AkTNh82BIIkAmeuk3bE8YQNEmAWVPJCBAx3Ecx3EcJ0BynKBKRJkhQNO6vHrkoiBA6AdHiyJDIkCqVFNPQx8jQA==","dtype":"float64","shape":[53]},"Deaths":[169,142,188,361,308,436,495,591,539,140,341,59,148,541,80,300,113,99,315,272,362,98,112,91,211,467,34,59,266,35,238,191,183,242,121,209,135,270,292,195,360,321,142,391,218,189,123,253,16,466,253,258,49],"Deaths_rate":{"__ndarray__":"3+JS4RoaHkDTHSNzbVciQJC5AvRnAylA+ZMgmMf7IkAOnDzMZYcjQKW3JzHp7SRAMs2oVLe6JkD5jRRqaX8kQHVfC3LdGCVAAmQ3eucSIkA7XF4reRskQAJWz8B9DiBAicwoTONgJkBq6CriPHYlQFnuH3yEJCJAA340D3SrJkAIcdKS22Q2QAQUeNDiUC1A0uXNaya9KED8iF5zQ0shQIpTXj8dPSRAOM01eebVJECUZeRocbcjQLSCpNmaEx9A01vZcuu3IUD1pje96U0kQD7e4z3e4y1AY2fIdZn4IEBvE2dae/IlQCRx3kicNzpAuHnx692zIkAzjkw+q9IoQCbxg65xPShA/oZnAmShIkABBs2kxIAwQGbimVqHByNAGugMdAY6I0Abwvcti7EiQNFhXSuweyZArwZGVW0UIUC8mg5P6dsiQMIDjXX6ViZAH7lXpAEJIkAI4WVASzgjQPeRbpL0JyJAA1rNEW2RJEDc3qD5PrsnQMqztj27vCBAHMdxHMdxLEA0L8NNKfQjQIxYbpHzCiRA7En1RtLwJEAyQW71ikslQA==","dtype":"float64","shape":[53]},"District":["Ciutat Vella","Ciutat Vella","Ciutat Vella","Eixample","Eixample","Eixample","Eixample","Eixample","Eixample","Gr\u00e0cia","Gr\u00e0cia","Gr\u00e0cia","Gr\u00e0cia","Gr\u00e0cia","Horta-Guinard\u00f3","Horta-Guinard\u00f3","Horta-Guinard\u00f3","Horta-Guinard\u00f3","Horta-Guinard\u00f3","Horta-Guinard\u00f3","Horta-Guinard\u00f3","Horta-Guinard\u00f3","Horta-Guinard\u00f3","Les Corts","Les Corts","Les Corts","Nou Barris","Nou Barris","Nou Barris","Nou Barris","Nou Barris","Nou Barris","Nou Barris","Nou Barris","Nou Barris","Sant Andreu","Sant Andreu","Sant Andreu","Sant Mart\u00ed","Sant Mart\u00ed","Sant Mart\u00ed","Sant Mart\u00ed","Sants-Montju\u00efc","Sants-Montju\u00efc","Sants-Montju\u00efc","Sants-Montju\u00efc","Sants-Montju\u00efc","Sants-Montju\u00efc","Sants-Montju\u00efc","Sarri\u00e0-Sant Gervasi","Sarri\u00e0-Sant Gervasi","Sarri\u00e0-Sant Gervasi","Sarri\u00e0-Sant Gervasi"],"Neighborhood":["Sant Pere, Santa Caterina i la Ribera","el Barri G\u00f2tic","la Barceloneta","Sant Antoni","el Fort Pienc","l'Antiga Esquerra de l'Eixample","la Dreta de l'Eixample","la Nova Esquerra de l'Eixample","la Sagrada Fam\u00edlia","Vallcarca i els Penitents","el Camp d'en Grassot i Gr\u00e0cia Nova","el Coll","la Salut","la Vila de Gr\u00e0cia","Can Bar\u00f3","Horta","Montbau","Sant Gen\u00eds dels Agudells","el Baix Guinard\u00f3","el Carmel","el Guinard\u00f3","la Font d'en Fargues","la Teixonera","Pedralbes","la Maternitat i Sant Ramon","les Corts","Can Peguera","Canyelles","Porta","Vallbona","Vilapicina i la Torre Llobeta","el Tur\u00f3 de la Peira","la Guineueta","la Prosperitat","la Trinitat Nova","Navas","el Congr\u00e9s i els Indians","la Sagrera","Sant Mart\u00ed de Proven\u00e7als","el Bes\u00f2s i el Maresme","el Camp de l'Arpa del Clot","la Verneda i la Pau","Hostafrancs","Sants","Sants - Badal","la Bordeta","la Font de la Guatlla","la Marina de Port","la Marina del Prat Vermell","Sant Gervasi - Galvany","Sant Gervasi - la Bonanova","Sarri\u00e0","Vallvidrera, el Tibidabo i les Planes"],"Population":{"__ndarray__":"okW28/10NkArhxbZzvcuQKrx0k1iEC5ATmIQWDkEQ0BeukkMAos/QKJFtvP91ERAukkMAivHRUCF61G4HtVMQCPb+X5qjElAlkOLbOf7LkAv3SQGgfVAQEw3iUFgZR1ATmIQWDl0KkCF61G4HjVJQBfZzvdToyFAZDvfT413OkDJdr6fGi8UQGq8dJMYBBtAnu+nxkt3OUDb+X5qvHQ/QG3n+6nx4kFAqvHSTWLQIkBGtvP91LgmQJMYBFYObSdA/tR46SbRN0AAAAAAAABHQDMzMzMzMwJAHVpkO9/PG0A9CtejcD04QFyPwvUoXPU/+n5qvHRzOUC6SQwCK8cuQKabxCCwMi5AtMh2vp/6OUCHFtnO91MdQJ7vp8ZL9zVAvHSTGAQWLEBQjZduEuM8QJqZmZmZ+TlAL90kBoHVNkAQWDm0yBZDQLByaJHtvDxAWDm0yHZ+L0AOLbKd71dEQN0kBoGVAzhAVOOlm8RgMkAIrBxaZLskQAisHFpkOz5AAAAAAAAA8j+0yHa+n1pHQOXQItv5PjlAarx0kxikOECcxCCwcmgSQA==","dtype":"float64","shape":[53]},"Positive_rate":{"__ndarray__":"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=","dtype":"int32","shape":[53]},"Year":[2015,2015,2015,2015,2015,2015,2015,2015,2015,2015,2015,2015,2015,2015,2015,2015,2015,2015,2015,2015,2015,2015,2015,2015,2015,2015,2015,2015,2015,2015,2015,2015,2015,2015,2015,2015,2015,2015,2015,2015,2015,2015,2015,2015,2015,2015,2015,2015,2015,2015,2015,2015,2015],"index":[0,1,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,23,24,26,27,28,29,30,32,34,36,37,38,39,40,43,46,47,51,52,53,57,59,60,61,62,63,64,65,66,67,68,69]},"selected":{"id":"3506"},"selection_policy":{"id":"3507"}},"id":"3238","type":"ColumnDataSource"},{"attributes":{},"id":"3255","type":"BasicTicker"},{"attributes":{"label":{"value":"Birth rate &lt; Death rate"},"renderers":[{"id":"3428"}]},"id":"3440","type":"LegendItem"},{"attributes":{},"id":"3252","type":"LinearScale"},{"attributes":{},"id":"3312","type":"DataRange1d"},{"attributes":{},"id":"3292","type":"BasicTicker"},{"attributes":{},"id":"3250","type":"LinearScale"},{"attributes":{"callback":null,"tooltips":[["District","@District"],["Neightborhood","@Neighborhood"],["Births","@Births"],["Deaths","@Deaths"]]},"id":"6841","type":"HoverTool"},{"attributes":{"source":{"id":"3239"}},"id":"3380","type":"CDSView"},{"attributes":{"overlay":{"id":"3335"}},"id":"3330","type":"PolySelectTool"},{"attributes":{"fill_color":{"value":"royalblue"},"line_color":{"value":"royalblue"},"size":{"units":"screen","value":5},"x":{"field":"Deaths_rate"},"y":{"field":"Births_rate"}},"id":"3343","type":"Circle"},{"attributes":{},"id":"3259","type":"BasicTicker"},{"attributes":{"axis_label":"Death per 1,000","formatter":{"id":"3351"},"ticker":{"id":"3255"}},"id":"3254","type":"LinearAxis"},{"attributes":{"text":"Births rate vs Deaths rate - 2016"},"id":"3277","type":"Title"},{"attributes":{"source":{"id":"3241"}},"id":"3413","type":"CDSView"},{"attributes":{},"id":"3382","type":"BasicTickFormatter"},{"attributes":{"source":{"id":"3242"}},"id":"3429","type":"CDSView"},{"attributes":{"axis":{"id":"3291"},"dimension":1,"ticker":null},"id":"3294","type":"Grid"},{"attributes":{"overlay":{"id":"3267"}},"id":"3262","type":"BoxSelectTool"},{"attributes":{"active_drag":"auto","active_inspect":"auto","active_multi":null,"active_scroll":"auto","active_tap":"auto","tools":[{"id":"3328"},{"id":"3329"},{"id":"3330"},{"id":"3331"},{"id":"3332"},{"id":"3447"},{"id":"3530"},{"id":"3864"},{"id":"4018"},{"id":"6989"}]},"id":"3336","type":"Toolbar"},{"attributes":{},"id":"3370","type":"UnionRenderers"},{"attributes":{"bottom_units":"screen","fill_alpha":0.5,"fill_color":"lightgrey","left_units":"screen","level":"overlay","line_alpha":1.0,"line_color":"black","line_dash":[4,4],"line_width":2,"render_mode":"css","right_units":"screen","top_units":"screen"},"id":"3333","type":"BoxAnnotation"},{"attributes":{"fill_alpha":0.5,"fill_color":"lightgrey","level":"overlay","line_alpha":1.0,"line_color":"black","line_dash":[4,4],"line_width":2,"xs_units":"screen","ys_units":"screen"},"id":"3335","type":"PolyAnnotation"}],"root_ids":["7066"]},"title":"Bokeh Application","version":"2.0.2"}}
+        </script>
+        <script type="text/javascript">
+          (function() {
+            var fn = function() {
+              Bokeh.safely(function() {
+                (function(root) {
+                  function embed_document(root) {
+                    
+                  var docs_json = document.getElementById('7823').textContent;
+                  var render_items = [{"docid":"67527701-2107-465a-8347-9867168bb8fb","root_ids":["7066"],"roots":{"7066":"26d6be52-4234-49a2-a427-af789be82371"}}];
+                  root.Bokeh.embed.embed_items(docs_json, render_items);
+                
+                  }
+                  if (root.Bokeh !== undefined) {
+                    embed_document(root);
+                  } else {
+                    var attempts = 0;
+                    var timer = setInterval(function(root) {
+                      if (root.Bokeh !== undefined) {
+                        clearInterval(timer);
+                        embed_document(root);
+                      } else {
+                        attempts++;
+                        if (attempts > 100) {
+                          clearInterval(timer);
+                          console.log("Bokeh: ERROR: Unable to run BokehJS code because BokehJS library is missing");
+                        }
+                      }
+                    }, 10, root)
+                  }
+                })(window);
+              });
+            };
+            if (document.readyState != "loading") fn();
+            else document.addEventListener("DOMContentLoaded", fn);
+          })();
+        </script>
+    
+  </body>
+  
+</html>
