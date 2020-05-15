@@ -1,0 +1,1461 @@
+﻿id_neighbourhood,neighbourhood,year,variable,Nominal ,Per_change_previous_year,Indexed
+1,el Raval,2015,Average renting price/m2,10.99526554,0,100
+2,el Barri GÃ²tic,2015,Average renting price/m2,11.28594367,0,100
+3,la Barceloneta,2015,Average renting price/m2,16.34166325,0,100
+4,"Sant Pere, Santa Caterina i la Ribera",2015,Average renting price/m2,12.68463515,0,100
+5,el Fort Pienc,2015,Average renting price/m2,10.89112138,0,100
+6,la Sagrada FamÃ­lia,2015,Average renting price/m2,11.1558409,0,100
+7,la Dreta de l'Eixample,2015,Average renting price/m2,11.20688837,0,100
+8,l'Antiga Esquerra de l'Eixample,2015,Average renting price/m2,11.36116911,0,100
+9,la Nova Esquerra de l'Eixample,2015,Average renting price/m2,11.11528246,0,100
+10,Sant Antoni,2015,Average renting price/m2,10.81830807,0,100
+11,el Poble Sec,2015,Average renting price/m2,11.08741123,0,100
+12,la Marina del Prat Vermell,2015,Average renting price/m2,6.745368782,0,100
+13,la Marina de Port,2015,Average renting price/m2,8.181765562,0,100
+14,la Font de la Guatlla,2015,Average renting price/m2,11.31359801,0,100
+15,Hostafrancs,2015,Average renting price/m2,11.02110653,0,100
+16,la Bordeta,2015,Average renting price/m2,9.837125044,0,100
+17,Sants - Badal,2015,Average renting price/m2,10.66500541,0,100
+18,Sants,2015,Average renting price/m2,10.91837064,0,100
+19,les Corts,2015,Average renting price/m2,11.70479844,0,100
+20,la Maternitat i Sant Ramon,2015,Average renting price/m2,11.3074443,0,100
+21,Pedralbes,2015,Average renting price/m2,13.99814613,0,100
+22,"Vallvidrera, el Tibidabo i les Planes",2015,Average renting price/m2,11.83107973,0,100
+23,SarriÃ ,2015,Average renting price/m2,14.35885174,0,100
+24,les Tres Torres,2015,Average renting price/m2,13.84954533,0,100
+25,Sant Gervasi - la Bonanova,2015,Average renting price/m2,12.60848538,0,100
+26,Sant Gervasi - Galvany,2015,Average renting price/m2,12.57543441,0,100
+27,el Putxet i el FarrÃ³,2015,Average renting price/m2,12.40915035,0,100
+28,Vallcarca i els Penitents,2015,Average renting price/m2,11.48385582,0,100
+29,el Coll,2015,Average renting price/m2,9.796145803,0,100
+30,la Salut,2015,Average renting price/m2,11.27114749,0,100
+31,la Vila de GrÃ cia,2015,Average renting price/m2,12.38740788,0,100
+32,el Camp d'en Grassot i GrÃ cia Nova,2015,Average renting price/m2,11.15889574,0,100
+33,el Baix GuinardÃ³,2015,Average renting price/m2,10.39178359,0,100
+34,Can BarÃ³,2015,Average renting price/m2,9.79793505,0,100
+35,el GuinardÃ³,2015,Average renting price/m2,10.27037557,0,100
+36,la Font d'en Fargues,2015,Average renting price/m2,10.74059389,0,100
+37,el Carmel,2015,Average renting price/m2,9.020963677,0,100
+38,la Teixonera,2015,Average renting price/m2,9.528552026,0,100
+39,Sant GenÃ­s dels Agudells,2015,Average renting price/m2,8.113678921,0,100
+40,Montbau,2015,Average renting price/m2,10.11384026,0,100
+41,la Vall d'Hebron,2015,Average renting price/m2,10.18980255,0,100
+42,la Clota,2015,Average renting price/m2,8,0,100
+43,Horta,2015,Average renting price/m2,9.565811726,0,100
+44,Vilapicina i la Torre Llobeta,2015,Average renting price/m2,9.416484236,0,100
+45,Porta,2015,Average renting price/m2,9.032325427,0,100
+46,el TurÃ³ de la Peira,2015,Average renting price/m2,8.361692096,0,100
+47,Can Peguera,2015,Average renting price/m2,,0,100
+48,la Guineueta,2015,Average renting price/m2,8.149233047,0,100
+49,Canyelles,2015,Average renting price/m2,7.325574898,0,100
+50,les Roquetes,2015,Average renting price/m2,8.745775402,0,100
+51,Verdun,2015,Average renting price/m2,9.12482748,0,100
+52,la Prosperitat,2015,Average renting price/m2,9.618338297,0,100
+53,la Trinitat Nova,2015,Average renting price/m2,8.788672621,0,100
+54,Torre BarÃ³,2015,Average renting price/m2,6.16116872,0,100
+55,Ciutat Meridiana,2015,Average renting price/m2,6.49323615,0,100
+56,Vallbona,2015,Average renting price/m2,5.9,0,100
+57,la Trinitat Vella,2015,Average renting price/m2,8.037393259,0,100
+58,BarÃ³ de Viver,2015,Average renting price/m2,4.852207873,0,100
+59,el Bon Pastor,2015,Average renting price/m2,8.817200178,0,100
+60,Sant Andreu,2015,Average renting price/m2,10.0820594,0,100
+61,la Sagrera,2015,Average renting price/m2,9.755325757,0,100
+62,el CongrÃ©s i els Indians,2015,Average renting price/m2,9.442247772,0,100
+63,Navas,2015,Average renting price/m2,9.766165311,0,100
+64,el Camp de l'Arpa del Clot,2015,Average renting price/m2,10.58149306,0,100
+65,el Clot,2015,Average renting price/m2,10.35747576,0,100
+66,el Parc i la Llacuna del Poblenou,2015,Average renting price/m2,11.45478915,0,100
+67,la Vila OlÃ­mpica del Poblenou,2015,Average renting price/m2,14.14362314,0,100
+68,el Poblenou,2015,Average renting price/m2,11.72832579,0,100
+69,Diagonal Mar i el Front MarÃ­tim del Poblenou,2015,Average renting price/m2,12.31791267,0,100
+70,el BesÃ²s i el Maresme,2015,Average renting price/m2,8.273355059,0,100
+71,ProvenÃ§als del Poblenou,2015,Average renting price/m2,9.979688198,0,100
+72,Sant MartÃ­ de ProvenÃ§als,2015,Average renting price/m2,9.347168551,0,100
+73,la Verneda i la Pau,2015,Average renting price/m2,8.970459819,0,100
+1,el Raval,2016,Average renting price/m2,12.25902654,0.114936833,111.4936833
+2,el Barri GÃ²tic,2016,Average renting price/m2,13.00960337,0.152726237,115.2726236
+3,la Barceloneta,2016,Average renting price/m2,18.184794,0.112787219,111.2787219
+4,"Sant Pere, Santa Caterina i la Ribera",2016,Average renting price/m2,14.03163431,0.106191399,110.61914
+5,el Fort Pienc,2016,Average renting price/m2,11.72079471,0.076178871,107.6178871
+6,la Sagrada FamÃ­lia,2016,Average renting price/m2,12.19572807,0.093214593,109.3214593
+7,la Dreta de l'Eixample,2016,Average renting price/m2,12.79433337,0.141649041,114.1649042
+8,l'Antiga Esquerra de l'Eixample,2016,Average renting price/m2,12.66568203,0.114822067,111.4822067
+9,la Nova Esquerra de l'Eixample,2016,Average renting price/m2,12.33891277,0.1100854,111.0085399
+10,Sant Antoni,2016,Average renting price/m2,12.04082384,0.113004341,111.3004341
+11,el Poble Sec,2016,Average renting price/m2,12.26308096,0.10603645,110.603645
+12,la Marina del Prat Vermell,2016,Average renting price/m2,7,0.037749043,103.7749043
+13,la Marina de Port,2016,Average renting price/m2,8.849745642,0.081642535,108.1642535
+14,la Font de la Guatlla,2016,Average renting price/m2,11.97956592,0.058864378,105.8864378
+15,Hostafrancs,2016,Average renting price/m2,12.12145608,0.099840206,109.9840206
+16,la Bordeta,2016,Average renting price/m2,10.84759696,0.102720248,110.2720247
+17,Sants - Badal,2016,Average renting price/m2,11.71737991,0.098675477,109.8675477
+18,Sants,2016,Average renting price/m2,11.84104701,0.084506783,108.4506782
+19,les Corts,2016,Average renting price/m2,12.96509637,0.107673612,110.7673612
+20,la Maternitat i Sant Ramon,2016,Average renting price/m2,12.86907502,0.138106426,113.8106426
+21,Pedralbes,2016,Average renting price/m2,14.66998807,0.047995065,104.7995065
+22,"Vallvidrera, el Tibidabo i les Planes",2016,Average renting price/m2,15.07277533,0.273998288,127.3998289
+23,SarriÃ ,2016,Average renting price/m2,15.95128635,0.110902643,111.0902643
+24,les Tres Torres,2016,Average renting price/m2,15.66880707,0.13135895,113.1358951
+25,Sant Gervasi - la Bonanova,2016,Average renting price/m2,14.19946932,0.12618359,112.6183589
+26,Sant Gervasi - Galvany,2016,Average renting price/m2,13.74697781,0.093161267,109.3161267
+27,el Putxet i el FarrÃ³,2016,Average renting price/m2,13.73949931,0.107207095,110.7207095
+28,Vallcarca i els Penitents,2016,Average renting price/m2,12.5881636,0.09616176,109.6161759
+29,el Coll,2016,Average renting price/m2,11.21304094,0.14463802,114.463802
+30,la Salut,2016,Average renting price/m2,12.06073424,0.070053803,107.0053803
+31,la Vila de GrÃ cia,2016,Average renting price/m2,13.43733515,0.084757626,108.4757625
+32,el Camp d'en Grassot i GrÃ cia Nova,2016,Average renting price/m2,12.44422925,0.115184651,111.5184651
+33,el Baix GuinardÃ³,2016,Average renting price/m2,11.44372042,0.101227746,110.1227746
+34,Can BarÃ³,2016,Average renting price/m2,11.43768435,0.167356621,116.7356621
+35,el GuinardÃ³,2016,Average renting price/m2,11.11409716,0.082150997,108.2150997
+36,la Font d'en Fargues,2016,Average renting price/m2,11.94302315,0.111951841,111.1951841
+37,el Carmel,2016,Average renting price/m2,9.809959817,0.087462512,108.7462512
+38,la Teixonera,2016,Average renting price/m2,10.05756208,0.05551841,105.551841
+39,Sant GenÃ­s dels Agudells,2016,Average renting price/m2,8.696301646,0.071807466,107.1807466
+40,Montbau,2016,Average renting price/m2,10.12357736,0.00096275,100.096275
+41,la Vall d'Hebron,2016,Average renting price/m2,11.14084608,0.093332872,109.3332871
+42,la Clota,2016,Average renting price/m2,,,0
+43,Horta,2016,Average renting price/m2,10.61238282,0.109407453,110.9407453
+44,Vilapicina i la Torre Llobeta,2016,Average renting price/m2,10.5157019,0.116733341,111.6733341
+45,Porta,2016,Average renting price/m2,10.03412592,0.110912798,111.0912799
+46,el TurÃ³ de la Peira,2016,Average renting price/m2,9.419744969,0.126535737,112.6535737
+47,Can Peguera,2016,Average renting price/m2,10.5,,
+48,la Guineueta,2016,Average renting price/m2,8.770956742,0.076292296,107.6292295
+49,Canyelles,2016,Average renting price/m2,8.046115348,0.098359577,109.8359577
+50,les Roquetes,2016,Average renting price/m2,9.352453918,0.069368179,106.9368179
+51,Verdun,2016,Average renting price/m2,10.08865408,0.10562683,110.562683
+52,la Prosperitat,2016,Average renting price/m2,10.19616928,0.060075968,106.0075968
+53,la Trinitat Nova,2016,Average renting price/m2,8.631081955,-0.017931111,98.20688888
+54,Torre BarÃ³,2016,Average renting price/m2,7.681712943,0.246794771,124.6794771
+55,Ciutat Meridiana,2016,Average renting price/m2,6.848551426,0.054720831,105.4720831
+56,Vallbona,2016,Average renting price/m2,7.1,0.203389831,120.3389831
+57,la Trinitat Vella,2016,Average renting price/m2,8.439180798,0.049989782,104.9989782
+58,BarÃ³ de Viver,2016,Average renting price/m2,3.487119155,-0.281333519,71.86664806
+59,el Bon Pastor,2016,Average renting price/m2,8.767059871,-0.005686647,99.43133528
+60,Sant Andreu,2016,Average renting price/m2,10.91681532,0.082796172,108.2796172
+61,la Sagrera,2016,Average renting price/m2,10.47032634,0.073293358,107.3293358
+62,el CongrÃ©s i els Indians,2016,Average renting price/m2,10.40744322,0.10222094,110.2220941
+63,Navas,2016,Average renting price/m2,10.7560226,0.101355779,110.1355779
+64,el Camp de l'Arpa del Clot,2016,Average renting price/m2,11.66386588,0.102289234,110.2289234
+65,el Clot,2016,Average renting price/m2,11.15960786,0.077444747,107.7444748
+66,el Parc i la Llacuna del Poblenou,2016,Average renting price/m2,12.68619816,0.107501674,110.7501674
+67,la Vila OlÃ­mpica del Poblenou,2016,Average renting price/m2,16.15281861,0.142056632,114.2056632
+68,el Poblenou,2016,Average renting price/m2,12.76238066,0.088167304,108.8167304
+69,Diagonal Mar i el Front MarÃ­tim del Poblenou,2016,Average renting price/m2,14.16829655,0.150218948,115.0218948
+70,el BesÃ²s i el Maresme,2016,Average renting price/m2,8.772889791,0.060378737,106.0378737
+71,ProvenÃ§als del Poblenou,2016,Average renting price/m2,11.76339912,0.178734133,117.8734133
+72,Sant MartÃ­ de ProvenÃ§als,2016,Average renting price/m2,9.98933796,0.068702025,106.8702025
+73,la Verneda i la Pau,2016,Average renting price/m2,9.149316882,0.01993845,101.993845
+1,el Raval,2017,Average renting price/m2,13.89588515,0.133522723,113.3522723
+2,el Barri GÃ²tic,2017,Average renting price/m2,14.17280448,0.089410958,108.9410959
+3,la Barceloneta,2017,Average renting price/m2,19.84780516,0.091450646,109.1450646
+4,"Sant Pere, Santa Caterina i la Ribera",2017,Average renting price/m2,15.71833271,0.120206838,112.0206839
+5,el Fort Pienc,2017,Average renting price/m2,13.06937353,0.11505865,111.505865
+6,la Sagrada FamÃ­lia,2017,Average renting price/m2,13.29646957,0.090256317,109.0256317
+7,la Dreta de l'Eixample,2017,Average renting price/m2,13.49212862,0.054539399,105.4539399
+8,l'Antiga Esquerra de l'Eixample,2017,Average renting price/m2,13.67070598,0.079350164,107.9350164
+9,la Nova Esquerra de l'Eixample,2017,Average renting price/m2,13.49497921,0.093692731,109.3692731
+10,Sant Antoni,2017,Average renting price/m2,12.96835345,0.077032072,107.7032072
+11,el Poble Sec,2017,Average renting price/m2,13.64288025,0.112516528,111.2516528
+12,la Marina del Prat Vermell,2017,Average renting price/m2,,,0
+13,la Marina de Port,2017,Average renting price/m2,10.33999113,0.16839416,116.839416
+14,la Font de la Guatlla,2017,Average renting price/m2,12.94179183,0.080322269,108.0322268
+15,Hostafrancs,2017,Average renting price/m2,12.83981079,0.059263071,105.9263071
+16,la Bordeta,2017,Average renting price/m2,11.90381322,0.097368686,109.7368686
+17,Sants - Badal,2017,Average renting price/m2,13.14838389,0.122126618,112.2126618
+18,Sants,2017,Average renting price/m2,13.14724278,0.110310834,111.0310834
+19,les Corts,2017,Average renting price/m2,14.26836994,0.100521703,110.0521703
+20,la Maternitat i Sant Ramon,2017,Average renting price/m2,13.34897416,0.03729088,103.7290881
+21,Pedralbes,2017,Average renting price/m2,16.11347461,0.098397254,109.8397254
+22,"Vallvidrera, el Tibidabo i les Planes",2017,Average renting price/m2,16.10878172,0.068733619,106.8733619
+23,SarriÃ ,2017,Average renting price/m2,17.43349482,0.092920936,109.2920937
+24,les Tres Torres,2017,Average renting price/m2,16.8245987,0.073763856,107.3763856
+25,Sant Gervasi - la Bonanova,2017,Average renting price/m2,15.3094847,0.078173018,107.8173019
+26,Sant Gervasi - Galvany,2017,Average renting price/m2,14.59671028,0.061812311,106.1812311
+27,el Putxet i el FarrÃ³,2017,Average renting price/m2,14.81666617,0.07839928,107.839928
+28,Vallcarca i els Penitents,2017,Average renting price/m2,14.12405562,0.122010808,112.2010809
+29,el Coll,2017,Average renting price/m2,12.38466789,0.104487887,110.4487887
+30,la Salut,2017,Average renting price/m2,12.4043886,0.028493652,102.8493652
+31,la Vila de GrÃ cia,2017,Average renting price/m2,15.02443911,0.118111511,111.8111511
+32,el Camp d'en Grassot i GrÃ cia Nova,2017,Average renting price/m2,13.5435542,0.08834014,108.834014
+33,el Baix GuinardÃ³,2017,Average renting price/m2,12.5954629,0.10064406,110.064406
+34,Can BarÃ³,2017,Average renting price/m2,12.39651231,0.083830602,108.3830602
+35,el GuinardÃ³,2017,Average renting price/m2,12.29608677,0.106350484,110.6350484
+36,la Font d'en Fargues,2017,Average renting price/m2,13.10892102,0.09762167,109.762167
+37,el Carmel,2017,Average renting price/m2,10.99408661,0.12070659,112.070659
+38,la Teixonera,2017,Average renting price/m2,11.14405583,0.108027546,110.8027546
+39,Sant GenÃ­s dels Agudells,2017,Average renting price/m2,9.493414207,0.091661099,109.1661098
+40,Montbau,2017,Average renting price/m2,12.4803772,0.232803065,123.2803065
+41,la Vall d'Hebron,2017,Average renting price/m2,12.01333712,0.078314612,107.8314612
+42,la Clota,2017,Average renting price/m2,,,
+43,Horta,2017,Average renting price/m2,11.64269343,0.097085699,109.70857
+44,Vilapicina i la Torre Llobeta,2017,Average renting price/m2,11.34701611,0.079054563,107.9054562
+45,Porta,2017,Average renting price/m2,10.76923609,0.073261007,107.3261007
+46,el TurÃ³ de la Peira,2017,Average renting price/m2,10.57050438,0.122164604,112.2164604
+47,Can Peguera,2017,Average renting price/m2,11.7,0.114285714,111.4285714
+48,la Guineueta,2017,Average renting price/m2,9.318484132,0.062425047,106.2425047
+49,Canyelles,2017,Average renting price/m2,8.616553826,0.070896135,107.0896135
+50,les Roquetes,2017,Average renting price/m2,10.13605537,0.083785652,108.3785652
+51,Verdun,2017,Average renting price/m2,11.09098264,0.099352059,109.9352059
+52,la Prosperitat,2017,Average renting price/m2,11.24607964,0.10297106,110.297106
+53,la Trinitat Nova,2017,Average renting price/m2,10.59396437,0.227420203,122.7420204
+54,Torre BarÃ³,2017,Average renting price/m2,7.096672381,-0.07616017,92.38398302
+55,Ciutat Meridiana,2017,Average renting price/m2,7.572605533,0.105723687,110.5723687
+56,Vallbona,2017,Average renting price/m2,4.5,-0.366197183,63.38028169
+57,la Trinitat Vella,2017,Average renting price/m2,9.132276146,0.082128273,108.2128273
+58,BarÃ³ de Viver,2017,Average renting price/m2,,,0
+59,el Bon Pastor,2017,Average renting price/m2,9.412733798,0.073647715,107.3647715
+60,Sant Andreu,2017,Average renting price/m2,12.29773375,0.126494622,112.6494622
+61,la Sagrera,2017,Average renting price/m2,10.77593132,0.029187722,102.9187723
+62,el CongrÃ©s i els Indians,2017,Average renting price/m2,11.36933511,0.092423458,109.2423458
+63,Navas,2017,Average renting price/m2,11.4071093,0.060532292,106.0532292
+64,el Camp de l'Arpa del Clot,2017,Average renting price/m2,12.94837661,0.110127358,111.0127358
+65,el Clot,2017,Average renting price/m2,12.44890031,0.115532057,111.5532057
+66,el Parc i la Llacuna del Poblenou,2017,Average renting price/m2,13.7643825,0.084988767,108.4988767
+67,la Vila OlÃ­mpica del Poblenou,2017,Average renting price/m2,17.09476541,0.058314702,105.8314702
+68,el Poblenou,2017,Average renting price/m2,13.94608734,0.092749677,109.2749677
+69,Diagonal Mar i el Front MarÃ­tim del Poblenou,2017,Average renting price/m2,16.04681791,0.132586254,113.2586254
+70,el BesÃ²s i el Maresme,2017,Average renting price/m2,9.944845371,0.133588317,113.3588317
+71,ProvenÃ§als del Poblenou,2017,Average renting price/m2,12.97069505,0.102631554,110.2631554
+72,Sant MartÃ­ de ProvenÃ§als,2017,Average renting price/m2,10.87213291,0.08837372,108.8373719
+73,la Verneda i la Pau,2017,Average renting price/m2,10.17244776,0.111825931,111.1825931
+1,el Raval,2018,Average renting price/m2,13.99891821,0.007414646,100.7414645
+2,el Barri GÃ²tic,2018,Average renting price/m2,13.76965999,-0.028444934,97.15550659
+3,la Barceloneta,2018,Average renting price/m2,16.92017759,-0.147503845,85.24961553
+4,"Sant Pere, Santa Caterina i la Ribera",2018,Average renting price/m2,15.02376232,-0.044188554,95.58114462
+5,el Fort Pienc,2018,Average renting price/m2,13.11900781,0.003797755,100.3797755
+6,la Sagrada FamÃ­lia,2018,Average renting price/m2,13.69671493,0.030101627,103.0101626
+7,la Dreta de l'Eixample,2018,Average renting price/m2,13.93979054,0.033179489,103.3179488
+8,l'Antiga Esquerra de l'Eixample,2018,Average renting price/m2,14.04559312,0.027422662,102.7422661
+9,la Nova Esquerra de l'Eixample,2018,Average renting price/m2,13.89728865,0.029811786,102.9811787
+10,Sant Antoni,2018,Average renting price/m2,13.17129254,0.015648794,101.5648794
+11,el Poble Sec,2018,Average renting price/m2,13.84682062,0.014948483,101.4948483
+12,la Marina del Prat Vermell,2018,Average renting price/m2,,,
+13,la Marina de Port,2018,Average renting price/m2,10.56977126,0.022222469,102.2222469
+14,la Font de la Guatlla,2018,Average renting price/m2,12.34868402,-0.045828879,95.41711211
+15,Hostafrancs,2018,Average renting price/m2,13.52253486,0.053172439,105.317244
+16,la Bordeta,2018,Average renting price/m2,12.11750851,0.017951834,101.7951835
+17,Sants - Badal,2018,Average renting price/m2,13.02009163,-0.009757264,99.02427355
+18,Sants,2018,Average renting price/m2,13.12206906,-0.001914753,99.80852472
+19,les Corts,2018,Average renting price/m2,14.79864859,0.037164627,103.7164627
+20,la Maternitat i Sant Ramon,2018,Average renting price/m2,13.5736381,0.016830053,101.6830053
+21,Pedralbes,2018,Average renting price/m2,15.6579713,-0.028268472,97.17315277
+22,"Vallvidrera, el Tibidabo i les Planes",2018,Average renting price/m2,12.01040128,-0.254419019,74.55809812
+23,SarriÃ ,2018,Average renting price/m2,17.15775588,-0.015816619,98.41833813
+24,les Tres Torres,2018,Average renting price/m2,16.42463954,-0.023772285,97.62277147
+25,Sant Gervasi - la Bonanova,2018,Average renting price/m2,16.09890715,0.051564273,105.1564273
+26,Sant Gervasi - Galvany,2018,Average renting price/m2,14.79647427,0.013685549,101.3685549
+27,el Putxet i el FarrÃ³,2018,Average renting price/m2,14.59503252,-0.014958403,98.50415979
+28,Vallcarca i els Penitents,2018,Average renting price/m2,13.56634632,-0.039486484,96.05135157
+29,el Coll,2018,Average renting price/m2,12.19371422,-0.015418554,98.45814461
+30,la Salut,2018,Average renting price/m2,12.78947257,0.031044172,103.1044172
+31,la Vila de GrÃ cia,2018,Average renting price/m2,14.59914379,-0.028306902,97.16930984
+32,el Camp d'en Grassot i GrÃ cia Nova,2018,Average renting price/m2,13.84735055,0.022431065,102.2431065
+33,el Baix GuinardÃ³,2018,Average renting price/m2,12.64990119,0.004322055,100.4322056
+34,Can BarÃ³,2018,Average renting price/m2,12.11803049,-0.02246453,97.75354702
+35,el GuinardÃ³,2018,Average renting price/m2,12.07160191,-0.01825661,98.17433901
+36,la Font d'en Fargues,2018,Average renting price/m2,12.0338203,-0.082012907,91.7987093
+37,el Carmel,2018,Average renting price/m2,11.34812753,0.03220285,103.220285
+38,la Teixonera,2018,Average renting price/m2,12.06707712,0.082826334,108.2826334
+39,Sant GenÃ­s dels Agudells,2018,Average renting price/m2,9.674126176,0.019035509,101.9035509
+40,Montbau,2018,Average renting price/m2,10.98612705,-0.119727964,88.02720362
+41,la Vall d'Hebron,2018,Average renting price/m2,12.29858691,0.023744425,102.3744426
+42,la Clota,2018,Average renting price/m2,,,
+43,Horta,2018,Average renting price/m2,11.81992935,0.015222931,101.5222931
+44,Vilapicina i la Torre Llobeta,2018,Average renting price/m2,11.54426185,0.017383049,101.7383049
+45,Porta,2018,Average renting price/m2,11.42079802,0.060502149,106.0502149
+46,el TurÃ³ de la Peira,2018,Average renting price/m2,11.29865661,0.068885287,106.8885287
+47,Can Peguera,2018,Average renting price/m2,,,0
+48,la Guineueta,2018,Average renting price/m2,10.04205397,0.077648879,107.7648878
+49,Canyelles,2018,Average renting price/m2,9.464425401,0.098400311,109.8400311
+50,les Roquetes,2018,Average renting price/m2,11.21966276,0.106906223,110.6906222
+51,Verdun,2018,Average renting price/m2,11.64860492,0.050277086,105.0277085
+52,la Prosperitat,2018,Average renting price/m2,11.74298075,0.044184384,104.4184385
+53,la Trinitat Nova,2018,Average renting price/m2,11.94573088,0.127597797,112.7597797
+54,Torre BarÃ³,2018,Average renting price/m2,7.2,0.01456001,101.456001
+55,Ciutat Meridiana,2018,Average renting price/m2,8.722298194,0.1518226,115.18226
+56,Vallbona,2018,Average renting price/m2,,,0
+57,la Trinitat Vella,2018,Average renting price/m2,9.993592945,0.094315676,109.4315676
+58,BarÃ³ de Viver,2018,Average renting price/m2,7.6,,
+59,el Bon Pastor,2018,Average renting price/m2,10.81898281,0.149398575,114.9398575
+60,Sant Andreu,2018,Average renting price/m2,11.8972685,-0.03256415,96.74358497
+61,la Sagrera,2018,Average renting price/m2,11.8697795,0.101508459,110.1508459
+62,el CongrÃ©s i els Indians,2018,Average renting price/m2,11.92029933,0.048460549,104.8460549
+63,Navas,2018,Average renting price/m2,12.02471348,0.054142041,105.4142041
+64,el Camp de l'Arpa del Clot,2018,Average renting price/m2,13.01899565,0.005453891,100.5453891
+65,el Clot,2018,Average renting price/m2,12.54789522,0.007952101,100.7952101
+66,el Parc i la Llacuna del Poblenou,2018,Average renting price/m2,13.99052789,0.016429752,101.6429752
+67,la Vila OlÃ­mpica del Poblenou,2018,Average renting price/m2,16.84606753,-0.014548189,98.54518109
+68,el Poblenou,2018,Average renting price/m2,14.47216649,0.037722347,103.7722347
+69,Diagonal Mar i el Front MarÃ­tim del Poblenou,2018,Average renting price/m2,15.80541555,-0.015043628,98.4956372
+70,el BesÃ²s i el Maresme,2018,Average renting price/m2,10.94330425,0.100399639,110.0399638
+71,ProvenÃ§als del Poblenou,2018,Average renting price/m2,13.66765798,0.053733661,105.3733661
+72,Sant MartÃ­ de ProvenÃ§als,2018,Average renting price/m2,11.51462111,0.076145784,105.9094955
+73,la Verneda i la Pau,2018,Average renting price/m2,11.1378976,0.1305047,109.4908311
+1,el Raval,2019,Average renting price/m2,14.32214682,0.023089541,102.3089542
+2,el Barri GÃ²tic,2019,Average renting price/m2,14.27387957,0.036618157,103.6618158
+3,la Barceloneta,2019,Average renting price/m2,17.39211951,0.027892256,102.7892256
+4,"Sant Pere, Santa Caterina i la Ribera",2019,Average renting price/m2,15.16884802,0.009657082,100.9657082
+5,el Fort Pienc,2019,Average renting price/m2,13.99553489,0.066813519,106.6813519
+6,la Sagrada FamÃ­lia,2019,Average renting price/m2,14.47476296,0.056805448,105.6805448
+7,la Dreta de l'Eixample,2019,Average renting price/m2,14.39198483,0.032439102,103.2439102
+8,l'Antiga Esquerra de l'Eixample,2019,Average renting price/m2,14.47216649,0.03037062,103.037062
+9,la Nova Esquerra de l'Eixample,2019,Average renting price/m2,14.49528288,0.043029561,104.3029561
+10,Sant Antoni,2019,Average renting price/m2,13.87475273,0.053408592,105.3408592
+11,el Poble Sec,2019,Average renting price/m2,14.34956444,0.036307528,103.6307527
+12,la Marina del Prat Vermell,2019,Average renting price/m2,7.1,,
+13,la Marina de Port,2019,Average renting price/m2,10.81214881,0.022931202,102.2931201
+14,la Font de la Guatlla,2019,Average renting price/m2,12.82414425,0.038502906,103.8502907
+15,Hostafrancs,2019,Average renting price/m2,13.84605864,0.023924788,102.3924788
+16,la Bordeta,2019,Average renting price/m2,12.77006954,0.05385274,105.385274
+17,Sants - Badal,2019,Average renting price/m2,13.79710054,0.059677683,105.9677684
+18,Sants,2019,Average renting price/m2,13.84972793,0.055453059,105.5453059
+19,les Corts,2019,Average renting price/m2,15.0219343,0.01508825,101.508825
+20,la Maternitat i Sant Ramon,2019,Average renting price/m2,14.38749457,0.05995861,105.995861
+21,Pedralbes,2019,Average renting price/m2,15.66351802,0.000354242,100.0354243
+22,"Vallvidrera, el Tibidabo i les Planes",2019,Average renting price/m2,13.67450885,0.138555534,113.8555535
+23,SarriÃ ,2019,Average renting price/m2,16.82164888,-0.019589217,98.04107832
+24,les Tres Torres,2019,Average renting price/m2,17.02125194,0.036324231,103.6324231
+25,Sant Gervasi - la Bonanova,2019,Average renting price/m2,16.01916172,-0.004953468,99.50465315
+26,Sant Gervasi - Galvany,2019,Average renting price/m2,15.23995644,0.029972152,102.9972152
+27,el Putxet i el FarrÃ³,2019,Average renting price/m2,15.02426992,0.029409829,102.9409828
+28,Vallcarca i els Penitents,2019,Average renting price/m2,14.02171502,0.033566053,103.3566053
+29,el Coll,2019,Average renting price/m2,12.66961553,0.039028413,103.9028413
+30,la Salut,2019,Average renting price/m2,13.11964194,0.025815714,102.5815714
+31,la Vila de GrÃ cia,2019,Average renting price/m2,15.09638296,0.034059474,103.4059475
+32,el Camp d'en Grassot i GrÃ cia Nova,2019,Average renting price/m2,14.71944977,0.0629795,106.29795
+33,el Baix GuinardÃ³,2019,Average renting price/m2,13.43806424,0.062305866,106.2305866
+34,Can BarÃ³,2019,Average renting price/m2,13.39792213,0.105618784,110.5618784
+35,el GuinardÃ³,2019,Average renting price/m2,12.92007059,0.070286338,107.0286337
+36,la Font d'en Fargues,2019,Average renting price/m2,12.84736825,0.067605127,106.7605127
+37,el Carmel,2019,Average renting price/m2,12.1160825,0.067672395,106.7672395
+38,la Teixonera,2019,Average renting price/m2,12.53775976,0.039005522,103.9005522
+39,Sant GenÃ­s dels Agudells,2019,Average renting price/m2,10.68164783,0.104146011,110.4146011
+40,Montbau,2019,Average renting price/m2,11.8972685,0.082935638,108.2935637
+41,la Vall d'Hebron,2019,Average renting price/m2,13.26539887,0.07861163,107.861163
+42,la Clota,2019,Average renting price/m2,,,
+43,Horta,2019,Average renting price/m2,12.42171123,0.050912477,105.0912477
+44,Vilapicina i la Torre Llobeta,2019,Average renting price/m2,12.14866235,0.052355058,105.2355058
+45,Porta,2019,Average renting price/m2,12.29154047,0.076241823,107.6241822
+46,el TurÃ³ de la Peira,2019,Average renting price/m2,11.69724316,0.03527734,103.527734
+47,Can Peguera,2019,Average renting price/m2,,,
+48,la Guineueta,2019,Average renting price/m2,10.50721478,0.046321281,104.6321282
+49,Canyelles,2019,Average renting price/m2,9.474370151,0.001050751,100.1050751
+50,les Roquetes,2019,Average renting price/m2,11.27009253,0.004494767,100.4494767
+51,Verdun,2019,Average renting price/m2,12.09245212,0.038103034,103.8103035
+52,la Prosperitat,2019,Average renting price/m2,12.04539798,0.025753021,102.5753021
+53,la Trinitat Nova,2019,Average renting price/m2,12.1160825,0.01426046,101.426046
+54,Torre BarÃ³,2019,Average renting price/m2,,,0
+55,Ciutat Meridiana,2019,Average renting price/m2,9.646515039,0.105960244,110.5960244
+56,Vallbona,2019,Average renting price/m2,,,
+57,la Trinitat Vella,2019,Average renting price/m2,10.04898164,0.005542421,100.5542421
+58,BarÃ³ de Viver,2019,Average renting price/m2,,,0
+59,el Bon Pastor,2019,Average renting price/m2,10.49523624,-0.029923939,97.00760621
+60,Sant Andreu,2019,Average renting price/m2,12.49859016,0.050542833,105.0542833
+61,la Sagrera,2019,Average renting price/m2,12.67123787,0.067520914,106.7520915
+62,el CongrÃ©s i els Indians,2019,Average renting price/m2,12.07026968,0.012581089,101.2581089
+63,Navas,2019,Average renting price/m2,12.42154077,0.033000977,103.3000977
+64,el Camp de l'Arpa del Clot,2019,Average renting price/m2,13.52196144,0.038633225,103.8633225
+65,el Clot,2019,Average renting price/m2,13.21988073,0.053553644,105.3553644
+66,el Parc i la Llacuna del Poblenou,2019,Average renting price/m2,14.96977097,0.06999329,106.999329
+67,la Vila OlÃ­mpica del Poblenou,2019,Average renting price/m2,17.52237272,0.040146176,104.0146176
+68,el Poblenou,2019,Average renting price/m2,15.0872832,0.04250343,104.250343
+69,Diagonal Mar i el Front MarÃ­tim del Poblenou,2019,Average renting price/m2,17.31168074,0.095300575,109.5300575
+70,el BesÃ²s i el Maresme,2019,Average renting price/m2,11.34002257,0.036252151,103.6252151
+71,ProvenÃ§als del Poblenou,2019,Average renting price/m2,14.09519377,0.031280838,103.1280838
+72,Sant MartÃ­ de ProvenÃ§als,2019,Average renting price/m2,11.92407942,0.051538462,103.555986
+73,la Verneda i la Pau,2019,Average renting price/m2,11.47296531,0.053478261,103.0083569
+1,el Raval,2015,Average airbnb listings,1547,0,100
+2,el Barri GÃ²tic,2015,Average airbnb listings,1259.5,0,100
+3,la Barceloneta,2015,Average airbnb listings,361.75,0,100
+4,"Sant Pere, Santa Caterina i la Ribera",2015,Average airbnb listings,1280.25,0,100
+5,el Fort Pienc,2015,Average airbnb listings,560.25,0,100
+6,la Sagrada FamÃ­lia,2015,Average airbnb listings,877,0,100
+7,la Dreta de l'Eixample,2015,Average airbnb listings,1430.75,0,100
+8,l'Antiga Esquerra de l'Eixample,2015,Average airbnb listings,1009,0,100
+9,la Nova Esquerra de l'Eixample,2015,Average airbnb listings,702.75,0,100
+10,Sant Antoni,2015,Average airbnb listings,888,0,100
+11,el Poble Sec,2015,Average airbnb listings,935,0,100
+12,la Marina del Prat Vermell,2015,Average airbnb listings,6.5,0,100
+13,la Marina de Port,2015,Average airbnb listings,40,0,100
+14,la Font de la Guatlla,2015,Average airbnb listings,72.5,0,100
+15,Hostafrancs,2015,Average airbnb listings,154.75,0,100
+16,la Bordeta,2015,Average airbnb listings,64.25,0,100
+17,Sants - Badal,2015,Average airbnb listings,87.25,0,100
+18,Sants,2015,Average airbnb listings,239.25,0,100
+19,les Corts,2015,Average airbnb listings,171,0,100
+20,la Maternitat i Sant Ramon,2015,Average airbnb listings,113.75,0,100
+21,Pedralbes,2015,Average airbnb listings,18.75,0,100
+22,"Vallvidrera, el Tibidabo i les Planes",2015,Average airbnb listings,33.25,0,100
+23,SarriÃ ,2015,Average airbnb listings,52.25,0,100
+24,les Tres Torres,2015,Average airbnb listings,35.25,0,100
+25,Sant Gervasi - la Bonanova,2015,Average airbnb listings,75.75,0,100
+26,Sant Gervasi - Galvany,2015,Average airbnb listings,294.75,0,100
+27,el Putxet i el FarrÃ³,2015,Average airbnb listings,258,0,100
+28,Vallcarca i els Penitents,2015,Average airbnb listings,95.75,0,100
+29,el Coll,2015,Average airbnb listings,34,0,100
+30,la Salut,2015,Average airbnb listings,107,0,100
+31,la Vila de GrÃ cia,2015,Average airbnb listings,1172.25,0,100
+32,el Camp d'en Grassot i GrÃ cia Nova,2015,Average airbnb listings,358.25,0,100
+33,el Baix GuinardÃ³,2015,Average airbnb listings,141.5,0,100
+34,Can BarÃ³,2015,Average airbnb listings,47.75,0,100
+35,el GuinardÃ³,2015,Average airbnb listings,167.5,0,100
+36,la Font d'en Fargues,2015,Average airbnb listings,22,0,100
+37,el Carmel,2015,Average airbnb listings,47.75,0,100
+38,la Teixonera,2015,Average airbnb listings,18.5,0,100
+39,Sant GenÃ­s dels Agudells,2015,Average airbnb listings,13,0,100
+40,Montbau,2015,Average airbnb listings,10,0,100
+41,la Vall d'Hebron,2015,Average airbnb listings,9,0,100
+42,la Clota,2015,Average airbnb listings,2.5,0,100
+43,Horta,2015,Average airbnb listings,40,0,100
+44,Vilapicina i la Torre Llobeta,2015,Average airbnb listings,43,0,100
+45,Porta,2015,Average airbnb listings,28.75,0,100
+46,el TurÃ³ de la Peira,2015,Average airbnb listings,11.5,0,100
+47,Can Peguera,2015,Average airbnb listings,1,0,100
+48,la Guineueta,2015,Average airbnb listings,13,0,100
+49,Canyelles,2015,Average airbnb listings,9.75,0,100
+50,les Roquetes,2015,Average airbnb listings,15.25,0,100
+51,Verdun,2015,Average airbnb listings,17,0,100
+52,la Prosperitat,2015,Average airbnb listings,23.75,0,100
+53,la Trinitat Nova,2015,Average airbnb listings,2.666666667,0,100
+54,Torre BarÃ³,2015,Average airbnb listings,5,0,100
+55,Ciutat Meridiana,2015,Average airbnb listings,5.75,0,100
+56,Vallbona,2015,Average airbnb listings,4,0,100
+57,la Trinitat Vella,2015,Average airbnb listings,4,0,100
+58,BarÃ³ de Viver,2015,Average airbnb listings,1,0,100
+59,el Bon Pastor,2015,Average airbnb listings,12.75,0,100
+60,Sant Andreu,2015,Average airbnb listings,74.75,0,100
+61,la Sagrera,2015,Average airbnb listings,66,0,100
+62,el CongrÃ©s i els Indians,2015,Average airbnb listings,29.5,0,100
+63,Navas,2015,Average airbnb listings,64.5,0,100
+64,el Camp de l'Arpa del Clot,2015,Average airbnb listings,250,0,100
+65,el Clot,2015,Average airbnb listings,118.25,0,100
+66,el Parc i la Llacuna del Poblenou,2015,Average airbnb listings,263.75,0,100
+67,la Vila OlÃ­mpica del Poblenou,2015,Average airbnb listings,185,0,100
+68,el Poblenou,2015,Average airbnb listings,458.75,0,100
+69,Diagonal Mar i el Front MarÃ­tim del Poblenou,2015,Average airbnb listings,154.75,0,100
+70,el BesÃ²s i el Maresme,2015,Average airbnb listings,90,0,100
+71,ProvenÃ§als del Poblenou,2015,Average airbnb listings,88.5,0,100
+72,Sant MartÃ­ de ProvenÃ§als,2015,Average airbnb listings,47.5,0,100
+73,la Verneda i la Pau,2015,Average airbnb listings,47.75,0,100
+1,el Raval,2016,Average airbnb listings,1388.666667,-0.102348632,89.76513685
+2,el Barri GÃ²tic,2016,Average airbnb listings,1145.666667,-0.09037978,90.96202199
+3,la Barceloneta,2016,Average airbnb listings,285,-0.212163096,78.78369039
+4,"Sant Pere, Santa Caterina i la Ribera",2016,Average airbnb listings,1059.333333,-0.172557443,82.74425565
+5,el Fort Pienc,2016,Average airbnb listings,507,-0.095046854,90.49531459
+6,la Sagrada FamÃ­lia,2016,Average airbnb listings,880.3333333,0.003800836,100.3800836
+7,la Dreta de l'Eixample,2016,Average airbnb listings,1459.333333,0.019977867,101.9977867
+8,l'Antiga Esquerra de l'Eixample,2016,Average airbnb listings,926.6666667,-0.081598943,91.84010572
+9,la Nova Esquerra de l'Eixample,2016,Average airbnb listings,691.3333333,-0.016245701,98.37542985
+10,Sant Antoni,2016,Average airbnb listings,846.3333333,-0.046921922,95.3078078
+11,el Poble Sec,2016,Average airbnb listings,920.3333333,-0.015686275,98.43137255
+12,la Marina del Prat Vermell,2016,Average airbnb listings,4.333333333,-0.333333333,66.66666666
+13,la Marina de Port,2016,Average airbnb listings,64,0.6,160
+14,la Font de la Guatlla,2016,Average airbnb listings,123.6666667,0.705747126,170.5747127
+15,Hostafrancs,2016,Average airbnb listings,199.3333333,0.288099085,128.8099084
+16,la Bordeta,2016,Average airbnb listings,100,0.556420233,155.6420233
+17,Sants - Badal,2016,Average airbnb listings,123,0.40974212,140.974212
+18,Sants,2016,Average airbnb listings,317.6666667,0.327760362,132.7760362
+19,les Corts,2016,Average airbnb listings,173,0.011695906,101.1695906
+20,la Maternitat i Sant Ramon,2016,Average airbnb listings,110.3333333,-0.03003663,96.99633697
+21,Pedralbes,2016,Average airbnb listings,31.33333333,0.671111111,167.1111111
+22,"Vallvidrera, el Tibidabo i les Planes",2016,Average airbnb listings,27.33333333,-0.177944862,82.20551377
+23,SarriÃ ,2016,Average airbnb listings,44,-0.157894737,84.21052632
+24,les Tres Torres,2016,Average airbnb listings,34,-0.035460993,96.45390071
+25,Sant Gervasi - la Bonanova,2016,Average airbnb listings,66.33333333,-0.124312431,87.56875687
+26,Sant Gervasi - Galvany,2016,Average airbnb listings,274.3333333,-0.069267741,93.07322589
+27,el Putxet i el FarrÃ³,2016,Average airbnb listings,229.6666667,-0.109819121,89.01808787
+28,Vallcarca i els Penitents,2016,Average airbnb listings,107.6666667,0.124456049,112.4456049
+29,el Coll,2016,Average airbnb listings,41,0.205882353,120.5882353
+30,la Salut,2016,Average airbnb listings,112.3333333,0.049844237,104.9844236
+31,la Vila de GrÃ cia,2016,Average airbnb listings,1103,-0.05907443,94.09255705
+32,el Camp d'en Grassot i GrÃ cia Nova,2016,Average airbnb listings,330,-0.078855548,92.11444522
+33,el Baix GuinardÃ³,2016,Average airbnb listings,126.3333333,-0.107184923,89.28150763
+34,Can BarÃ³,2016,Average airbnb listings,51.66666667,0.082024433,108.2024433
+35,el GuinardÃ³,2016,Average airbnb listings,172,0.026865672,102.6865672
+36,la Font d'en Fargues,2016,Average airbnb listings,22.33333333,0.015151515,101.5151515
+37,el Carmel,2016,Average airbnb listings,57,0.193717277,119.3717277
+38,la Teixonera,2016,Average airbnb listings,16.33333333,-0.117117117,88.28828827
+39,Sant GenÃ­s dels Agudells,2016,Average airbnb listings,13,0,100
+40,Montbau,2016,Average airbnb listings,11.33333333,0.133333333,113.3333333
+41,la Vall d'Hebron,2016,Average airbnb listings,9.666666667,0.074074074,107.4074074
+42,la Clota,2016,Average airbnb listings,1,-0.6,40
+43,Horta,2016,Average airbnb listings,45.33333333,0.133333333,113.3333333
+44,Vilapicina i la Torre Llobeta,2016,Average airbnb listings,43.33333333,0.007751938,100.7751938
+45,Porta,2016,Average airbnb listings,42,0.460869565,146.0869565
+46,el TurÃ³ de la Peira,2016,Average airbnb listings,14.33333333,0.246376812,124.6376811
+47,Can Peguera,2016,Average airbnb listings,1,0,100
+48,la Guineueta,2016,Average airbnb listings,11.33333333,-0.128205128,87.17948715
+49,Canyelles,2016,Average airbnb listings,6.333333333,-0.35042735,64.95726495
+50,les Roquetes,2016,Average airbnb listings,13.33333333,-0.12568306,87.43169397
+51,Verdun,2016,Average airbnb listings,17,0,100
+52,la Prosperitat,2016,Average airbnb listings,25,0.052631579,105.2631579
+53,la Trinitat Nova,2016,Average airbnb listings,7,1.625,262.5
+54,Torre BarÃ³,2016,Average airbnb listings,6,0.2,120
+55,Ciutat Meridiana,2016,Average airbnb listings,9.666666667,0.68115942,168.115942
+56,Vallbona,2016,Average airbnb listings,4,0,100
+57,la Trinitat Vella,2016,Average airbnb listings,8.666666667,1.166666667,216.6666667
+58,BarÃ³ de Viver,2016,Average airbnb listings,1,0,100
+59,el Bon Pastor,2016,Average airbnb listings,12,-0.058823529,94.11764706
+60,Sant Andreu,2016,Average airbnb listings,67.33333333,-0.099219621,90.0780379
+61,la Sagrera,2016,Average airbnb listings,71.33333333,0.080808081,108.0808081
+62,el CongrÃ©s i els Indians,2016,Average airbnb listings,37.66666667,0.276836158,127.6836158
+63,Navas,2016,Average airbnb listings,78,0.209302326,120.9302326
+64,el Camp de l'Arpa del Clot,2016,Average airbnb listings,245.6666667,-0.017333333,98.26666668
+65,el Clot,2016,Average airbnb listings,139,0.175475687,117.5475687
+66,el Parc i la Llacuna del Poblenou,2016,Average airbnb listings,243.6666667,-0.07614534,92.38546605
+67,la Vila OlÃ­mpica del Poblenou,2016,Average airbnb listings,176.6666667,-0.045045045,95.49549551
+68,el Poblenou,2016,Average airbnb listings,418.6666667,-0.087375114,91.26248865
+69,Diagonal Mar i el Front MarÃ­tim del Poblenou,2016,Average airbnb listings,155.3333333,0.003769521,100.3769521
+70,el BesÃ²s i el Maresme,2016,Average airbnb listings,110.6666667,0.22962963,122.962963
+71,ProvenÃ§als del Poblenou,2016,Average airbnb listings,90.33333333,0.020715631,102.0715631
+72,Sant MartÃ­ de ProvenÃ§als,2016,Average airbnb listings,60.66666667,0.277192982,127.7192983
+73,la Verneda i la Pau,2016,Average airbnb listings,53.33333333,0.116928447,111.6928447
+1,el Raval,2017,Average airbnb listings,1425.166667,0.026284205,102.6284205
+2,el Barri GÃ²tic,2017,Average airbnb listings,1127.416667,-0.01592959,98.40704102
+3,la Barceloneta,2017,Average airbnb listings,291.6666667,0.023391813,102.3391813
+4,"Sant Pere, Santa Caterina i la Ribera",2017,Average airbnb listings,1067.583333,0.007787917,100.7787917
+5,el Fort Pienc,2017,Average airbnb listings,562.5833333,0.109631821,110.9631821
+6,la Sagrada FamÃ­lia,2017,Average airbnb listings,993.9166667,0.129023097,112.9023097
+7,la Dreta de l'Eixample,2017,Average airbnb listings,1730.333333,0.185701233,118.5701233
+8,l'Antiga Esquerra de l'Eixample,2017,Average airbnb listings,981.5,0.059172662,105.9172662
+9,la Nova Esquerra de l'Eixample,2017,Average airbnb listings,782.1666667,0.131388621,113.1388621
+10,Sant Antoni,2017,Average airbnb listings,957,0.130760142,113.0760142
+11,el Poble Sec,2017,Average airbnb listings,983.5,0.068634553,106.8634553
+12,la Marina del Prat Vermell,2017,Average airbnb listings,9.833333333,1.269230769,226.9230769
+13,la Marina de Port,2017,Average airbnb listings,97.33333333,0.520833333,152.0833333
+14,la Font de la Guatlla,2017,Average airbnb listings,150.8333333,0.21967655,121.9676549
+15,Hostafrancs,2017,Average airbnb listings,245.75,0.232859532,123.2859532
+16,la Bordeta,2017,Average airbnb listings,130,0.3,130
+17,Sants - Badal,2017,Average airbnb listings,167.3333333,0.360433604,136.0433604
+18,Sants,2017,Average airbnb listings,365.4166667,0.150314795,115.0314795
+19,les Corts,2017,Average airbnb listings,204.1666667,0.180154143,118.0154143
+20,la Maternitat i Sant Ramon,2017,Average airbnb listings,147.8333333,0.339879154,133.9879154
+21,Pedralbes,2017,Average airbnb listings,31.66666667,0.010638298,101.0638298
+22,"Vallvidrera, el Tibidabo i les Planes",2017,Average airbnb listings,32.33333333,0.182926829,118.2926829
+23,SarriÃ ,2017,Average airbnb listings,50.58333333,0.149621212,114.9621212
+24,les Tres Torres,2017,Average airbnb listings,32.41666667,-0.046568627,95.34313726
+25,Sant Gervasi - la Bonanova,2017,Average airbnb listings,66.33333333,0,100
+26,Sant Gervasi - Galvany,2017,Average airbnb listings,333.3333333,0.215066829,121.5066829
+27,el Putxet i el FarrÃ³,2017,Average airbnb listings,234.4166667,0.020682148,102.0682148
+28,Vallcarca i els Penitents,2017,Average airbnb listings,122.0833333,0.133900929,113.3900928
+29,el Coll,2017,Average airbnb listings,41.75,0.018292683,101.8292683
+30,la Salut,2017,Average airbnb listings,121,0.077151335,107.7151336
+31,la Vila de GrÃ cia,2017,Average airbnb listings,1132.333333,0.026594137,102.6594137
+32,el Camp d'en Grassot i GrÃ cia Nova,2017,Average airbnb listings,347,0.051515152,105.1515152
+33,el Baix GuinardÃ³,2017,Average airbnb listings,146.9166667,0.16292876,116.292876
+34,Can BarÃ³,2017,Average airbnb listings,50.58333333,-0.020967742,97.90322579
+35,el GuinardÃ³,2017,Average airbnb listings,186.8333333,0.08624031,108.624031
+36,la Font d'en Fargues,2017,Average airbnb listings,24.08333333,0.078358209,107.8358209
+37,el Carmel,2017,Average airbnb listings,80.41666667,0.410818713,141.0818714
+38,la Teixonera,2017,Average airbnb listings,22.83333333,0.397959184,139.7959184
+39,Sant GenÃ­s dels Agudells,2017,Average airbnb listings,19.08333333,0.467948718,146.7948718
+40,Montbau,2017,Average airbnb listings,12.08333333,0.066176471,106.6176471
+41,la Vall d'Hebron,2017,Average airbnb listings,9.166666667,-0.051724138,94.82758621
+42,la Clota,2017,Average airbnb listings,1,0,100
+43,Horta,2017,Average airbnb listings,44.16666667,-0.025735294,97.4264706
+44,Vilapicina i la Torre Llobeta,2017,Average airbnb listings,54.08333333,0.248076923,124.8076923
+45,Porta,2017,Average airbnb listings,47.5,0.130952381,113.0952381
+46,el TurÃ³ de la Peira,2017,Average airbnb listings,23.41666667,0.63372093,163.3720931
+47,Can Peguera,2017,Average airbnb listings,1.5,0.5,150
+48,la Guineueta,2017,Average airbnb listings,11.41666667,0.007352941,100.7352942
+49,Canyelles,2017,Average airbnb listings,5.583333333,-0.118421053,88.15789474
+50,les Roquetes,2017,Average airbnb listings,15.5,0.1625,116.25
+51,Verdun,2017,Average airbnb listings,20.16666667,0.18627451,118.627451
+52,la Prosperitat,2017,Average airbnb listings,25.33333333,0.013333333,101.3333333
+53,la Trinitat Nova,2017,Average airbnb listings,8.333333333,0.19047619,119.047619
+54,Torre BarÃ³,2017,Average airbnb listings,6.833333333,0.138888889,113.8888889
+55,Ciutat Meridiana,2017,Average airbnb listings,10.08333333,0.043103448,104.3103448
+56,Vallbona,2017,Average airbnb listings,3.416666667,-0.145833333,85.41666668
+57,la Trinitat Vella,2017,Average airbnb listings,8.166666667,-0.057692308,94.23076923
+58,BarÃ³ de Viver,2017,Average airbnb listings,2,1,200
+59,el Bon Pastor,2017,Average airbnb listings,14.16666667,0.180555556,118.0555556
+60,Sant Andreu,2017,Average airbnb listings,71.75,0.065594059,106.5594059
+61,la Sagrera,2017,Average airbnb listings,74.91666667,0.050233645,105.0233645
+62,el CongrÃ©s i els Indians,2017,Average airbnb listings,47.5,0.261061947,126.1061947
+63,Navas,2017,Average airbnb listings,87.41666667,0.120726496,112.0726496
+64,el Camp de l'Arpa del Clot,2017,Average airbnb listings,306,0.245590231,124.559023
+65,el Clot,2017,Average airbnb listings,157.5833333,0.133693046,113.3693045
+66,el Parc i la Llacuna del Poblenou,2017,Average airbnb listings,291.8333333,0.197674419,119.7674418
+67,la Vila OlÃ­mpica del Poblenou,2017,Average airbnb listings,186.3333333,0.054716981,105.4716981
+68,el Poblenou,2017,Average airbnb listings,463.6666667,0.107484076,110.7484076
+69,Diagonal Mar i el Front MarÃ­tim del Poblenou,2017,Average airbnb listings,159.0833333,0.024141631,102.4141631
+70,el BesÃ²s i el Maresme,2017,Average airbnb listings,174.8333333,0.579819277,157.9819276
+71,ProvenÃ§als del Poblenou,2017,Average airbnb listings,102.1666667,0.13099631,113.099631
+72,Sant MartÃ­ de ProvenÃ§als,2017,Average airbnb listings,79,0.302197802,130.2197802
+73,la Verneda i la Pau,2017,Average airbnb listings,64.5,0.209375,120.9375
+1,el Raval,2018,Average airbnb listings,1524.636364,0.069795133,106.9795133
+2,el Barri GÃ²tic,2018,Average airbnb listings,1216.818182,0.07929767,107.929767
+3,la Barceloneta,2018,Average airbnb listings,357.9090909,0.227116883,122.7116883
+4,"Sant Pere, Santa Caterina i la Ribera",2018,Average airbnb listings,1070.181818,0.002433988,100.2433988
+5,el Fort Pienc,2018,Average airbnb listings,571.0909091,0.015122339,101.5122339
+6,la Sagrada FamÃ­lia,2018,Average airbnb listings,1059.818182,0.06630487,106.630487
+7,la Dreta de l'Eixample,2018,Average airbnb listings,1932.272727,0.116705487,111.6705487
+8,l'Antiga Esquerra de l'Eixample,2018,Average airbnb listings,1017.636364,0.036817487,103.6817488
+9,la Nova Esquerra de l'Eixample,2018,Average airbnb listings,836.9090909,0.069988184,106.9988184
+10,Sant Antoni,2018,Average airbnb listings,979.9090909,0.023938444,102.3938444
+11,el Poble Sec,2018,Average airbnb listings,1040.636364,0.05809493,105.809493
+12,la Marina del Prat Vermell,2018,Average airbnb listings,12.27272727,0.24807396,124.807396
+13,la Marina de Port,2018,Average airbnb listings,102.8181818,0.056351183,105.6351183
+14,la Font de la Guatlla,2018,Average airbnb listings,138.8181818,-0.079658463,92.0341537
+15,Hostafrancs,2018,Average airbnb listings,267.8181818,0.089799316,108.9799316
+16,la Bordeta,2018,Average airbnb listings,144.8181818,0.113986014,111.3986014
+17,Sants - Badal,2018,Average airbnb listings,198.7272727,0.187613184,118.7613184
+18,Sants,2018,Average airbnb listings,376.6363636,0.030703846,103.0703846
+19,les Corts,2018,Average airbnb listings,226.8181818,0.110946197,111.0946196
+20,la Maternitat i Sant Ramon,2018,Average airbnb listings,190.6363636,0.289535718,128.9535718
+21,Pedralbes,2018,Average airbnb listings,27.72727273,-0.124401914,87.55980861
+22,"Vallvidrera, el Tibidabo i les Planes",2018,Average airbnb listings,32.09090909,-0.007497657,99.25023431
+23,SarriÃ ,2018,Average airbnb listings,44.63636364,-0.11756777,88.24322302
+24,les Tres Torres,2018,Average airbnb listings,30.72727273,-0.05211498,94.78850199
+25,Sant Gervasi - la Bonanova,2018,Average airbnb listings,55.63636364,-0.16126085,83.87391504
+26,Sant Gervasi - Galvany,2018,Average airbnb listings,337.4545455,0.012363636,101.2363637
+27,el Putxet i el FarrÃ³,2018,Average airbnb listings,212.0909091,-0.095239634,90.47603657
+28,Vallcarca i els Penitents,2018,Average airbnb listings,120.2727273,-0.014830903,98.51690976
+29,el Coll,2018,Average airbnb listings,50.18181818,0.201959717,120.1959717
+30,la Salut,2018,Average airbnb listings,114.4545455,-0.054094666,94.59053347
+31,la Vila de GrÃ cia,2018,Average airbnb listings,1083.272727,-0.043327,95.66730003
+32,el Camp d'en Grassot i GrÃ cia Nova,2018,Average airbnb listings,356.7272727,0.028032486,102.8032486
+33,el Baix GuinardÃ³,2018,Average airbnb listings,147.5454545,0.004279895,100.4279894
+34,Can BarÃ³,2018,Average airbnb listings,47.90909091,-0.052868055,94.71319456
+35,el GuinardÃ³,2018,Average airbnb listings,190.4545455,0.019382045,101.9382046
+36,la Font d'en Fargues,2018,Average airbnb listings,22.45454545,-0.067631331,93.23686693
+37,el Carmel,2018,Average airbnb listings,103.2727273,0.284220443,128.4220443
+38,la Teixonera,2018,Average airbnb listings,30.18181818,0.321831453,132.1831453
+39,Sant GenÃ­s dels Agudells,2018,Average airbnb listings,26,0.362445415,136.2445415
+40,Montbau,2018,Average airbnb listings,16.90909091,0.399373041,139.9373041
+41,la Vall d'Hebron,2018,Average airbnb listings,10.09090909,0.100826446,110.0826446
+42,la Clota,2018,Average airbnb listings,0,-1,0
+43,Horta,2018,Average airbnb listings,43,-0.026415094,97.35849056
+44,Vilapicina i la Torre Llobeta,2018,Average airbnb listings,55,0.016949153,101.6949153
+45,Porta,2018,Average airbnb listings,45.72727273,-0.037320574,96.26794259
+46,el TurÃ³ de la Peira,2018,Average airbnb listings,27.54545455,0.176318344,117.6318344
+47,Can Peguera,2018,Average airbnb listings,1.5,0,100
+48,la Guineueta,2018,Average airbnb listings,17.36363636,0.520902455,152.0902454
+49,Canyelles,2018,Average airbnb listings,5.818181818,0.042062415,104.2062415
+50,les Roquetes,2018,Average airbnb listings,20.09090909,0.296187683,129.6187683
+51,Verdun,2018,Average airbnb listings,27.81818182,0.379413974,137.9413974
+52,la Prosperitat,2018,Average airbnb listings,18.18181818,-0.282296651,71.77033493
+53,la Trinitat Nova,2018,Average airbnb listings,9.909090909,0.189090909,118.9090909
+54,Torre BarÃ³,2018,Average airbnb listings,8.454545455,0.237250554,123.7250554
+55,Ciutat Meridiana,2018,Average airbnb listings,9.545454545,-0.053343351,94.66566494
+56,Vallbona,2018,Average airbnb listings,4.5,0.317073171,131.7073171
+57,la Trinitat Vella,2018,Average airbnb listings,9.818181818,0.202226345,120.2226345
+58,BarÃ³ de Viver,2018,Average airbnb listings,2.181818182,0.090909091,109.0909091
+59,el Bon Pastor,2018,Average airbnb listings,19.90909091,0.405347594,140.5347593
+60,Sant Andreu,2018,Average airbnb listings,73.81818182,0.028824834,102.8824834
+61,la Sagrera,2018,Average airbnb listings,76.81818182,0.025381737,102.5381737
+62,el CongrÃ©s i els Indians,2018,Average airbnb listings,55.27272727,0.163636364,116.3636364
+63,Navas,2018,Average airbnb listings,91.54545455,0.047231129,104.7231129
+64,el Camp de l'Arpa del Clot,2018,Average airbnb listings,337.3636364,0.102495544,110.2495544
+65,el Clot,2018,Average airbnb listings,169.2727273,0.074179126,107.4179126
+66,el Parc i la Llacuna del Poblenou,2018,Average airbnb listings,272.2727273,-0.067026634,93.29733661
+67,la Vila OlÃ­mpica del Poblenou,2018,Average airbnb listings,193.6363636,0.039193365,103.9193365
+68,el Poblenou,2018,Average airbnb listings,487.2727273,0.050911705,105.0911705
+69,Diagonal Mar i el Front MarÃ­tim del Poblenou,2018,Average airbnb listings,186.8181818,0.174341635,117.4341635
+70,el BesÃ²s i el Maresme,2018,Average airbnb listings,240,0.372735939,137.2735939
+71,ProvenÃ§als del Poblenou,2018,Average airbnb listings,112,0.096247961,109.624796
+72,Sant MartÃ­ de ProvenÃ§als,2018,Average airbnb listings,90,0.139240506,113.9240506
+73,la Verneda i la Pau,2018,Average airbnb listings,76.72727273,0.18957012,118.957012
+1,el Raval,2019,Average airbnb listings,1802,0.181921173,118.1921173
+2,el Barri GÃ²tic,2019,Average airbnb listings,1451,0.19245424,119.245424
+3,la Barceloneta,2019,Average airbnb listings,470.6666667,0.315045297,131.5045297
+4,"Sant Pere, Santa Caterina i la Ribera",2019,Average airbnb listings,1314.333333,0.22814022,122.814022
+5,el Fort Pienc,2019,Average airbnb listings,568,-0.005412289,99.45877109
+6,la Sagrada FamÃ­lia,2019,Average airbnb listings,1122,0.058672156,105.8672156
+7,la Dreta de l'Eixample,2019,Average airbnb listings,2219,0.148388614,114.8388615
+8,l'Antiga Esquerra de l'Eixample,2019,Average airbnb listings,1094.666667,0.075695313,107.5695313
+9,la Nova Esquerra de l'Eixample,2019,Average airbnb listings,909,0.086139474,108.6139474
+10,Sant Antoni,2019,Average airbnb listings,1038,0.059281937,105.9281937
+11,el Poble Sec,2019,Average airbnb listings,1161,0.115663493,111.5663492
+12,la Marina del Prat Vermell,2019,Average airbnb listings,11.66666667,-0.049382716,95.06172844
+13,la Marina de Port,2019,Average airbnb listings,87.33333333,-0.150604185,84.9395815
+14,la Font de la Guatlla,2019,Average airbnb listings,148,0.066142764,106.6142764
+15,Hostafrancs,2019,Average airbnb listings,304.6666667,0.13758769,113.758769
+16,la Bordeta,2019,Average airbnb listings,131.3333333,-0.093115715,90.68842853
+17,Sants - Badal,2019,Average airbnb listings,201,0.011436414,101.1436414
+18,Sants,2019,Average airbnb listings,408.6666667,0.085043044,108.5043045
+19,les Corts,2019,Average airbnb listings,233.3333333,0.028724115,102.8724115
+20,la Maternitat i Sant Ramon,2019,Average airbnb listings,188,-0.01382928,98.61707203
+21,Pedralbes,2019,Average airbnb listings,23.66666667,-0.146448087,85.35519126
+22,"Vallvidrera, el Tibidabo i les Planes",2019,Average airbnb listings,35,0.090651558,109.0651558
+23,SarriÃ ,2019,Average airbnb listings,42.66666667,-0.044127631,95.58723693
+24,les Tres Torres,2019,Average airbnb listings,34,0.106508876,110.6508876
+25,Sant Gervasi - la Bonanova,2019,Average airbnb listings,56,0.006535948,100.6535948
+26,Sant Gervasi - Galvany,2019,Average airbnb listings,375.6666667,0.113236351,111.3236351
+27,el Putxet i el FarrÃ³,2019,Average airbnb listings,236.6666667,0.115873696,111.5873696
+28,Vallcarca i els Penitents,2019,Average airbnb listings,120.3333333,0.000503905,100.0503905
+29,el Coll,2019,Average airbnb listings,53.66666667,0.069444444,106.9444445
+30,la Salut,2019,Average airbnb listings,100.6666667,-0.120465978,87.95340217
+31,la Vila de GrÃ cia,2019,Average airbnb listings,1124.666667,0.038211928,103.8211929
+32,el Camp d'en Grassot i GrÃ cia Nova,2019,Average airbnb listings,367.6666667,0.030665987,103.0665987
+33,el Baix GuinardÃ³,2019,Average airbnb listings,155,0.050523722,105.0523722
+34,Can BarÃ³,2019,Average airbnb listings,41.33333333,-0.137254902,86.2745098
+35,el GuinardÃ³,2019,Average airbnb listings,209.6666667,0.100875099,110.0875099
+36,la Font d'en Fargues,2019,Average airbnb listings,21.33333333,-0.049932524,95.00674764
+37,el Carmel,2019,Average airbnb listings,107.3333333,0.039319249,103.9319248
+38,la Teixonera,2019,Average airbnb listings,36.33333333,0.203815261,120.3815261
+39,Sant GenÃ­s dels Agudells,2019,Average airbnb listings,27,0.038461538,103.8461538
+40,Montbau,2019,Average airbnb listings,22.66666667,0.340501792,134.0501792
+41,la Vall d'Hebron,2019,Average airbnb listings,8.666666667,-0.141141141,85.8858859
+42,la Clota,2019,Average airbnb listings,0,0,
+43,Horta,2019,Average airbnb listings,44,0.023255814,102.3255814
+44,Vilapicina i la Torre Llobeta,2019,Average airbnb listings,62.33333333,0.133333333,113.3333333
+45,Porta,2019,Average airbnb listings,54,0.180914513,118.0914513
+46,el TurÃ³ de la Peira,2019,Average airbnb listings,34.66666667,0.258525853,125.8525852
+47,Can Peguera,2019,Average airbnb listings,2,0.333333333,133.3333333
+48,la Guineueta,2019,Average airbnb listings,13,-0.251308901,74.86910996
+49,Canyelles,2019,Average airbnb listings,3.333333333,-0.427083333,57.29166666
+50,les Roquetes,2019,Average airbnb listings,34,0.692307692,169.2307692
+51,Verdun,2019,Average airbnb listings,30,0.078431373,107.8431372
+52,la Prosperitat,2019,Average airbnb listings,23,0.265,126.5
+53,la Trinitat Nova,2019,Average airbnb listings,12,0.211009174,121.1009174
+54,Torre BarÃ³,2019,Average airbnb listings,3.333333333,-0.605734767,39.42652329
+55,Ciutat Meridiana,2019,Average airbnb listings,6.666666667,-0.301587302,69.84126985
+56,Vallbona,2019,Average airbnb listings,0,-1,0
+57,la Trinitat Vella,2019,Average airbnb listings,13.66666667,0.391975309,139.1975309
+58,BarÃ³ de Viver,2019,Average airbnb listings,1.666666667,-0.236111111,76.3888889
+59,el Bon Pastor,2019,Average airbnb listings,19.33333333,-0.02891933,97.10806695
+60,Sant Andreu,2019,Average airbnb listings,88.66666667,0.201149425,120.1149425
+61,la Sagrera,2019,Average airbnb listings,86.33333333,0.123865878,112.3865878
+62,el CongrÃ©s i els Indians,2019,Average airbnb listings,58.33333333,0.055372807,105.5372807
+63,Navas,2019,Average airbnb listings,88,-0.038728898,96.12711022
+64,el Camp de l'Arpa del Clot,2019,Average airbnb listings,373,0.105631905,110.5631905
+65,el Clot,2019,Average airbnb listings,163.3333333,-0.035087719,96.49122803
+66,el Parc i la Llacuna del Poblenou,2019,Average airbnb listings,261,-0.041402337,95.85976627
+67,la Vila OlÃ­mpica del Poblenou,2019,Average airbnb listings,193.3333333,-0.001564945,99.84350548
+68,el Poblenou,2019,Average airbnb listings,503,0.032276119,103.2276119
+69,Diagonal Mar i el Front MarÃ­tim del Poblenou,2019,Average airbnb listings,193.6666667,0.036658556,103.6658557
+70,el BesÃ²s i el Maresme,2019,Average airbnb listings,194,-0.191666667,80.83333333
+71,ProvenÃ§als del Poblenou,2019,Average airbnb listings,113.6666667,0.014880952,101.4880953
+72,Sant MartÃ­ de ProvenÃ§als,2019,Average airbnb listings,108.6666667,0.207407407,120.7407408
+73,la Verneda i la Pau,2019,Average airbnb listings,89.33333333,0.164296998,116.4296998
+1,el Raval,2015,Average weight of airbnb inside the neighbourhood,0.070041201,0,100
+2,el Barri GÃ²tic,2015,Average weight of airbnb inside the neighbourhood,0.125074479,0,100
+3,la Barceloneta,2015,Average weight of airbnb inside the neighbourhood,0.036673763,0,100
+4,"Sant Pere, Santa Caterina i la Ribera",2015,Average weight of airbnb inside the neighbourhood,0.09384621,0,100
+5,el Fort Pienc,2015,Average weight of airbnb inside the neighbourhood,0.034466318,0,100
+6,la Sagrada FamÃ­lia,2015,Average weight of airbnb inside the neighbourhood,0.03172823,0,100
+7,la Dreta de l'Eixample,2015,Average weight of airbnb inside the neighbourhood,0.062848671,0,100
+8,l'Antiga Esquerra de l'Eixample,2015,Average weight of airbnb inside the neighbourhood,0.042217573,0,100
+9,la Nova Esquerra de l'Eixample,2015,Average weight of airbnb inside the neighbourhood,0.021690484,0,100
+10,Sant Antoni,2015,Average weight of airbnb inside the neighbourhood,0.043439977,0,100
+11,el Poble Sec,2015,Average weight of airbnb inside the neighbourhood,0.048993922,0,100
+12,la Marina del Prat Vermell,2015,Average weight of airbnb inside the neighbourhood,0.017150396,0,100
+13,la Marina de Port,2015,Average weight of airbnb inside the neighbourhood,0.003236246,0,100
+14,la Font de la Guatlla,2015,Average weight of airbnb inside the neighbourhood,0.014305446,0,100
+15,Hostafrancs,2015,Average weight of airbnb inside the neighbourhood,0.019549015,0,100
+16,la Bordeta,2015,Average weight of airbnb inside the neighbourhood,0.006860651,0,100
+17,Sants - Badal,2015,Average weight of airbnb inside the neighbourhood,0.007077959,0,100
+18,Sants,2015,Average weight of airbnb inside the neighbourhood,0.009989562,0,100
+19,les Corts,2015,Average weight of airbnb inside the neighbourhood,0.006602572,0,100
+20,la Maternitat i Sant Ramon,2015,Average weight of airbnb inside the neighbourhood,0.008553918,0,100
+21,Pedralbes,2015,Average weight of airbnb inside the neighbourhood,0.003714342,0,100
+22,"Vallvidrera, el Tibidabo i les Planes",2015,Average weight of airbnb inside the neighbourhood,0.016164317,0,100
+23,SarriÃ ,2015,Average weight of airbnb inside the neighbourhood,0.004775615,0,100
+24,les Tres Torres,2015,Average weight of airbnb inside the neighbourhood,0.005108696,0,100
+25,Sant Gervasi - la Bonanova,2015,Average weight of airbnb inside the neighbourhood,0.00597162,0,100
+26,Sant Gervasi - Galvany,2015,Average weight of airbnb inside the neighbourhood,0.011500644,0,100
+27,el Putxet i el FarrÃ³,2015,Average weight of airbnb inside the neighbourhood,0.01562027,0,100
+28,Vallcarca i els Penitents,2015,Average weight of airbnb inside the neighbourhood,0.012267777,0,100
+29,el Coll,2015,Average weight of airbnb inside the neighbourhood,0.009259259,0,100
+30,la Salut,2015,Average weight of airbnb inside the neighbourhood,0.017489376,0,100
+31,la Vila de GrÃ cia,2015,Average weight of airbnb inside the neighbourhood,0.039179479,0,100
+32,el Camp d'en Grassot i GrÃ cia Nova,2015,Average weight of airbnb inside the neighbourhood,0.019912734,0,100
+33,el Baix GuinardÃ³,2015,Average weight of airbnb inside the neighbourhood,0.011098039,0,100
+34,Can BarÃ³,2015,Average weight of airbnb inside the neighbourhood,0.011952441,0,100
+35,el GuinardÃ³,2015,Average weight of airbnb inside the neighbourhood,0.009496542,0,100
+36,la Font d'en Fargues,2015,Average weight of airbnb inside the neighbourhood,0.004888889,0,100
+37,el Carmel,2015,Average weight of airbnb inside the neighbourhood,0.003534681,0,100
+38,la Teixonera,2015,Average weight of airbnb inside the neighbourhood,0.003332733,0,100
+39,Sant GenÃ­s dels Agudells,2015,Average weight of airbnb inside the neighbourhood,0.004136176,0,100
+40,Montbau,2015,Average weight of airbnb inside the neighbourhood,0.004306632,0,100
+41,la Vall d'Hebron,2015,Average weight of airbnb inside the neighbourhood,0.003670473,0,100
+42,la Clota,2015,Average weight of airbnb inside the neighbourhood,0.012690355,0,100
+43,Horta,2015,Average weight of airbnb inside the neighbourhood,0.003249655,0,100
+44,Vilapicina i la Torre Llobeta,2015,Average weight of airbnb inside the neighbourhood,0.003529508,0,100
+45,Porta,2015,Average weight of airbnb inside the neighbourhood,0.0023,0,100
+46,el TurÃ³ de la Peira,2015,Average weight of airbnb inside the neighbourhood,0.001593018,0,100
+47,Can Peguera,2015,Average weight of airbnb inside the neighbourhood,0.000660502,0,100
+48,la Guineueta,2015,Average weight of airbnb inside the neighbourhood,0.001724595,0,100
+49,Canyelles,2015,Average weight of airbnb inside the neighbourhood,0.003592483,0,100
+50,les Roquetes,2015,Average weight of airbnb inside the neighbourhood,0.002526089,0,100
+51,Verdun,2015,Average weight of airbnb inside the neighbourhood,0.002848048,0,100
+52,la Prosperitat,2015,Average weight of airbnb inside the neighbourhood,0.001903655,0,100
+53,la Trinitat Nova,2015,Average weight of airbnb inside the neighbourhood,0.000887115,0,100
+54,Torre BarÃ³,2015,Average weight of airbnb inside the neighbourhood,0.006802721,0,100
+55,Ciutat Meridiana,2015,Average weight of airbnb inside the neighbourhood,0.001188999,0,100
+56,Vallbona,2015,Average weight of airbnb inside the neighbourhood,0.009345794,0,100
+57,la Trinitat Vella,2015,Average weight of airbnb inside the neighbourhood,0.001125492,0,100
+58,BarÃ³ de Viver,2015,Average weight of airbnb inside the neighbourhood,0.00087108,0,100
+59,el Bon Pastor,2015,Average weight of airbnb inside the neighbourhood,0.002530264,0,100
+60,Sant Andreu,2015,Average weight of airbnb inside the neighbourhood,0.002692626,0,100
+61,la Sagrera,2015,Average weight of airbnb inside the neighbourhood,0.004721706,0,100
+62,el CongrÃ©s i els Indians,2015,Average weight of airbnb inside the neighbourhood,0.004432091,0,100
+63,Navas,2015,Average weight of airbnb inside the neighbourhood,0.005411074,0,100
+64,el Camp de l'Arpa del Clot,2015,Average weight of airbnb inside the neighbourhood,0.011990983,0,100
+65,el Clot,2015,Average weight of airbnb inside the neighbourhood,0.00941331,0,100
+66,el Parc i la Llacuna del Poblenou,2015,Average weight of airbnb inside the neighbourhood,0.036125188,0,100
+67,la Vila OlÃ­mpica del Poblenou,2015,Average weight of airbnb inside the neighbourhood,0.047013977,0,100
+68,el Poblenou,2015,Average weight of airbnb inside the neighbourhood,0.028725736,0,100
+69,Diagonal Mar i el Front MarÃ­tim del Poblenou,2015,Average weight of airbnb inside the neighbourhood,0.02293952,0,100
+70,el BesÃ²s i el Maresme,2015,Average weight of airbnb inside the neighbourhood,0.010662244,0,100
+71,ProvenÃ§als del Poblenou,2015,Average weight of airbnb inside the neighbourhood,0.008891791,0,100
+72,Sant MartÃ­ de ProvenÃ§als,2015,Average weight of airbnb inside the neighbourhood,0.00382263,0,100
+73,la Verneda i la Pau,2015,Average weight of airbnb inside the neighbourhood,0.003575975,0,100
+1,el Raval,2016,Average weight of airbnb inside the neighbourhood,0.06287258,-0.102348632,89.76513695
+2,el Barri GÃ²tic,2016,Average weight of airbnb inside the neighbourhood,0.113770275,-0.09037978,90.96202192
+3,la Barceloneta,2016,Average weight of airbnb inside the neighbourhood,0.028892944,-0.212163096,78.78369067
+4,"Sant Pere, Santa Caterina i la Ribera",2016,Average weight of airbnb inside the neighbourhood,0.077652348,-0.172557443,82.74425573
+5,el Fort Pienc,2016,Average weight of airbnb inside the neighbourhood,0.031190403,-0.095046854,90.49531488
+6,la Sagrada FamÃ­lia,2016,Average weight of airbnb inside the neighbourhood,0.031848824,0.003800836,100.3800842
+7,la Dreta de l'Eixample,2016,Average weight of airbnb inside the neighbourhood,0.064104254,0.019977867,101.9977877
+8,l'Antiga Esquerra de l'Eixample,2016,Average weight of airbnb inside the neighbourhood,0.038772664,-0.081598943,91.84010649
+9,la Nova Esquerra de l'Eixample,2016,Average weight of airbnb inside the neighbourhood,0.021338107,-0.016245701,98.37543044
+10,Sant Antoni,2016,Average weight of airbnb inside the neighbourhood,0.041401689,-0.046921922,95.30780599
+11,el Poble Sec,2016,Average weight of airbnb inside the neighbourhood,0.04822539,-0.015686275,98.43137277
+12,la Marina del Prat Vermell,2016,Average weight of airbnb inside the neighbourhood,0.011433597,-0.333333333,66.66666472
+13,la Marina de Port,2016,Average weight of airbnb inside the neighbourhood,0.005177994,0.6,160.0000124
+14,la Font de la Guatlla,2016,Average weight of airbnb inside the neighbourhood,0.024401473,0.705747126,170.5747098
+15,Hostafrancs,2016,Average weight of airbnb inside the neighbourhood,0.025181068,0.288099085,128.8099068
+16,la Bordeta,2016,Average weight of airbnb inside the neighbourhood,0.010678057,0.556420233,155.6420375
+17,Sants - Badal,2016,Average weight of airbnb inside the neighbourhood,0.009978097,0.40974212,140.974213
+18,Sants,2016,Average weight of airbnb inside the neighbourhood,0.013263744,0.327760362,132.7760316
+19,les Corts,2016,Average weight of airbnb inside the neighbourhood,0.006679795,0.011695906,101.1695897
+20,la Maternitat i Sant Ramon,2016,Average weight of airbnb inside the neighbourhood,0.008296987,-0.03003663,96.99633548
+21,Pedralbes,2016,Average weight of airbnb inside the neighbourhood,0.006207079,0.671111111,167.111133
+22,"Vallvidrera, el Tibidabo i les Planes",2016,Average weight of airbnb inside the neighbourhood,0.01328796,-0.177944862,82.20551478
+23,SarriÃ ,2016,Average weight of airbnb inside the neighbourhood,0.00402157,-0.157894737,84.21051529
+24,les Tres Torres,2016,Average weight of airbnb inside the neighbourhood,0.004927536,-0.035460993,96.4538896
+25,Sant Gervasi - la Bonanova,2016,Average weight of airbnb inside the neighbourhood,0.005229273,-0.124312431,87.56875019
+26,Sant Gervasi - Galvany,2016,Average weight of airbnb inside the neighbourhood,0.01070402,-0.069267741,93.07322268
+27,el Putxet i el FarrÃ³,2016,Average weight of airbnb inside the neighbourhood,0.013904866,-0.109819121,89.01808996
+28,Vallcarca i els Penitents,2016,Average weight of airbnb inside the neighbourhood,0.013794576,0.124456049,112.4456044
+29,el Coll,2016,Average weight of airbnb inside the neighbourhood,0.011165577,0.205882353,120.588235
+30,la Salut,2016,Average weight of airbnb inside the neighbourhood,0.01836112,0.049844237,104.9844203
+31,la Vila de GrÃ cia,2016,Average weight of airbnb inside the neighbourhood,0.036864973,-0.05907443,94.09255544
+32,el Camp d'en Grassot i GrÃ cia Nova,2016,Average weight of airbnb inside the neighbourhood,0.018342505,-0.078855548,92.11444797
+33,el Baix GuinardÃ³,2016,Average weight of airbnb inside the neighbourhood,0.009908497,-0.107184923,89.28151181
+34,Can BarÃ³,2016,Average weight of airbnb inside the neighbourhood,0.012932833,0.082024433,108.2024417
+35,el GuinardÃ³,2016,Average weight of airbnb inside the neighbourhood,0.009751673,0.026865672,102.6865674
+36,la Font d'en Fargues,2016,Average weight of airbnb inside the neighbourhood,0.004962963,0.015151515,101.51515
+37,el Carmel,2016,Average weight of airbnb inside the neighbourhood,0.004219409,0.193717277,119.3717057
+38,la Teixonera,2016,Average weight of airbnb inside the neighbourhood,0.002942413,-0.117117117,88.28829072
+39,Sant GenÃ­s dels Agudells,2016,Average weight of airbnb inside the neighbourhood,0.004136176,0,100
+40,Montbau,2016,Average weight of airbnb inside the neighbourhood,0.00488085,0.133333333,113.3333426
+41,la Vall d'Hebron,2016,Average weight of airbnb inside the neighbourhood,0.00394236,0.074074074,107.4074104
+42,la Clota,2016,Average weight of airbnb inside the neighbourhood,0.005076142,-0.6,40
+43,Horta,2016,Average weight of airbnb inside the neighbourhood,0.003682942,0.133333333,113.3333231
+44,Vilapicina i la Torre Llobeta,2016,Average weight of airbnb inside the neighbourhood,0.003556869,0.007751938,100.7752072
+45,Porta,2016,Average weight of airbnb inside the neighbourhood,0.00336,0.460869565,146.0869565
+46,el TurÃ³ de la Peira,2016,Average weight of airbnb inside the neighbourhood,0.001985501,0.246376812,124.6377003
+47,Can Peguera,2016,Average weight of airbnb inside the neighbourhood,0.000660502,0,100
+48,la Guineueta,2016,Average weight of airbnb inside the neighbourhood,0.001503493,-0.128205128,87.17948272
+49,Canyelles,2016,Average weight of airbnb inside the neighbourhood,0.002333579,-0.35042735,64.95727328
+50,les Roquetes,2016,Average weight of airbnb inside the neighbourhood,0.002208603,-0.12568306,87.43171757
+51,Verdun,2016,Average weight of airbnb inside the neighbourhood,0.002848048,0,100
+52,la Prosperitat,2016,Average weight of airbnb inside the neighbourhood,0.002003847,0.052631579,105.2631385
+53,la Trinitat Nova,2016,Average weight of airbnb inside the neighbourhood,0.002328676,1.625,262.4999014
+54,Torre BarÃ³,2016,Average weight of airbnb inside the neighbourhood,0.008163265,0.2,119.9999971
+55,Ciutat Meridiana,2016,Average weight of airbnb inside the neighbourhood,0.001998897,0.68115942,168.115953
+56,Vallbona,2016,Average weight of airbnb inside the neighbourhood,0.009345794,0,100
+57,la Trinitat Vella,2016,Average weight of airbnb inside the neighbourhood,0.002438567,1.166666667,216.6667555
+58,BarÃ³ de Viver,2016,Average weight of airbnb inside the neighbourhood,0.00087108,0,100
+59,el Bon Pastor,2016,Average weight of airbnb inside the neighbourhood,0.002381425,-0.058823529,94.11764938
+60,Sant Andreu,2016,Average weight of airbnb inside the neighbourhood,0.002425465,-0.099219621,90.0780502
+61,la Sagrera,2016,Average weight of airbnb inside the neighbourhood,0.005103257,0.080808081,108.0807869
+62,el CongrÃ©s i els Indians,2016,Average weight of airbnb inside the neighbourhood,0.005659054,0.276836158,127.6836148
+63,Navas,2016,Average weight of airbnb inside the neighbourhood,0.006543624,0.209302326,120.9302257
+64,el Camp de l'Arpa del Clot,2016,Average weight of airbnb inside the neighbourhood,0.011783139,-0.017333333,98.26666421
+65,el Clot,2016,Average weight of airbnb inside the neighbourhood,0.011065117,0.175475687,117.5475683
+66,el Parc i la Llacuna del Poblenou,2016,Average weight of airbnb inside the neighbourhood,0.033374424,-0.07614534,92.385468
+67,la Vila OlÃ­mpica del Poblenou,2016,Average weight of airbnb inside the neighbourhood,0.04489623,-0.045045045,95.49549488
+68,el Poblenou,2016,Average weight of airbnb inside the neighbourhood,0.026215821,-0.087375114,91.26248671
+69,Diagonal Mar i el Front MarÃ­tim del Poblenou,2016,Average weight of airbnb inside the neighbourhood,0.023025991,0.003769521,100.3769521
+70,el BesÃ²s i el Maresme,2016,Average weight of airbnb inside the neighbourhood,0.013110611,0.22962963,122.9629616
+71,ProvenÃ§als del Poblenou,2016,Average weight of airbnb inside the neighbourhood,0.00907599,0.020715631,102.0715624
+72,Sant MartÃ­ de ProvenÃ§als,2016,Average weight of airbnb inside the neighbourhood,0.004882236,0.277192982,127.7192927
+73,la Verneda i la Pau,2016,Average weight of airbnb inside the neighbourhood,0.003994109,0.116928447,111.692867
+1,el Raval,2017,Average weight of airbnb inside the neighbourhood,0.064525135,0.026284205,102.6284193
+2,el Barri GÃ²tic,2017,Average weight of airbnb inside the neighbourhood,0.111957961,-0.01592959,98.40704085
+3,la Barceloneta,2017,Average weight of airbnb inside the neighbourhood,0.029568802,0.023391813,102.3391801
+4,"Sant Pere, Santa Caterina i la Ribera",2017,Average weight of airbnb inside the neighbourhood,0.078257098,0.007787917,100.7787916
+5,el Fort Pienc,2017,Average weight of airbnb inside the neighbourhood,0.034609864,0.109631821,110.9631831
+6,la Sagrada FamÃ­lia,2017,Average weight of airbnb inside the neighbourhood,0.035958057,0.129023097,112.9023068
+7,la Dreta de l'Eixample,2017,Average weight of airbnb inside the neighbourhood,0.076008493,0.185701233,118.5701233
+8,l'Antiga Esquerra de l'Eixample,2017,Average weight of airbnb inside the neighbourhood,0.041066946,0.059172662,105.9172669
+9,la Nova Esquerra de l'Eixample,2017,Average weight of airbnb inside the neighbourhood,0.024141692,0.131388621,113.1388647
+10,Sant Antoni,2017,Average weight of airbnb inside the neighbourhood,0.04681538,0.130760142,113.0760148
+11,el Poble Sec,2017,Average weight of airbnb inside the neighbourhood,0.051535318,0.068634553,106.8634551
+12,la Marina del Prat Vermell,2017,Average weight of airbnb inside the neighbourhood,0.025945471,1.269230769,226.9230847
+13,la Marina de Port,2017,Average weight of airbnb inside the neighbourhood,0.007874865,0.520833333,152.0833164
+14,la Font de la Guatlla,2017,Average weight of airbnb inside the neighbourhood,0.029761905,0.21967655,121.9676574
+15,Hostafrancs,2017,Average weight of airbnb inside the neighbourhood,0.03104472,0.232859532,123.2859544
+16,la Bordeta,2017,Average weight of airbnb inside the neighbourhood,0.013881474,0.3,129.9999991
+17,Sants - Badal,2017,Average weight of airbnb inside the neighbourhood,0.013574538,0.360433604,136.0433558
+18,Sants,2017,Average weight of airbnb inside the neighbourhood,0.015257481,0.150314795,115.0314798
+19,les Corts,2017,Average weight of airbnb inside the neighbourhood,0.007883187,0.180154143,118.0154032
+20,la Maternitat i Sant Ramon,2017,Average weight of airbnb inside the neighbourhood,0.01111696,0.339879154,133.9879163
+21,Pedralbes,2017,Average weight of airbnb inside the neighbourhood,0.006273111,0.010638298,101.0638176
+22,"Vallvidrera, el Tibidabo i les Planes",2017,Average weight of airbnb inside the neighbourhood,0.015718684,0.182926829,118.29268
+23,SarriÃ ,2017,Average weight of airbnb inside the neighbourhood,0.004623282,0.149621212,114.9621168
+24,les Tres Torres,2017,Average weight of airbnb inside the neighbourhood,0.004698068,-0.046568627,95.34314919
+25,Sant Gervasi - la Bonanova,2017,Average weight of airbnb inside the neighbourhood,0.005229273,0,100
+26,Sant Gervasi - Galvany,2017,Average weight of airbnb inside the neighbourhood,0.0130061,0.215066829,121.5066863
+27,el Putxet i el FarrÃ³,2017,Average weight of airbnb inside the neighbourhood,0.014192448,0.020682148,102.0682112
+28,Vallcarca i els Penitents,2017,Average weight of airbnb inside the neighbourhood,0.015641683,0.133900929,113.3900962
+29,el Coll,2017,Average weight of airbnb inside the neighbourhood,0.011369826,0.018292683,101.829274
+30,la Salut,2017,Average weight of airbnb inside the neighbourhood,0.019777705,0.077151335,107.7151339
+31,la Vila de GrÃ cia,2017,Average weight of airbnb inside the neighbourhood,0.037845365,0.026594137,102.6594133
+32,el Camp d'en Grassot i GrÃ cia Nova,2017,Average weight of airbnb inside the neighbourhood,0.019287421,0.051515152,105.1515101
+33,el Baix GuinardÃ³,2017,Average weight of airbnb inside the neighbourhood,0.011522876,0.16292876,116.2928747
+34,Can BarÃ³,2017,Average weight of airbnb inside the neighbourhood,0.01266166,-0.020967742,97.90322043
+35,el GuinardÃ³,2017,Average weight of airbnb inside the neighbourhood,0.01059266,0.08624031,108.6240279
+36,la Font d'en Fargues,2017,Average weight of airbnb inside the neighbourhood,0.005351852,0.078358209,107.8358231
+37,el Carmel,2017,Average weight of airbnb inside the neighbourhood,0.005952822,0.410818713,141.0818909
+38,la Teixonera,2017,Average weight of airbnb inside the neighbourhood,0.004113373,0.397959184,139.795909
+39,Sant GenÃ­s dels Agudells,2017,Average weight of airbnb inside the neighbourhood,0.006071694,0.467948718,146.7948656
+40,Montbau,2017,Average weight of airbnb inside the neighbourhood,0.005203847,0.066176471,106.6176383
+41,la Vall d'Hebron,2017,Average weight of airbnb inside the neighbourhood,0.003738445,-0.051724138,94.82759058
+42,la Clota,2017,Average weight of airbnb inside the neighbourhood,0.005076142,0,100
+43,Horta,2017,Average weight of airbnb inside the neighbourhood,0.00358816,-0.025735294,97.42645961
+44,Vilapicina i la Torre Llobeta,2017,Average weight of airbnb inside the neighbourhood,0.004439246,0.248076923,124.807689
+45,Porta,2017,Average weight of airbnb inside the neighbourhood,0.0038,0.130952381,113.0952381
+46,el TurÃ³ de la Peira,2017,Average weight of airbnb inside the neighbourhood,0.003243755,0.63372093,163.3721162
+47,Can Peguera,2017,Average weight of airbnb inside the neighbourhood,0.000990753,0.5,150
+48,la Guineueta,2017,Average weight of airbnb inside the neighbourhood,0.001514549,0.007352941,100.7353543
+49,Canyelles,2017,Average weight of airbnb inside the neighbourhood,0.002057234,-0.118421053,88.15788966
+50,les Roquetes,2017,Average weight of airbnb inside the neighbourhood,0.0025675,0.1625,116.2499553
+51,Verdun,2017,Average weight of airbnb inside the neighbourhood,0.003378567,0.18627451,118.6274599
+52,la Prosperitat,2017,Average weight of airbnb inside the neighbourhood,0.002030565,0.013333333,101.3333353
+53,la Trinitat Nova,2017,Average weight of airbnb inside the neighbourhood,0.002772233,0.19047619,119.0476047
+54,Torre BarÃ³,2017,Average weight of airbnb inside the neighbourhood,0.009297052,0.138888889,113.8888913
+55,Ciutat Meridiana,2017,Average weight of airbnb inside the neighbourhood,0.002085057,0.043103448,104.3103772
+56,Vallbona,2017,Average weight of airbnb inside the neighbourhood,0.007982866,-0.145833333,85.41666979
+57,la Trinitat Vella,2017,Average weight of airbnb inside the neighbourhood,0.00229788,-0.057692308,94.23075109
+58,BarÃ³ de Viver,2017,Average weight of airbnb inside the neighbourhood,0.00174216,,200
+59,el Bon Pastor,2017,Average weight of airbnb inside the neighbourhood,0.002811404,0.180555556,118.055534
+60,Sant Andreu,2017,Average weight of airbnb inside the neighbourhood,0.002584561,0.065594059,106.559402
+61,la Sagrera,2017,Average weight of airbnb inside the neighbourhood,0.005359613,0.050233645,105.0233802
+62,el CongrÃ©s i els Indians,2017,Average weight of airbnb inside the neighbourhood,0.007136418,0.261061947,126.1062008
+63,Navas,2017,Average weight of airbnb inside the neighbourhood,0.007333613,0.120726496,112.0726527
+64,el Camp de l'Arpa del Clot,2017,Average weight of airbnb inside the neighbourhood,0.014676963,0.245590231,124.5590246
+65,el Clot,2017,Average weight of airbnb inside the neighbourhood,0.012544446,0.133693046,113.3693028
+66,el Parc i la Llacuna del Poblenou,2017,Average weight of airbnb inside the neighbourhood,0.039971693,0.197674419,119.7674393
+67,la Vila OlÃ­mpica del Poblenou,2017,Average weight of airbnb inside the neighbourhood,0.047352817,0.054716981,105.4717
+68,el Poblenou,2017,Average weight of airbnb inside the neighbourhood,0.029033605,0.107484076,110.7484103
+69,Diagonal Mar i el Front MarÃ­tim del Poblenou,2017,Average weight of airbnb inside the neighbourhood,0.023581876,0.024141631,102.4141632
+70,el BesÃ²s i el Maresme,2017,Average weight of airbnb inside the neighbourhood,0.020712396,0.579819277,157.9819278
+71,ProvenÃ§als del Poblenou,2017,Average weight of airbnb inside the neighbourhood,0.010264912,0.13099631,113.0996398
+72,Sant MartÃ­ de ProvenÃ§als,2017,Average weight of airbnb inside the neighbourhood,0.006357637,0.302197802,130.2197804
+73,la Verneda i la Pau,2017,Average weight of airbnb inside the neighbourhood,0.004830375,0.209375,120.9374857
+1,el Raval,2018,Average weight of airbnb inside the neighbourhood,0.069028676,0.069795133,106.9795143
+2,el Barri GÃ²tic,2018,Average weight of airbnb inside the neighbourhood,0.120835966,0.07929767,107.9297666
+3,la Barceloneta,2018,Average weight of airbnb inside the neighbourhood,0.036284377,0.227116883,122.7116912
+4,"Sant Pere, Santa Caterina i la Ribera",2018,Average weight of airbnb inside the neighbourhood,0.078447575,0.002433988,100.243399
+5,el Fort Pienc,2018,Average weight of airbnb inside the neighbourhood,0.035133246,0.015122339,101.5122336
+6,la Sagrada FamÃ­lia,2018,Average weight of airbnb inside the neighbourhood,0.038342252,0.06630487,106.630489
+7,la Dreta de l'Eixample,2018,Average weight of airbnb inside the neighbourhood,0.084879101,0.116705487,111.6705484
+8,l'Antiga Esquerra de l'Eixample,2018,Average weight of airbnb inside the neighbourhood,0.042578927,0.036817487,103.6817469
+9,la Nova Esquerra de l'Eixample,2018,Average weight of airbnb inside the neighbourhood,0.025831325,0.069988184,106.9988176
+10,Sant Antoni,2018,Average weight of airbnb inside the neighbourhood,0.047936067,0.023938444,102.3938436
+11,el Poble Sec,2018,Average weight of airbnb inside the neighbourhood,0.054529258,0.05809493,105.8094917
+12,la Marina del Prat Vermell,2018,Average weight of airbnb inside the neighbourhood,0.032381866,0.24807396,124.8073932
+13,la Marina de Port,2018,Average weight of airbnb inside the neighbourhood,0.008318623,0.056351183,105.6351188
+14,la Font de la Guatlla,2018,Average weight of airbnb inside the neighbourhood,0.027391117,-0.079658463,92.03415238
+15,Hostafrancs,2018,Average weight of airbnb inside the neighbourhood,0.033832514,0.089799316,108.9799296
+16,la Bordeta,2018,Average weight of airbnb inside the neighbourhood,0.015463767,0.113986014,111.398595
+17,Sants - Badal,2018,Average weight of airbnb inside the neighbourhood,0.016121301,0.187613184,118.7613236
+18,Sants,2018,Average weight of airbnb inside the neighbourhood,0.015725944,0.030703846,103.0703823
+19,les Corts,2018,Average weight of airbnb inside the neighbourhood,0.008757797,0.110946197,111.0946245
+20,la Maternitat i Sant Ramon,2018,Average weight of airbnb inside the neighbourhood,0.014335717,0.289535718,128.9535718
+21,Pedralbes,2018,Average weight of airbnb inside the neighbourhood,0.005492724,-0.124401914,87.55980884
+22,"Vallvidrera, el Tibidabo i les Planes",2018,Average weight of airbnb inside the neighbourhood,0.015600831,-0.007497657,99.25023622
+23,SarriÃ ,2018,Average weight of airbnb inside the neighbourhood,0.004079733,-0.11756777,88.24322202
+24,les Tres Torres,2018,Average weight of airbnb inside the neighbourhood,0.004453228,-0.05211498,94.78849604
+25,Sant Gervasi - la Bonanova,2018,Average weight of airbnb inside the neighbourhood,0.004385996,-0.16126085,83.87391517
+26,Sant Gervasi - Galvany,2018,Average weight of airbnb inside the neighbourhood,0.013166903,0.012363636,101.236366
+27,el Putxet i el FarrÃ³,2018,Average weight of airbnb inside the neighbourhood,0.012840765,-0.095239634,90.4760405
+28,Vallcarca i els Penitents,2018,Average weight of airbnb inside the neighbourhood,0.015409702,-0.014830903,98.51690512
+29,el Coll,2018,Average weight of airbnb inside the neighbourhood,0.013666072,0.201959717,120.1959643
+30,la Salut,2018,Average weight of airbnb inside the neighbourhood,0.018707837,-0.054094666,94.59053515
+31,la Vila de GrÃ cia,2018,Average weight of airbnb inside the neighbourhood,0.036205639,-0.043327,95.66730034
+32,el Camp d'en Grassot i GrÃ cia Nova,2018,Average weight of airbnb inside the neighbourhood,0.019828096,0.028032486,102.8032519
+33,el Baix GuinardÃ³,2018,Average weight of airbnb inside the neighbourhood,0.011572193,0.004279895,100.4279921
+34,Can BarÃ³,2018,Average weight of airbnb inside the neighbourhood,0.011992263,-0.052868055,94.71319716
+35,el GuinardÃ³,2018,Average weight of airbnb inside the neighbourhood,0.010797967,0.019382045,101.9382006
+36,la Font d'en Fargues,2018,Average weight of airbnb inside the neighbourhood,0.004989899,-0.067631331,93.23686455
+37,el Carmel,2018,Average weight of airbnb inside the neighbourhood,0.007644735,0.284220443,128.4220324
+38,la Teixonera,2018,Average weight of airbnb inside the neighbourhood,0.005437186,0.321831453,132.1831499
+39,Sant GenÃ­s dels Agudells,2018,Average weight of airbnb inside the neighbourhood,0.008272351,0.362445415,136.2445308
+40,Montbau,2018,Average weight of airbnb inside the neighbourhood,0.007282124,0.399373041,139.9373194
+41,la Vall d'Hebron,2018,Average weight of airbnb inside the neighbourhood,0.004115379,0.100826446,110.0826413
+42,la Clota,2018,Average weight of airbnb inside the neighbourhood,0,,0
+43,Horta,2018,Average weight of airbnb inside the neighbourhood,0.003493379,-0.026415094,97.35850687
+44,Vilapicina i la Torre Llobeta,2018,Average weight of airbnb inside the neighbourhood,0.004514487,0.016949153,101.6949049
+45,Porta,2018,Average weight of airbnb inside the neighbourhood,0.003658182,-0.037320574,96.26794737
+46,el TurÃ³ de la Peira,2018,Average weight of airbnb inside the neighbourhood,0.003815688,0.176318344,117.6318187
+47,Can Peguera,2018,Average weight of airbnb inside the neighbourhood,0.000990753,0,100
+48,la Guineueta,2018,Average weight of airbnb inside the neighbourhood,0.002303481,0.520902455,152.0902262
+49,Canyelles,2018,Average weight of airbnb inside the neighbourhood,0.002143766,0.042062415,104.2062303
+50,les Roquetes,2018,Average weight of airbnb inside the neighbourhood,0.003327962,0.296187683,129.6187731
+51,Verdun,2018,Average weight of airbnb inside the neighbourhood,0.004660443,0.379413974,137.9414113
+52,la Prosperitat,2018,Average weight of airbnb inside the neighbourhood,0.001457344,-0.282296651,71.77036933
+53,la Trinitat Nova,2018,Average weight of airbnb inside the neighbourhood,0.003296437,0.189090909,118.9090888
+54,Torre BarÃ³,2018,Average weight of airbnb inside the neighbourhood,0.011502783,0.237250554,123.7250582
+55,Ciutat Meridiana,2018,Average weight of airbnb inside the neighbourhood,0.001973833,-0.053343351,94.66566142
+56,Vallbona,2018,Average weight of airbnb inside the neighbourhood,0.010514019,0.317073171,131.7073217
+57,la Trinitat Vella,2018,Average weight of airbnb inside the neighbourhood,0.002762572,0.202226345,120.22264
+58,BarÃ³ de Viver,2018,Average weight of airbnb inside the neighbourhood,0.001900538,0.090909091,109.0908987
+59,el Bon Pastor,2018,Average weight of airbnb inside the neighbourhood,0.003951,0.405347594,140.5347648
+60,Sant Andreu,2018,Average weight of airbnb inside the neighbourhood,0.002659061,0.028824834,102.8825011
+61,la Sagrera,2018,Average weight of airbnb inside the neighbourhood,0.005495649,0.025381737,102.5381683
+62,el CongrÃ©s i els Indians,2018,Average weight of airbnb inside the neighbourhood,0.008304196,0.163636364,116.3636435
+63,Navas,2018,Average weight of airbnb inside the neighbourhood,0.007679988,0.047231129,104.7231153
+64,el Camp de l'Arpa del Clot,2018,Average weight of airbnb inside the neighbourhood,0.016181286,0.102495544,110.2495523
+65,el Clot,2018,Average weight of airbnb inside the neighbourhood,0.013474982,0.074179126,107.4179123
+66,el Parc i la Llacuna del Poblenou,2018,Average weight of airbnb inside the neighbourhood,0.037292525,-0.067026634,93.29733669
+67,la Vila OlÃ­mpica del Poblenou,2018,Average weight of airbnb inside the neighbourhood,0.049208733,0.039193365,103.919336
+68,el Poblenou,2018,Average weight of airbnb inside the neighbourhood,0.030511755,0.050911705,105.0911694
+69,Diagonal Mar i el Front MarÃ­tim del Poblenou,2018,Average weight of airbnb inside the neighbourhood,0.027693178,0.174341635,117.43416
+70,el BesÃ²s i el Maresme,2018,Average weight of airbnb inside the neighbourhood,0.02843265,0.372735939,137.2735921
+71,ProvenÃ§als del Poblenou,2018,Average weight of airbnb inside the neighbourhood,0.011252889,0.096247961,109.6247976
+72,Sant MartÃ­ de ProvenÃ§als,2018,Average weight of airbnb inside the neighbourhood,0.007242878,0.139240506,113.924057
+73,la Verneda i la Pau,2018,Average weight of airbnb inside the neighbourhood,0.00574607,0.18957012,118.9570168
+1,el Raval,2019,Average weight of airbnb inside the neighbourhood,0.081586454,0.181921173,118.1921177
+2,el Barri GÃ²tic,2019,Average weight of airbnb inside the neighbourhood,0.14409136,0.19245424,119.245424
+3,la Barceloneta,2019,Average weight of airbnb inside the neighbourhood,0.047715599,0.315045297,131.5045288
+4,"Sant Pere, Santa Caterina i la Ribera",2019,Average weight of airbnb inside the neighbourhood,0.096344622,0.22814022,122.814022
+5,el Fort Pienc,2019,Average weight of airbnb inside the neighbourhood,0.034943094,-0.005412289,99.45876905
+6,la Sagrada FamÃ­lia,2019,Average weight of airbnb inside the neighbourhood,0.040591874,0.058672156,105.8672141
+7,la Dreta de l'Eixample,2019,Average weight of airbnb inside the neighbourhood,0.097474193,0.148388614,114.8388612
+8,l'Antiga Esquerra de l'Eixample,2019,Average weight of airbnb inside the neighbourhood,0.045801953,0.075695313,107.5695332
+9,la Nova Esquerra de l'Eixample,2019,Average weight of airbnb inside the neighbourhood,0.028056421,0.086139474,108.6139445
+10,Sant Antoni,2019,Average weight of airbnb inside the neighbourhood,0.05077781,0.059281937,105.9281939
+11,el Poble Sec,2019,Average weight of airbnb inside the neighbourhood,0.060836303,0.115663493,111.5663503
+12,la Marina del Prat Vermell,2019,Average weight of airbnb inside the neighbourhood,0.030782762,-0.049382716,95.06172992
+13,la Marina de Port,2019,Average weight of airbnb inside the neighbourhood,0.007065804,-0.150604185,84.93958676
+14,la Font de la Guatlla,2019,Average weight of airbnb inside the neighbourhood,0.029202841,0.066142764,106.6142757
+15,Hostafrancs,2019,Average weight of airbnb inside the neighbourhood,0.038487452,0.13758769,113.7587706
+16,la Bordeta,2019,Average weight of airbnb inside the neighbourhood,0.014023848,-0.093115715,90.68843316
+17,Sants - Badal,2019,Average weight of airbnb inside the neighbourhood,0.01630567,0.011436414,101.143636
+18,Sants,2019,Average weight of airbnb inside the neighbourhood,0.017063326,0.085043044,108.5043035
+19,les Corts,2019,Average weight of airbnb inside the neighbourhood,0.009009357,0.028724115,102.8724119
+20,la Maternitat i Sant Ramon,2019,Average weight of airbnb inside the neighbourhood,0.014137464,-0.01382928,98.61706952
+21,Pedralbes,2019,Average weight of airbnb inside the neighbourhood,0.004688325,-0.146448087,85.35518988
+22,"Vallvidrera, el Tibidabo i les Planes",2019,Average weight of airbnb inside the neighbourhood,0.01701507,0.090651558,109.0651517
+23,SarriÃ ,2019,Average weight of airbnb inside the neighbourhood,0.003899704,-0.044127631,95.58723573
+24,les Tres Torres,2019,Average weight of airbnb inside the neighbourhood,0.004927536,0.106508876,110.6508807
+25,Sant Gervasi - la Bonanova,2019,Average weight of airbnb inside the neighbourhood,0.004414663,0.006535948,100.653603
+26,Sant Gervasi - Galvany,2019,Average weight of airbnb inside the neighbourhood,0.014657875,0.113236351,111.3236347
+27,el Putxet i el FarrÃ³,2019,Average weight of airbnb inside the neighbourhood,0.014328671,0.115873696,111.5873626
+28,Vallcarca i els Penitents,2019,Average weight of airbnb inside the neighbourhood,0.015417467,0.000503905,100.0503903
+29,el Coll,2019,Average weight of airbnb inside the neighbourhood,0.014615105,0.069444444,106.9444461
+30,la Salut,2019,Average weight of airbnb inside the neighbourhood,0.016454179,-0.120465978,87.95340156
+31,la Vila de GrÃ cia,2019,Average weight of airbnb inside the neighbourhood,0.037589127,0.038211928,103.8211948
+32,el Camp d'en Grassot i GrÃ cia Nova,2019,Average weight of airbnb inside the neighbourhood,0.020436144,0.030665987,103.066598
+33,el Baix GuinardÃ³,2019,Average weight of airbnb inside the neighbourhood,0.012156863,0.050523722,105.0523699
+34,Can BarÃ³,2019,Average weight of airbnb inside the neighbourhood,0.010346266,-0.137254902,86.27450882
+35,el GuinardÃ³,2019,Average weight of airbnb inside the neighbourhood,0.011887213,0.100875099,110.08751
+36,la Font d'en Fargues,2019,Average weight of airbnb inside the neighbourhood,0.004740741,-0.049932524,95.00675264
+37,el Carmel,2019,Average weight of airbnb inside the neighbourhood,0.00794532,0.039319249,103.9319218
+38,la Teixonera,2019,Average weight of airbnb inside the neighbourhood,0.006545367,0.203815261,120.3815172
+39,Sant GenÃ­s dels Agudells,2019,Average weight of airbnb inside the neighbourhood,0.008590519,0.038461538,103.8461618
+40,Montbau,2019,Average weight of airbnb inside the neighbourhood,0.0097617,0.340501792,134.0501755
+41,la Vall d'Hebron,2019,Average weight of airbnb inside the neighbourhood,0.00353453,-0.141141141,85.88589289
+42,la Clota,2019,Average weight of airbnb inside the neighbourhood,0,,
+43,Horta,2019,Average weight of airbnb inside the neighbourhood,0.00357462,0.023255814,102.3255707
+44,Vilapicina i la Torre Llobeta,2019,Average weight of airbnb inside the neighbourhood,0.005116419,0.133333333,113.3333422
+45,Porta,2019,Average weight of airbnb inside the neighbourhood,0.00432,0.180914513,118.0914454
+46,el TurÃ³ de la Peira,2019,Average weight of airbnb inside the neighbourhood,0.004802142,0.258525853,125.8525854
+47,Can Peguera,2019,Average weight of airbnb inside the neighbourhood,0.001321004,0.333333333,133.3333333
+48,la Guineueta,2019,Average weight of airbnb inside the neighbourhood,0.001724595,-0.251308901,74.86907858
+49,Canyelles,2019,Average weight of airbnb inside the neighbourhood,0.001228199,-0.427083333,57.29165403
+50,les Roquetes,2019,Average weight of airbnb inside the neighbourhood,0.005631936,0.692307692,169.2307785
+51,Verdun,2019,Average weight of airbnb inside the neighbourhood,0.005025967,0.078431373,107.8431171
+52,la Prosperitat,2019,Average weight of airbnb inside the neighbourhood,0.00184354,0.265,126.499989
+53,la Trinitat Nova,2019,Average weight of airbnb inside the neighbourhood,0.003992016,0.211009174,121.1009341
+54,Torre BarÃ³,2019,Average weight of airbnb inside the neighbourhood,0.004535147,-0.605734767,39.42651965
+55,Ciutat Meridiana,2019,Average weight of airbnb inside the neighbourhood,0.00137855,-0.301587302,69.84126823
+56,Vallbona,2019,Average weight of airbnb inside the neighbourhood,0,,0
+57,la Trinitat Vella,2019,Average weight of airbnb inside the neighbourhood,0.003845432,0.391975309,139.1975304
+58,BarÃ³ de Viver,2019,Average weight of airbnb inside the neighbourhood,0.0014518,-0.236111111,76.3888962
+59,el Bon Pastor,2019,Average weight of airbnb inside the neighbourhood,0.00383674,-0.02891933,97.10807391
+60,Sant Andreu,2019,Average weight of airbnb inside the neighbourhood,0.003193929,0.201149425,120.1149203
+61,la Sagrera,2019,Average weight of airbnb inside the neighbourhood,0.006176372,0.123865878,112.3865807
+62,el CongrÃ©s i els Indians,2019,Average weight of airbnb inside the neighbourhood,0.008764022,0.055372807,105.537273
+63,Navas,2019,Average weight of airbnb inside the neighbourhood,0.00738255,-0.038728898,96.12710332
+64,el Camp de l'Arpa del Clot,2019,Average weight of airbnb inside the neighbourhood,0.017890546,0.105631905,110.5631901
+65,el Clot,2019,Average weight of airbnb inside the neighbourhood,0.013002176,-0.035087719,96.49123093
+66,el Parc i la Llacuna del Poblenou,2019,Average weight of airbnb inside the neighbourhood,0.035748528,-0.041402337,95.85976814
+67,la Vila OlÃ­mpica del Poblenou,2019,Average weight of airbnb inside the neighbourhood,0.049131724,-0.001564945,99.84350542
+68,el Poblenou,2019,Average weight of airbnb inside the neighbourhood,0.031496556,0.032276119,103.2276118
+69,Diagonal Mar i el Front MarÃ­tim del Poblenou,2019,Average weight of airbnb inside the neighbourhood,0.02870837,0.036658556,103.6658559
+70,el BesÃ²s i el Maresme,2019,Average weight of airbnb inside the neighbourhood,0.022983059,-0.191666667,80.83333421
+71,ProvenÃ§als del Poblenou,2019,Average weight of airbnb inside the neighbourhood,0.011420342,0.014880952,101.488089
+72,Sant MartÃ­ de ProvenÃ§als,2019,Average weight of airbnb inside the neighbourhood,0.008745104,0.207407407,120.7407332
+73,la Verneda i la Pau,2019,Average weight of airbnb inside the neighbourhood,0.006690132,0.164296998,116.4296989
+1,el Raval,2015,Airbnb average price per night,69.20265029,0,100
+2,el Barri GÃ²tic,2015,Airbnb average price per night,75.07026598,0,100
+3,la Barceloneta,2015,Airbnb average price per night,134.325501,0,100
+4,"Sant Pere, Santa Caterina i la Ribera",2015,Airbnb average price per night,73.35696153,0,100
+5,el Fort Pienc,2015,Airbnb average price per night,75.01874163,0,100
+6,la Sagrada FamÃ­lia,2015,Airbnb average price per night,77.77565564,0,100
+7,la Dreta de l'Eixample,2015,Airbnb average price per night,111.8158309,0,100
+8,l'Antiga Esquerra de l'Eixample,2015,Airbnb average price per night,87.12760159,0,100
+9,la Nova Esquerra de l'Eixample,2015,Airbnb average price per night,64.19316969,0,100
+10,Sant Antoni,2015,Airbnb average price per night,76.26492117,0,100
+11,el Poble Sec,2015,Airbnb average price per night,67.03743316,0,100
+12,la Marina del Prat Vermell,2015,Airbnb average price per night,166.5769231,0,100
+13,la Marina de Port,2015,Airbnb average price per night,70.96875,0,100
+14,la Font de la Guatlla,2015,Airbnb average price per night,57.9137931,0,100
+15,Hostafrancs,2015,Airbnb average price per night,83.60258481,0,100
+16,la Bordeta,2015,Airbnb average price per night,44.85214008,0,100
+17,Sants - Badal,2015,Airbnb average price per night,46.82808023,0,100
+18,Sants,2015,Airbnb average price per night,64.02298851,0,100
+19,les Corts,2015,Airbnb average price per night,74.52631579,0,100
+20,la Maternitat i Sant Ramon,2015,Airbnb average price per night,48.54065934,0,100
+21,Pedralbes,2015,Airbnb average price per night,84.04,0,100
+22,"Vallvidrera, el Tibidabo i les Planes",2015,Airbnb average price per night,167.0225564,0,100
+23,SarriÃ ,2015,Airbnb average price per night,98.12440191,0,100
+24,les Tres Torres,2015,Airbnb average price per night,93.5106383,0,100
+25,Sant Gervasi - la Bonanova,2015,Airbnb average price per night,81.52145215,0,100
+26,Sant Gervasi - Galvany,2015,Airbnb average price per night,109.322307,0,100
+27,el Putxet i el FarrÃ³,2015,Airbnb average price per night,70.40794574,0,100
+28,Vallcarca i els Penitents,2015,Airbnb average price per night,69.23237598,0,100
+29,el Coll,2015,Airbnb average price per night,70,0,100
+30,la Salut,2015,Airbnb average price per night,79.28271028,0,100
+31,la Vila de GrÃ cia,2015,Airbnb average price per night,79.13904884,0,100
+32,el Camp d'en Grassot i GrÃ cia Nova,2015,Airbnb average price per night,70.4277739,0,100
+33,el Baix GuinardÃ³,2015,Airbnb average price per night,56.98409894,0,100
+34,Can BarÃ³,2015,Airbnb average price per night,63.9895288,0,100
+35,el GuinardÃ³,2015,Airbnb average price per night,68.59552239,0,100
+36,la Font d'en Fargues,2015,Airbnb average price per night,118.7613636,0,100
+37,el Carmel,2015,Airbnb average price per night,45.95811518,0,100
+38,la Teixonera,2015,Airbnb average price per night,53.21621622,0,100
+39,Sant GenÃ­s dels Agudells,2015,Airbnb average price per night,67.59615385,0,100
+40,Montbau,2015,Airbnb average price per night,48.55,0,100
+41,la Vall d'Hebron,2015,Airbnb average price per night,46.27777778,0,100
+42,la Clota,2015,Airbnb average price per night,44.6,0,100
+43,Horta,2015,Airbnb average price per night,46.21875,0,100
+44,Vilapicina i la Torre Llobeta,2015,Airbnb average price per night,50.40116279,0,100
+45,Porta,2015,Airbnb average price per night,32.33043478,0,100
+46,el TurÃ³ de la Peira,2015,Airbnb average price per night,37.52173913,0,100
+47,Can Peguera,2015,Airbnb average price per night,20,0,100
+48,la Guineueta,2015,Airbnb average price per night,50.30769231,0,100
+49,Canyelles,2015,Airbnb average price per night,36.74358974,0,100
+50,les Roquetes,2015,Airbnb average price per night,30.50819672,0,100
+51,Verdun,2015,Airbnb average price per night,38.94117647,0,100
+52,la Prosperitat,2015,Airbnb average price per night,42.74736842,0,100
+53,la Trinitat Nova,2015,Airbnb average price per night,58.125,0,100
+54,Torre BarÃ³,2015,Airbnb average price per night,33.6,0,100
+55,Ciutat Meridiana,2015,Airbnb average price per night,22.47826087,0,100
+56,Vallbona,2015,Airbnb average price per night,54.5,0,100
+57,la Trinitat Vella,2015,Airbnb average price per night,51.5625,0,100
+58,BarÃ³ de Viver,2015,Airbnb average price per night,75,0,100
+59,el Bon Pastor,2015,Airbnb average price per night,46.92156863,0,100
+60,Sant Andreu,2015,Airbnb average price per night,50.59197324,0,100
+61,la Sagrera,2015,Airbnb average price per night,52.3219697,0,100
+62,el CongrÃ©s i els Indians,2015,Airbnb average price per night,49.75423729,0,100
+63,Navas,2015,Airbnb average price per night,59.25581395,0,100
+64,el Camp de l'Arpa del Clot,2015,Airbnb average price per night,59.797,0,100
+65,el Clot,2015,Airbnb average price per night,47.74207188,0,100
+66,el Parc i la Llacuna del Poblenou,2015,Airbnb average price per night,76.12417062,0,100
+67,la Vila OlÃ­mpica del Poblenou,2015,Airbnb average price per night,128.4567568,0,100
+68,el Poblenou,2015,Airbnb average price per night,81.25504087,0,100
+69,Diagonal Mar i el Front MarÃ­tim del Poblenou,2015,Airbnb average price per night,188.901454,0,100
+70,el BesÃ²s i el Maresme,2015,Airbnb average price per night,60.93055556,0,100
+71,ProvenÃ§als del Poblenou,2015,Airbnb average price per night,83.75141243,0,100
+72,Sant MartÃ­ de ProvenÃ§als,2015,Airbnb average price per night,43.88947368,0,100
+73,la Verneda i la Pau,2015,Airbnb average price per night,33.48167539,0,100
+1,el Raval,2016,Airbnb average price per night,69.67066731,0.006762993,100.6762993
+2,el Barri GÃ²tic,2016,Airbnb average price per night,80.01163806,0.065823293,106.5823293
+3,la Barceloneta,2016,Airbnb average price per night,94.12163743,-0.299301795,70.0698205
+4,"Sant Pere, Santa Caterina i la Ribera",2016,Airbnb average price per night,76.69288861,0.045475262,104.5475262
+5,el Fort Pienc,2016,Airbnb average price per night,77.60552268,0.034481797,103.4481797
+6,la Sagrada FamÃ­lia,2016,Airbnb average price per night,77.83491102,0.000761876,100.0761876
+7,la Dreta de l'Eixample,2016,Airbnb average price per night,135.1818182,0.208968508,120.8968508
+8,l'Antiga Esquerra de l'Eixample,2016,Airbnb average price per night,89.32661871,0.025239041,102.5239041
+9,la Nova Esquerra de l'Eixample,2016,Airbnb average price per night,66.97637416,0.043356707,104.3356707
+10,Sant Antoni,2016,Airbnb average price per night,76.48483655,0.002883572,100.2883572
+11,el Poble Sec,2016,Airbnb average price per night,75.51973922,0.12653089,112.653089
+12,la Marina del Prat Vermell,2016,Airbnb average price per night,188.3846154,0.130916647,113.0916647
+13,la Marina de Port,2016,Airbnb average price per night,48.875,-0.311316601,68.86833994
+14,la Font de la Guatlla,2016,Airbnb average price per night,87.71698113,0.514612952,151.4612952
+15,Hostafrancs,2016,Airbnb average price per night,76.15886288,-0.089036983,91.09630169
+16,la Bordeta,2016,Airbnb average price per night,52.06333333,0.160777016,116.0777016
+17,Sants - Badal,2016,Airbnb average price per night,52.89430894,0.129542546,112.9542545
+18,Sants,2016,Airbnb average price per night,64.41238195,0.006082088,100.6082088
+19,les Corts,2016,Airbnb average price per night,83.21965318,0.116647889,111.6647889
+20,la Maternitat i Sant Ramon,2016,Airbnb average price per night,47.08761329,-0.029934617,97.00653829
+21,Pedralbes,2016,Airbnb average price per night,109.3829787,0.301558528,130.1558528
+22,"Vallvidrera, el Tibidabo i les Planes",2016,Airbnb average price per night,160.5487805,-0.03875989,96.12401101
+23,SarriÃ ,2016,Airbnb average price per night,89.48484848,-0.088046941,91.1953059
+24,les Tres Torres,2016,Airbnb average price per night,114.245098,0.221733699,122.1733699
+25,Sant Gervasi - la Bonanova,2016,Airbnb average price per night,88.04020101,0.079963601,107.9963601
+26,Sant Gervasi - Galvany,2016,Airbnb average price per night,115.0619684,0.052502198,105.2502198
+27,el Putxet i el FarrÃ³,2016,Airbnb average price per night,68.29027576,-0.030077145,96.99228552
+28,Vallcarca i els Penitents,2016,Airbnb average price per night,63.74922601,-0.079199217,92.0800783
+29,el Coll,2016,Airbnb average price per night,60.04878049,-0.142160279,85.78397213
+30,la Salut,2016,Airbnb average price per night,67.12759644,-0.153313551,84.66864491
+31,la Vila de GrÃ cia,2016,Airbnb average price per night,76.84375944,-0.029003247,97.09967528
+32,el Camp d'en Grassot i GrÃ cia Nova,2016,Airbnb average price per night,68.67272727,-0.024919808,97.50801916
+33,el Baix GuinardÃ³,2016,Airbnb average price per night,60.18205805,0.056120201,105.6120201
+34,Can BarÃ³,2016,Airbnb average price per night,59.37419355,-0.072126414,92.78735859
+35,el GuinardÃ³,2016,Airbnb average price per night,61.48837209,-0.103609537,89.63904632
+36,la Font d'en Fargues,2016,Airbnb average price per night,104.1641791,-0.122911897,87.70881029
+37,el Carmel,2016,Airbnb average price per night,45.33333333,-0.013594593,98.64054075
+38,la Teixonera,2016,Airbnb average price per night,51.34693878,-0.035126087,96.4873913
+39,Sant GenÃ­s dels Agudells,2016,Airbnb average price per night,63.17948718,-0.065339023,93.46609767
+40,Montbau,2016,Airbnb average price per night,39.61764706,-0.183982553,81.60174472
+41,la Vall d'Hebron,2016,Airbnb average price per night,45.44827586,-0.017924411,98.20755888
+42,la Clota,2016,Airbnb average price per night,80,0.793721973,179.3721973
+43,Horta,2016,Airbnb average price per night,78.85294118,0.706081215,170.6081216
+44,Vilapicina i la Torre Llobeta,2016,Airbnb average price per night,39.59230769,-0.214456463,78.55435371
+45,Porta,2016,Airbnb average price per night,33.18253968,0.026356123,102.6356123
+46,el TurÃ³ de la Peira,2016,Airbnb average price per night,49.60465116,0.322024307,132.2024307
+47,Can Peguera,2016,Airbnb average price per night,16.66666667,-0.166666667,83.33333335
+48,la Guineueta,2016,Airbnb average price per night,52.44117647,0.042408707,104.2408707
+49,Canyelles,2016,Airbnb average price per night,31.73684211,-0.136261799,86.37382013
+50,les Roquetes,2016,Airbnb average price per night,34.375,0.126746373,112.6746373
+51,Verdun,2016,Airbnb average price per night,41.49019608,0.065458207,106.5458208
+52,la Prosperitat,2016,Airbnb average price per night,32.4,-0.242058606,75.79413938
+53,la Trinitat Nova,2016,Airbnb average price per night,35.61904762,-0.387199181,61.28008193
+54,Torre BarÃ³,2016,Airbnb average price per night,34.16666667,0.016865079,101.6865079
+55,Ciutat Meridiana,2016,Airbnb average price per night,23.10344828,0.027812979,102.781298
+56,Vallbona,2016,Airbnb average price per night,55.5,0.018348624,101.8348624
+57,la Trinitat Vella,2016,Airbnb average price per night,33.34615385,-0.353286713,64.67132868
+58,BarÃ³ de Viver,2016,Airbnb average price per night,27,-0.64,36
+59,el Bon Pastor,2016,Airbnb average price per night,45.63888889,-0.027336676,97.26633236
+60,Sant Andreu,2016,Airbnb average price per night,52.00990099,0.028026733,102.8026733
+61,la Sagrera,2016,Airbnb average price per night,48.71962617,-0.06884954,93.11504603
+62,el CongrÃ©s i els Indians,2016,Airbnb average price per night,81.43362832,0.636717449,163.6717449
+63,Navas,2016,Airbnb average price per night,51.46153846,-0.131536046,86.84639537
+64,el Camp de l'Arpa del Clot,2016,Airbnb average price per night,63.97829037,0.069924752,106.9924752
+65,el Clot,2016,Airbnb average price per night,47.46043165,-0.005899204,99.41007958
+66,el Parc i la Llacuna del Poblenou,2016,Airbnb average price per night,83.30369357,0.094313316,109.4313316
+67,la Vila OlÃ­mpica del Poblenou,2016,Airbnb average price per night,142.5849057,0.109983696,110.9983696
+68,el Poblenou,2016,Airbnb average price per night,83.14092357,0.023209424,102.3209424
+69,Diagonal Mar i el Front MarÃ­tim del Poblenou,2016,Airbnb average price per night,212.8240343,0.126640531,112.664053
+70,el BesÃ²s i el Maresme,2016,Airbnb average price per night,66.15060241,0.085672071,108.567207
+71,ProvenÃ§als del Poblenou,2016,Airbnb average price per night,67.66051661,-0.192126859,80.78731408
+72,Sant MartÃ­ de ProvenÃ§als,2016,Airbnb average price per night,37.81868132,-0.138320008,86.16799918
+73,la Verneda i la Pau,2016,Airbnb average price per night,31.775,-0.050973417,94.90265833
+1,el Raval,2017,Airbnb average price per night,76.86732546,0.103295381,110.3295381
+2,el Barri GÃ²tic,2017,Airbnb average price per night,91.27459531,0.140766488,114.0766488
+3,la Barceloneta,2017,Airbnb average price per night,82.636,-0.122029724,87.79702761
+4,"Sant Pere, Santa Caterina i la Ribera",2017,Airbnb average price per night,84.3509484,0.099853584,109.9853584
+5,el Fort Pienc,2017,Airbnb average price per night,97.64109021,0.258171929,125.8171929
+6,la Sagrada FamÃ­lia,2017,Airbnb average price per night,86.48084179,0.111080371,111.1080371
+7,la Dreta de l'Eixample,2017,Airbnb average price per night,150.8637064,0.116005898,111.6005898
+8,l'Antiga Esquerra de l'Eixample,2017,Airbnb average price per night,110.6003566,0.238156758,123.8156758
+9,la Nova Esquerra de l'Eixample,2017,Airbnb average price per night,75.51108033,0.127428609,112.7428609
+10,Sant Antoni,2017,Airbnb average price per night,87.30503309,0.141468519,114.1468519
+11,el Poble Sec,2017,Airbnb average price per night,86.97661413,0.151707024,115.1707024
+12,la Marina del Prat Vermell,2017,Airbnb average price per night,783.9915254,3.161653667,416.1653667
+13,la Marina de Port,2017,Airbnb average price per night,70.69434932,0.4464317,144.64317
+14,la Font de la Guatlla,2017,Airbnb average price per night,84.08066298,-0.041455122,95.8544878
+15,Hostafrancs,2017,Airbnb average price per night,80.90810444,0.06235967,106.235967
+16,la Bordeta,2017,Airbnb average price per night,59.80769231,0.148748812,114.8748812
+17,Sants - Badal,2017,Airbnb average price per night,58.97709163,0.114998812,111.4998812
+18,Sants,2017,Airbnb average price per night,73.41231471,0.139723645,113.9723645
+19,les Corts,2017,Airbnb average price per night,102.3085714,0.22937993,122.937993
+20,la Maternitat i Sant Ramon,2017,Airbnb average price per night,82.00845547,0.74161419,174.161419
+21,Pedralbes,2017,Airbnb average price per night,144.2631579,0.318881233,131.8881234
+22,"Vallvidrera, el Tibidabo i les Planes",2017,Airbnb average price per night,147.7525773,-0.079702899,92.02971012
+23,SarriÃ ,2017,Airbnb average price per night,96.78418451,0.081570636,108.1570636
+24,les Tres Torres,2017,Airbnb average price per night,127.6375321,0.117225459,111.7225459
+25,Sant Gervasi - la Bonanova,2017,Airbnb average price per night,90.66959799,0.029865868,102.9865868
+26,Sant Gervasi - Galvany,2017,Airbnb average price per night,126.1355,0.09623972,109.623972
+27,el Putxet i el FarrÃ³,2017,Airbnb average price per night,112.2680412,0.643982836,164.3982836
+28,Vallcarca i els Penitents,2017,Airbnb average price per night,75.61228669,0.186089486,118.6089486
+29,el Coll,2017,Airbnb average price per night,60.63073852,0.009691421,100.9691421
+30,la Salut,2017,Airbnb average price per night,68.41873278,0.019234062,101.9234062
+31,la Vila de GrÃ cia,2017,Airbnb average price per night,84.09523109,0.094366435,109.4366435
+32,el Camp d'en Grassot i GrÃ cia Nova,2017,Airbnb average price per night,74.21469741,0.08070118,108.070118
+33,el Baix GuinardÃ³,2017,Airbnb average price per night,64.05899036,0.064420069,106.4420069
+34,Can BarÃ³,2017,Airbnb average price per night,66.45304778,0.119224427,111.9224427
+35,el GuinardÃ³,2017,Airbnb average price per night,63.83630687,0.038185021,103.8185021
+36,la Font d'en Fargues,2017,Airbnb average price per night,111.9065744,0.07432877,107.432877
+37,el Carmel,2017,Airbnb average price per night,62.54404145,0.379647973,137.9647973
+38,la Teixonera,2017,Airbnb average price per night,44.99270073,-0.123751059,87.6248941
+39,Sant GenÃ­s dels Agudells,2017,Airbnb average price per night,65.08296943,0.030128169,103.0128169
+40,Montbau,2017,Airbnb average price per night,37.06896552,-0.064331977,93.56680235
+41,la Vall d'Hebron,2017,Airbnb average price per night,47.96363636,0.055345565,105.5345565
+42,la Clota,2017,Airbnb average price per night,276.6666667,2.458333333,345.8333334
+43,Horta,2017,Airbnb average price per night,98.7754717,0.252654248,125.2654248
+44,Vilapicina i la Torre Llobeta,2017,Airbnb average price per night,46.02311248,0.162425612,116.2425612
+45,Porta,2017,Airbnb average price per night,36.78421053,0.108541145,110.8541145
+46,el TurÃ³ de la Peira,2017,Airbnb average price per night,50.78647687,0.023824897,102.3824897
+47,Can Peguera,2017,Airbnb average price per night,25.86666667,0.552,155.2
+48,la Guineueta,2017,Airbnb average price per night,52.89051095,0.008568352,100.8568352
+49,Canyelles,2017,Airbnb average price per night,37.55223881,0.183238039,118.3238039
+50,les Roquetes,2017,Airbnb average price per night,37.1827957,0.081681329,108.1681329
+51,Verdun,2017,Airbnb average price per night,32.38016529,-0.219570685,78.04293146
+52,la Prosperitat,2017,Airbnb average price per night,39.26973684,0.212028915,121.2028915
+53,la Trinitat Nova,2017,Airbnb average price per night,30.33,-0.148489305,85.15106952
+54,Torre BarÃ³,2017,Airbnb average price per night,42.43902439,0.242117787,124.2117787
+55,Ciutat Meridiana,2017,Airbnb average price per night,32.96694215,0.426927347,142.6927347
+56,Vallbona,2017,Airbnb average price per night,55.3902439,-0.001977587,99.80224126
+57,la Trinitat Vella,2017,Airbnb average price per night,45.62244898,0.368147259,136.8147259
+58,BarÃ³ de Viver,2017,Airbnb average price per night,70.16666667,1.598765432,259.8765432
+59,el Bon Pastor,2017,Airbnb average price per night,38.92941176,-0.14701228,85.29877196
+60,Sant Andreu,2017,Airbnb average price per night,59.95121951,0.152688591,115.2688591
+61,la Sagrera,2017,Airbnb average price per night,51.03670745,0.047559505,104.7559504
+62,el CongrÃ©s i els Indians,2017,Airbnb average price per night,88.83684211,0.090911015,109.0911015
+63,Navas,2017,Airbnb average price per night,51.80934223,0.006758519,100.6758519
+64,el Camp de l'Arpa del Clot,2017,Airbnb average price per night,66.03213508,0.032102213,103.2102213
+65,el Clot,2017,Airbnb average price per night,57.97091486,0.221457809,122.1457809
+66,el Parc i la Llacuna del Poblenou,2017,Airbnb average price per night,80.3469446,-0.035493612,96.45063881
+67,la Vila OlÃ­mpica del Poblenou,2017,Airbnb average price per night,168.6113596,0.182533023,118.2533023
+68,el Poblenou,2017,Airbnb average price per night,95.04565061,0.143187332,114.3187332
+69,Diagonal Mar i el Front MarÃ­tim del Poblenou,2017,Airbnb average price per night,254.5248821,0.1959405,119.5940501
+70,el BesÃ²s i el Maresme,2017,Airbnb average price per night,67.82554814,0.025320189,102.5320189
+71,ProvenÃ§als del Poblenou,2017,Airbnb average price per night,68.59053834,0.013745413,101.3745413
+72,Sant MartÃ­ de ProvenÃ§als,2017,Airbnb average price per night,43.45780591,0.149109498,114.9109498
+73,la Verneda i la Pau,2017,Airbnb average price per night,37.1124031,0.167974921,116.7974921
+1,el Raval,2018,Airbnb average price per night,78.06117703,0.015531327,101.5531327
+2,el Barri GÃ²tic,2018,Airbnb average price per night,89.56854688,-0.018691383,98.13086169
+3,la Barceloneta,2018,Airbnb average price per night,81.61620523,-0.012340805,98.76591949
+4,"Sant Pere, Santa Caterina i la Ribera",2018,Airbnb average price per night,80.74430853,-0.04275755,95.72424503
+5,el Fort Pienc,2018,Airbnb average price per night,104.6588666,0.071873188,107.1873188
+6,la Sagrada FamÃ­lia,2018,Airbnb average price per night,102.1860525,0.181603351,118.1603352
+7,la Dreta de l'Eixample,2018,Airbnb average price per night,184.9117384,0.225687363,122.5687363
+8,l'Antiga Esquerra de l'Eixample,2018,Airbnb average price per night,146.0896909,0.320879022,132.0879022
+9,la Nova Esquerra de l'Eixample,2018,Airbnb average price per night,83.06289376,0.100009342,110.0009342
+10,Sant Antoni,2018,Airbnb average price per night,139.6245477,0.599272605,159.9272605
+11,el Poble Sec,2018,Airbnb average price per night,90.88538482,0.044940479,104.4940479
+12,la Marina del Prat Vermell,2018,Airbnb average price per night,745.4,-0.049224417,95.07755835
+13,la Marina de Port,2018,Airbnb average price per night,71.92307692,0.017380846,101.7380846
+14,la Font de la Guatlla,2018,Airbnb average price per night,76.5664702,-0.089368857,91.06311426
+15,Hostafrancs,2018,Airbnb average price per night,109.832315,0.357494602,135.7494602
+16,la Bordeta,2018,Airbnb average price per night,59.695543,-0.001875165,99.81248347
+17,Sants - Badal,2018,Airbnb average price per night,65.85315645,0.11658874,111.658874
+18,Sants,2018,Airbnb average price per night,72.80352402,-0.00829276,99.17072402
+19,les Corts,2018,Airbnb average price per night,93.14509018,-0.089567092,91.04329081
+20,la Maternitat i Sant Ramon,2018,Airbnb average price per night,104.5174058,0.274471092,127.4471092
+21,Pedralbes,2018,Airbnb average price per night,105.9114754,-0.2658453,73.41546999
+22,"Vallvidrera, el Tibidabo i les Planes",2018,Airbnb average price per night,137.3031161,-0.0707227,92.92773
+23,SarriÃ ,2018,Airbnb average price per night,75.80244399,-0.216788937,78.32110626
+24,les Tres Torres,2018,Airbnb average price per night,132.2751479,0.036334264,103.6334264
+25,Sant Gervasi - la Bonanova,2018,Airbnb average price per night,150.5686275,0.660629702,166.0629702
+26,Sant Gervasi - Galvany,2018,Airbnb average price per night,118.3561422,-0.06167461,93.83253898
+27,el Putxet i el FarrÃ³,2018,Airbnb average price per night,141.0715817,0.256560461,125.6560462
+28,Vallcarca i els Penitents,2018,Airbnb average price per night,74.65154951,-0.012706099,98.72939013
+29,el Coll,2018,Airbnb average price per night,56.95289855,-0.06065966,93.93403402
+30,la Salut,2018,Airbnb average price per night,61.97378872,-0.09419853,90.58014699
+31,la Vila de GrÃ cia,2018,Airbnb average price per night,123.8364384,0.472573852,147.2573852
+32,el Camp d'en Grassot i GrÃ cia Nova,2018,Airbnb average price per night,101.3019878,0.364985526,136.4985526
+33,el Baix GuinardÃ³,2018,Airbnb average price per night,68.29081947,0.066061439,106.6061439
+34,Can BarÃ³,2018,Airbnb average price per night,60.87476281,-0.083943252,91.60567475
+35,el GuinardÃ³,2018,Airbnb average price per night,71.5646778,0.121065446,112.1065445
+36,la Font d'en Fargues,2018,Airbnb average price per night,137.3846154,0.227672423,122.7672424
+37,el Carmel,2018,Airbnb average price per night,98.89612676,0.581223798,158.1223798
+38,la Teixonera,2018,Airbnb average price per night,43.14759036,-0.041009105,95.89908954
+39,Sant GenÃ­s dels Agudells,2018,Airbnb average price per night,63.03846154,-0.031413869,96.85861308
+40,Montbau,2018,Airbnb average price per night,29.24193548,-0.211147787,78.88522129
+41,la Vall d'Hebron,2018,Airbnb average price per night,41.35135135,-0.137860377,86.21396226
+42,la Clota,2018,Airbnb average price per night,,,0
+43,Horta,2018,Airbnb average price per night,52.57716702,-0.467710292,53.22897083
+44,Vilapicina i la Torre Llobeta,2018,Airbnb average price per night,41.75371901,-0.092766292,90.72337085
+45,Porta,2018,Airbnb average price per night,41.18091451,0.119526936,111.9526936
+46,el TurÃ³ de la Peira,2018,Airbnb average price per night,41.6369637,-0.180156485,81.98435148
+47,Can Peguera,2018,Airbnb average price per night,26.06666667,0.007731959,100.7731959
+48,la Guineueta,2018,Airbnb average price per night,57.53403141,0.087794963,108.7794963
+49,Canyelles,2018,Airbnb average price per night,43.515625,0.158802415,115.8802414
+50,les Roquetes,2018,Airbnb average price per night,38.52941176,0.036216106,103.6216106
+51,Verdun,2018,Airbnb average price per night,35.66339869,0.101396437,110.1396437
+52,la Prosperitat,2018,Airbnb average price per night,39.135,-0.00343106,99.65689396
+53,la Trinitat Nova,2018,Airbnb average price per night,36.88073394,0.215981996,121.5981996
+54,Torre BarÃ³,2018,Airbnb average price per night,38.17204301,-0.100543814,89.94561859
+55,Ciutat Meridiana,2018,Airbnb average price per night,28.84761905,-0.124953145,87.50468551
+56,Vallbona,2018,Airbnb average price per night,72.16666667,0.302876853,130.2876853
+57,la Trinitat Vella,2018,Airbnb average price per night,35.77777778,-0.215785681,78.42143195
+58,BarÃ³ de Viver,2018,Airbnb average price per night,54,-0.2304038,76.95961995
+59,el Bon Pastor,2018,Airbnb average price per night,38.33789954,-0.015194481,98.48055187
+60,Sant Andreu,2018,Airbnb average price per night,89.54926108,0.493702077,149.3702077
+61,la Sagrera,2018,Airbnb average price per night,49.85798817,-0.02309552,97.69044803
+62,el CongrÃ©s i els Indians,2018,Airbnb average price per night,78.60526316,-0.1151727,88.48273002
+63,Navas,2018,Airbnb average price per night,47.30983118,-0.086847485,91.31525154
+64,el Camp de l'Arpa del Clot,2018,Airbnb average price per night,77.52277014,0.174015804,117.4015804
+65,el Clot,2018,Airbnb average price per night,57.93984962,-0.000535876,99.94641237
+66,el Parc i la Llacuna del Poblenou,2018,Airbnb average price per night,80.81035058,0.005767562,100.5767562
+67,la Vila OlÃ­mpica del Poblenou,2018,Airbnb average price per night,192.5784038,0.14214371,114.214371
+68,el Poblenou,2018,Airbnb average price per night,128.2147388,0.3489806,134.89806
+69,Diagonal Mar i el Front MarÃ­tim del Poblenou,2018,Airbnb average price per night,248.8394161,-0.022337565,97.76624354
+70,el BesÃ²s i el Maresme,2018,Airbnb average price per night,60.69772727,-0.105090501,89.49094985
+71,ProvenÃ§als del Poblenou,2018,Airbnb average price per night,66.74837662,-0.026857374,97.31426263
+72,Sant MartÃ­ de ProvenÃ§als,2018,Airbnb average price per night,45.51919192,0.047434194,104.7434194
+73,la Verneda i la Pau,2018,Airbnb average price per night,36.62914692,-0.01302142,98.69785802
+1,el Raval,2019,Airbnb average price per night,79.89585646,0.023503097,102.3503097
+2,el Barri GÃ²tic,2019,Airbnb average price per night,107.7679761,0.203189957,120.3189957
+3,la Barceloneta,2019,Airbnb average price per night,84.4723796,0.034995187,103.4995187
+4,"Sant Pere, Santa Caterina i la Ribera",2019,Airbnb average price per night,94.84478823,0.174631252,117.4631252
+5,el Fort Pienc,2019,Airbnb average price per night,118.3010563,0.130349106,113.0349106
+6,la Sagrada FamÃ­lia,2019,Airbnb average price per night,109.3630422,0.070234533,107.0234533
+7,la Dreta de l'Eixample,2019,Airbnb average price per night,247.8132793,0.340170621,134.0170621
+8,l'Antiga Esquerra de l'Eixample,2019,Airbnb average price per night,166.546894,0.140031805,114.0031805
+9,la Nova Esquerra de l'Eixample,2019,Airbnb average price per night,88.0990099,0.060630155,106.0630155
+10,Sant Antoni,2019,Airbnb average price per night,249.8391137,0.789363817,178.9363818
+11,el Poble Sec,2019,Airbnb average price per night,103.3020385,0.136618816,113.6618816
+12,la Marina del Prat Vermell,2019,Airbnb average price per night,784.8571429,0.052934187,105.2934187
+13,la Marina de Port,2019,Airbnb average price per night,63.65267176,-0.114989591,88.50104095
+14,la Font de la Guatlla,2019,Airbnb average price per night,76.8963964,0.004309017,100.4309017
+15,Hostafrancs,2019,Airbnb average price per night,180.1772429,0.640475691,164.0475692
+16,la Bordeta,2019,Airbnb average price per night,63.56852792,0.064878963,106.4878963
+17,Sants - Badal,2019,Airbnb average price per night,73.9933665,0.12361154,112.361154
+18,Sants,2019,Airbnb average price per night,77.7365416,0.067757951,106.7757951
+19,les Corts,2019,Airbnb average price per night,100.66,0.080679613,108.0679613
+20,la Maternitat i Sant Ramon,2019,Airbnb average price per night,104.6028369,0.000817386,100.0817386
+21,Pedralbes,2019,Airbnb average price per night,94,-0.112466334,88.75336657
+22,"Vallvidrera, el Tibidabo i les Planes",2019,Airbnb average price per night,164.2666667,0.196379742,119.6379743
+23,SarriÃ ,2019,Airbnb average price per night,78.8125,0.039709221,103.9709221
+24,les Tres Torres,2019,Airbnb average price per night,192.2647059,0.453521004,145.3521005
+25,Sant Gervasi - la Bonanova,2019,Airbnb average price per night,337.125,1.239012241,223.901224
+26,Sant Gervasi - Galvany,2019,Airbnb average price per night,138.5776398,0.170852962,117.0852963
+27,el Putxet i el FarrÃ³,2019,Airbnb average price per night,223.1084507,0.581526542,158.1526541
+28,Vallcarca i els Penitents,2019,Airbnb average price per night,98.4598338,0.318925521,131.8925521
+29,el Coll,2019,Airbnb average price per night,54.09937888,-0.050103151,94.98968491
+30,la Salut,2019,Airbnb average price per night,56.84437086,-0.082767537,91.72324629
+31,la Vila de GrÃ cia,2019,Airbnb average price per night,148.8722584,0.202168444,120.2168444
+32,el Camp d'en Grassot i GrÃ cia Nova,2019,Airbnb average price per night,98.55575703,-0.027109347,97.28906527
+33,el Baix GuinardÃ³,2019,Airbnb average price per night,69.99784946,0.024996478,102.4996478
+34,Can BarÃ³,2019,Airbnb average price per night,76.22580645,0.252174184,125.2174184
+35,el GuinardÃ³,2019,Airbnb average price per night,65.50874404,-0.084621827,91.53781733
+36,la Font d'en Fargues,2019,Airbnb average price per night,151.21875,0.100696389,110.0696388
+37,el Carmel,2019,Airbnb average price per night,128.0776398,0.295072355,129.5072355
+38,la Teixonera,2019,Airbnb average price per night,39.13761468,-0.09293626,90.70637399
+39,Sant GenÃ­s dels Agudells,2019,Airbnb average price per night,58.88888889,-0.065826046,93.41739543
+40,Montbau,2019,Airbnb average price per night,29.08823529,-0.005256157,99.47438435
+41,la Vall d'Hebron,2019,Airbnb average price per night,44.53846154,0.077073906,107.7073907
+42,la Clota,2019,Airbnb average price per night,,,
+43,Horta,2019,Airbnb average price per night,39.98484848,-0.239501655,76.04983446
+44,Vilapicina i la Torre Llobeta,2019,Airbnb average price per night,50.14973262,0.20108421,120.108421
+45,Porta,2019,Airbnb average price per night,71.48765432,0.735941398,173.5941398
+46,el TurÃ³ de la Peira,2019,Airbnb average price per night,42.59615385,0.023036986,102.3036986
+47,Can Peguera,2019,Airbnb average price per night,46.5,0.783887468,178.3887468
+48,la Guineueta,2019,Airbnb average price per night,39.76923077,-0.308770309,69.12296913
+49,Canyelles,2019,Airbnb average price per night,46.9,0.077773788,107.7773788
+50,les Roquetes,2019,Airbnb average price per night,38.99019608,0.011959288,101.1959288
+51,Verdun,2019,Airbnb average price per night,37.3,0.045890223,104.5890223
+52,la Prosperitat,2019,Airbnb average price per night,34.02898551,-0.130471815,86.95281847
+53,la Trinitat Nova,2019,Airbnb average price per night,26.36111111,-0.285233554,71.47664456
+54,Torre BarÃ³,2019,Airbnb average price per night,48.6,0.273183099,127.3183099
+55,Ciutat Meridiana,2019,Airbnb average price per night,35.5,0.23060416,123.060416
+56,Vallbona,2019,Airbnb average price per night,,,0
+57,la Trinitat Vella,2019,Airbnb average price per night,33.65853659,-0.059233449,94.07665506
+58,BarÃ³ de Viver,2019,Airbnb average price per night,40,-0.259259259,74.07407407
+59,el Bon Pastor,2019,Airbnb average price per night,36.37931034,-0.051087546,94.89124542
+60,Sant Andreu,2019,Airbnb average price per night,59.57518797,-0.334721613,66.5278387
+61,la Sagrera,2019,Airbnb average price per night,46.57915058,-0.065763536,93.42364642
+62,el CongrÃ©s i els Indians,2019,Airbnb average price per night,72.69714286,-0.075161892,92.4838108
+63,Navas,2019,Airbnb average price per night,42.82954545,-0.094700945,90.52990548
+64,el Camp de l'Arpa del Clot,2019,Airbnb average price per night,97.88293119,0.262634591,126.2634591
+65,el Clot,2019,Airbnb average price per night,59.9244898,0.034253457,103.4253458
+66,el Parc i la Llacuna del Poblenou,2019,Airbnb average price per night,86.84291188,0.074650849,107.4650849
+67,la Vila OlÃ­mpica del Poblenou,2019,Airbnb average price per night,180.6431034,-0.061976318,93.8023682
+68,el Poblenou,2019,Airbnb average price per night,216.518224,0.688715556,168.8715557
+69,Diagonal Mar i el Front MarÃ­tim del Poblenou,2019,Airbnb average price per night,260.686747,0.047610347,104.7610347
+70,el BesÃ²s i el Maresme,2019,Airbnb average price per night,69.26804124,0.141196621,114.1196621
+71,ProvenÃ§als del Poblenou,2019,Airbnb average price per night,69.2111437,0.036896284,103.6896284
+72,Sant MartÃ­ de ProvenÃ§als,2019,Airbnb average price per night,45.35276074,-0.003656286,99.63437141
+73,la Verneda i la Pau,2019,Airbnb average price per night,35.19029851,-0.039281516,96.07184843
